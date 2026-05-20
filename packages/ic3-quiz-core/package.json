@@ -1,0 +1,20 @@
+{
+  "name": "@ic3-quiz/core",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js 2>nul || node -e \"import('./dist/index.js').then(m => { const r = m.gradeAnswer({type:'single',options:[{id:'A',text:'a',isCorrect:true},{id:'B',text:'b',isCorrect:false}]}, ['A']); console.log(r); })\""
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

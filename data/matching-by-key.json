@@ -1,0 +1,48 @@
+{
+  "topic-1|test-1|11": {
+    "instruction": "Di chuyển từng định nghĩa từ danh sách bên trái sang thuật ngữ mà nó xác định ở bên phải.",
+    "definitions": [
+      { "id": "1", "text": "Thiết bị được phát minh cho một mục đích cụ thể." },
+      { "id": "2", "text": "Thiết bị (Device)" },
+      { "id": "3", "text": "Phần cứng (Hardware)" },
+      { "id": "4", "text": "Công nghệ di động (Mobile)" }
+    ],
+    "terms": [
+      { "id": "1", "text": "Hướng dẫn mà máy tính làm theo (Program)" },
+      { "id": "2", "text": "Công nghệ đi đến nơi người dùng đến" },
+      { "id": "3", "text": "Chương trình (Program)" },
+      { "id": "4", "text": "Thiết bị đa phương tiện (Media Device)" }
+    ],
+    "correctMap": { "1": "3", "2": "2", "3": "4", "4": "1" }
+  },
+  "topic-3|test-1|2": {
+    "instruction": "Di chuyển từng thuật ngữ từ danh sách bên trái sang định nghĩa của nó ở bên phải.",
+    "definitions": [
+      { "id": "1", "text": "Phần mềm bạn sử dụng để tìm mọi thứ trên Internet." },
+      { "id": "2", "text": "Phần mềm bạn sử dụng để 'xem mọi thứ' trên Internet." },
+      { "id": "3", "text": "Một tài liệu với văn bản và hình ảnh mà bạn nhìn thấy và đọc trên Internet." }
+    ],
+    "terms": [
+      { "id": "1", "text": "Công cụ tìm kiếm (Search Engine)" },
+      { "id": "2", "text": "Trình duyệt Web (Web Browser)" },
+      { "id": "3", "text": "Trang Web (Web Page)" }
+    ],
+    "correctMap": { "1": "1", "2": "2", "3": "3" }
+  },
+  "topic-6|test-2|8": {
+    "instruction": "Ghép mỗi thuật ngữ với định nghĩa đúng.",
+    "definitions": [
+      { "id": "1", "text": "Vị trí và cách chúng ta giữ đầu, cổ, lưng và cột sống khi đứng, ngồi hoặc nằm." },
+      { "id": "2", "text": "Thông tin có thể được sử dụng để xác định một người, chẳng hạn như địa chỉ đường phố và số điện thoại." },
+      { "id": "3", "text": "Một chuỗi ký tự được sử dụng để xác minh danh tính của người dùng trong quá trình xác thực." },
+      { "id": "4", "text": "Các hoạt động được thực hiện trước màn hình, như TV hoặc máy tính." }
+    ],
+    "terms": [
+      { "id": "1", "text": "Tư thế (Posture)" },
+      { "id": "2", "text": "Dữ liệu cá nhân (Personal Data)" },
+      { "id": "3", "text": "Mật khẩu (Password)" },
+      { "id": "4", "text": "Thời gian trước màn hình (Screen Time)" }
+    ],
+    "correctMap": { "1": "1", "2": "2", "3": "3", "4": "4" }
+  }
+}

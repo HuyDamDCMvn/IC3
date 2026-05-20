@@ -1,0 +1,307 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.4739,
+                "bbox": [
+                    213,
+                    1772,
+                    356,
+                    1848
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.4583,
+                "bbox": [
+                    176,
+                    1882,
+                    357,
+                    1946
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.4631,
+                "bbox": [
+                    154,
+                    203,
+                    747,
+                    1437
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7096,
+                "bbox": [
+                    283,
+                    114,
+                    1367,
+                    159
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7137,
+                "bbox": [
+                    179,
+                    1472,
+                    443,
+                    1503
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8541,
+                "bbox": [
+                    211,
+                    1557,
+                    1403,
+                    1658
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.936,
+                "bbox": [
+                    1317,
+                    2189,
+                    1502,
+                    2228
+                ],
+                "index": 7
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    282,
+                    108,
+                    1368,
+                    161
+                ],
+                "score": 0.829,
+                "text": "TTNNTH AN QUoc ViET * TAI LIEU ON THI * IC3 GS6 SPARK LEvEL 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    184,
+                    1475,
+                    285,
+                    1501
+                ],
+                "score": 0.994,
+                "text": "Resources"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    292,
+                    1471,
+                    442,
+                    1503
+                ],
+                "score": 0.979,
+                "text": "Question 3 of 15"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    206,
+                    1550,
+                    1407,
+                    1619
+                ],
+                "score": 0.922,
+                "text": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi?"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    207,
+                    1594,
+                    424,
+                    1664
+                ],
+                "score": 0.908,
+                "text": "(Chon 2)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1316,
+                    2186,
+                    1503,
+                    2230
+                ],
+                "score": 0.977,
+                "text": "Page 2 of 70"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1654,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7778,
+                "bbox": [
+                    285,
+                    115,
+                    1364,
+                    157
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9815,
+                "bbox": [
+                    157,
+                    199,
+                    1459,
+                    802
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.978,
+                "bbox": [
+                    157,
+                    829,
+                    1006,
+                    2048
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9379,
+                "bbox": [
+                    1318,
+                    2189,
+                    1501,
+                    2228
+                ],
+                "index": 4
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    281,
+                    109,
+                    1370,
+                    161
+                ],
+                "score": 0.825,
+                "text": "TTNNTH AN QUoc ViET * TAI LiEU ON THI * IC3 GS6 SPARK LEveL 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1315,
+                    2186,
+                    1503,
+                    2230
+                ],
+                "score": 0.947,
+                "text": "Page 3 of 70"
+            }
+        ],
+        "page_info": {
+            "page_no": 1,
+            "width": 1654,
+            "height": 2339
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8843,
+                "bbox": [
+                    284,
+                    115,
+                    1365,
+                    158
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9591,
+                "bbox": [
+                    156,
+                    199,
+                    1094,
+                    1139
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9328,
+                "bbox": [
+                    1317,
+                    2189,
+                    1502,
+                    2229
+                ],
+                "index": 3
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    281,
+                    109,
+                    1370,
+                    162
+                ],
+                "score": 0.816,
+                "text": "TTNNTH AN QUoc ViET * TAI LiEU ON THI * IC3 GS6 SPARK LEVEL 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1316,
+                    2186,
+                    1503,
+                    2230
+                ],
+                "score": 0.969,
+                "text": "Page 4 of 70"
+            }
+        ],
+        "page_info": {
+            "page_no": 2,
+            "width": 1654,
+            "height": 2339
+        }
+    }
+]

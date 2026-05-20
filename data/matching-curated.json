@@ -1,0 +1,54 @@
+{
+  "cdd4a75f-e03c-48d5-9c9e-b158de0b31d8": {
+    "instruction": "Ghép mỗi thuật ngữ với định nghĩa tương ứng.",
+    "definitions": [
+      {
+        "id": "1",
+        "text": "Cách thông tin sẽ được trông như thế nào trên bản in hoặc hiển thị trên màn hình."
+      },
+      {
+        "id": "2",
+        "text": "Một loại tập tin được tạo bởi một phần mềm ứng dụng, có thể được thao tác bởi ứng dụng đó."
+      },
+      {
+        "id": "3",
+        "text": "Một phần mềm được sử dụng để hiển thị thông tin trong trình chiếu."
+      },
+      {
+        "id": "4",
+        "text": "Một tập hợp các ký tự kiểu chữ hoặc văn bản có thể in hoặc hiển thị được, xác định hình dạng, kích thớc và sự xuất hiện của các chữ cái, số và các ký tự đặc biệt."
+      }
+    ],
+    "terms": [
+      { "id": "1", "text": "Định dạng (Formatting)" },
+      { "id": "2", "text": "Tài liệu (Document)" },
+      { "id": "3", "text": "Trình chiếu (Presentation)" },
+      { "id": "4", "text": "Phông chữ (Font)" },
+      { "id": "5", "text": "Hình ảnh (Image)" }
+    ],
+    "correctMap": { "1": "4", "2": "5", "3": "3", "4": "1" }
+  },
+  "8e5fd2d5-66e6-4aaa-ac2b-a553495508ec": {
+    "instruction": "Nối mỗi từ với định nghĩa thích hợp.",
+    "definitions": [
+      {
+        "id": "1",
+        "text": "Một tin nhắn điện tử được gửi qua Internet có thể chứa văn bản, tập tin, hình ảnh và tập tin đính kèm."
+      },
+      {
+        "id": "2",
+        "text": "Tin nhắn được gửi đến mọi người khi họ đang trực tiếp hoạt động trong một ứng dụng."
+      },
+      {
+        "id": "3",
+        "text": "Giao tiếp trực diện, trực quan với những người dùng Internet khác bằng Webcam."
+      }
+    ],
+    "terms": [
+      { "id": "1", "text": "Thư điện tử (Email)" },
+      { "id": "2", "text": "Tin nhắn trong ứng dụng (In-app Message)" },
+      { "id": "3", "text": "Trò chuyện Video (Video Chat)" }
+    ],
+    "correctMap": { "1": "1", "2": "2", "3": "3" }
+  }
+}

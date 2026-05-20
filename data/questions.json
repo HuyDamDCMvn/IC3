@@ -1,0 +1,848 @@
+{
+  "version": 1,
+  "source": "On Thi IC3 GS6 SPARK LV1-Pass.pdf (curated from green checkmarks)",
+  "total": 29,
+  "questions": [
+    {
+      "id": "t1-1-q3",
+      "topic": "topic-1",
+      "testId": "test-1",
+      "prompt": "Hai thiết bị nào sau đây là thiết bị ngoại vi? (Chọn 2)",
+      "type": "multiple",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bàn phím (Keyboard)",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Dây nguồn / adapter",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Chuột (Mouse)",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Thùng máy (System unit)",
+          "isCorrect": false
+        }
+      ],
+      "page": 3,
+      "indexInTest": 3
+    },
+    {
+      "id": "t1-1-q4",
+      "topic": "topic-1",
+      "testId": "test-1",
+      "prompt": "Bạn cần kết nối máy tính bảng với Internet. Bạn nên sử dụng phương tiện gì?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monitor Cable",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Printer Cable",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Wifi",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Bluetooth",
+          "isCorrect": false
+        }
+      ],
+      "page": 6,
+      "indexInTest": 4
+    },
+    {
+      "id": "t2-1-q1",
+      "topic": "topic-2",
+      "testId": "test-1",
+      "prompt": "Quyền riêng tư kỹ thuật số là gì?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Che Camera trên máy tính xách tay khi không sử dụng.",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Bảo vệ thông tin được lưu trữ hoặc chia sẻ trực tuyến.",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "Trở thành bạn bè trực tuyến chỉ với những người bạn biết trong thế giới thực.",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Sử dụng mật khẩu phức tạp.",
+          "isCorrect": false
+        }
+      ],
+      "page": 17,
+      "indexInTest": 1
+    },
+    {
+      "id": "t2-1-q2",
+      "topic": "topic-2",
+      "testId": "test-1",
+      "prompt": "Bạn thấy những bình luận ác ý trong một cuộc trò chuyện trong nhóm trực tuyến. Một công dân tốt của thời đại kỷ nguyên số, bạn nên nói gì?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chúng ta chỉ nên đăng những bình luận ác ý trong một cuộc trò chuyện riêng tư.",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Bạn có thể đăng những bình luận ác ý nếu người khác không nhìn thấy chúng.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Bình luận ác ý là không gây hại nếu chúng bị xóa sau khi nhóm đọc chúng.",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Những bình luận này sẽ trực tuyến mãi mãi.",
+          "isCorrect": true
+        }
+      ],
+      "page": 17,
+      "indexInTest": 2
+    },
+    {
+      "id": "t2-1-q3",
+      "topic": "topic-2",
+      "testId": "test-1",
+      "prompt": "Trolling là gì?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cố gắng làm cho ai đó tức giận bằng cách đăng những điều có ý nghĩa về họ.",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Cố tình bỏ ai đó ra ngoài.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Đăng nhập vào trang cá nhân của người khác và mạo danh người đó.",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Chia sẻ thông tin cá nhân về ai đó mà không có sự cho phép của họ.",
+          "isCorrect": false
+        }
+      ],
+      "page": 17,
+      "indexInTest": 3
+    },
+    {
+      "id": "t3-1-q1",
+      "topic": "topic-3",
+      "testId": "test-1",
+      "prompt": "Bằng cách sử dụng tính năng Bookmarks/Favorites của trình duyệt Web, bạn có thể lưu gì?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hình ảnh trang Web",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Cookies trang Web",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Cài đặt trang Web",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Liên kết trang Web (Webpage Links)",
+          "isCorrect": true
+        }
+      ],
+      "page": 23,
+      "indexInTest": 1
+    },
+    {
+      "id": "t3-1-q3-fact1",
+      "topic": "topic-3",
+      "testId": "test-1",
+      "prompt": "Nhà hàng có một khu trò chơi điện tử thực sự thú vị. Đây là Thực tế hay Ý kiến?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thực tế",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Ý kiến",
+          "isCorrect": true
+        }
+      ],
+      "page": 23,
+      "indexInTest": 3
+    },
+    {
+      "id": "t3-1-q3-fact2",
+      "topic": "topic-3",
+      "testId": "test-1",
+      "prompt": "Nhà hàng có các món tráng miệng ngon nhất. Đây là Thực tế hay Ý kiến?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thực tế",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Ý kiến",
+          "isCorrect": true
+        }
+      ],
+      "page": 23,
+      "indexInTest": 3
+    },
+    {
+      "id": "t3-1-q3-fact3",
+      "topic": "topic-3",
+      "testId": "test-1",
+      "prompt": "Nhà hàng chỉ cách trường học một dãy nhà. Đây là Thực tế hay Ý kiến?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thực tế",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Ý kiến",
+          "isCorrect": false
+        }
+      ],
+      "page": 23,
+      "indexInTest": 3
+    },
+    {
+      "id": "t3-1-q3-fact4",
+      "topic": "topic-3",
+      "testId": "test-1",
+      "prompt": "Nhà hàng có mười loại Pizza khác nhau. Đây là Thực tế hay Ý kiến?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thực tế",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Ý kiến",
+          "isCorrect": false
+        }
+      ],
+      "page": 23,
+      "indexInTest": 3
+    },
+    {
+      "id": "t3-1-match-browser",
+      "topic": "topic-3",
+      "testId": "test-1",
+      "prompt": "Di chuyển từng thuật ngữ từ danh sách bên trái sang định nghĩa của nó ở bên phải.",
+      "type": "matching",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phần mềm bạn sử dụng để tìm mọi thứ trên Internet.",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Phần mềm bạn sử dụng để xem mọi thứ trên Internet.",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "Một tài liệu với văn bản và hình ảnh trên Internet.",
+          "isCorrect": false
+        }
+      ],
+      "page": 23,
+      "indexInTest": 2,
+      "matching": {
+        "instruction": "Di chuyển từng thuật ngữ từ danh sách bên trái sang định nghĩa của nó ở bên phải.",
+        "definitions": [
+          {
+            "id": "1",
+            "text": "Phần mềm bạn sử dụng để tìm mọi thứ trên Internet."
+          },
+          {
+            "id": "2",
+            "text": "Phần mềm bạn sử dụng để 'xem mọi thứ' trên Internet."
+          },
+          {
+            "id": "3",
+            "text": "Một tài liệu với văn bản và hình ảnh mà bạn nhìn thấy và đọc trên Internet."
+          }
+        ],
+        "terms": [
+          {
+            "id": "1",
+            "text": "Công cụ tìm kiếm (Search Engine)"
+          },
+          {
+            "id": "2",
+            "text": "Trình duyệt Web (Web Browser)"
+          },
+          {
+            "id": "3",
+            "text": "Trang Web (Web Page)"
+          }
+        ],
+        "correctMap": {
+          "1": "1",
+          "2": "2",
+          "3": "3"
+        }
+      }
+    },
+    {
+      "id": "t3-1-match-search",
+      "topic": "topic-3",
+      "testId": "test-1",
+      "prompt": "Di chuyển từng thuật ngữ từ danh sách bên trái sang định nghĩa của nó ở bên phải.",
+      "type": "matching",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phần mềm bạn sử dụng để tìm mọi thứ trên Internet.",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Phần mềm bạn sử dụng để xem mọi thứ trên Internet.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Một tài liệu với văn bản và hình ảnh trên Internet.",
+          "isCorrect": false
+        }
+      ],
+      "page": 23,
+      "indexInTest": 2,
+      "matching": {
+        "instruction": "Di chuyển từng thuật ngữ từ danh sách bên trái sang định nghĩa của nó ở bên phải.",
+        "definitions": [
+          {
+            "id": "1",
+            "text": "Phần mềm bạn sử dụng để tìm mọi thứ trên Internet."
+          },
+          {
+            "id": "2",
+            "text": "Phần mềm bạn sử dụng để 'xem mọi thứ' trên Internet."
+          },
+          {
+            "id": "3",
+            "text": "Một tài liệu với văn bản và hình ảnh mà bạn nhìn thấy và đọc trên Internet."
+          }
+        ],
+        "terms": [
+          {
+            "id": "1",
+            "text": "Công cụ tìm kiếm (Search Engine)"
+          },
+          {
+            "id": "2",
+            "text": "Trình duyệt Web (Web Browser)"
+          },
+          {
+            "id": "3",
+            "text": "Trang Web (Web Page)"
+          }
+        ],
+        "correctMap": {
+          "1": "1",
+          "2": "2",
+          "3": "3"
+        }
+      }
+    },
+    {
+      "id": "t4-1-q1",
+      "topic": "topic-4",
+      "testId": "test-1",
+      "prompt": "Bạn nên sử dụng định dạng nào để hiển thị ảnh, bản đồ và Video từ kỳ nghỉ hè cho các bạn trong lớp xem?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Một áp phích (Poster)",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Một tài liệu (Document)",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Một bài trình chiếu (Slide Presentation)",
+          "isCorrect": true
+        },
+        {
+          "id": "D",
+          "text": "Một trang tính (Spreadsheet)",
+          "isCorrect": false
+        }
+      ],
+      "page": 34,
+      "indexInTest": 1
+    },
+    {
+      "id": "t4-1-q2-bold",
+      "topic": "topic-4",
+      "testId": "test-1",
+      "prompt": "In đậm văn bản — có phải định dạng văn bản không?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Có",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Không",
+          "isCorrect": false
+        }
+      ],
+      "page": 34,
+      "indexInTest": 2
+    },
+    {
+      "id": "t4-1-q2-delete",
+      "topic": "topic-4",
+      "testId": "test-1",
+      "prompt": "Xóa một phần của đoạn văn bản — có phải định dạng văn bản không?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Có",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Không",
+          "isCorrect": true
+        }
+      ],
+      "page": 34,
+      "indexInTest": 2
+    },
+    {
+      "id": "t4-1-q2-color",
+      "topic": "topic-4",
+      "testId": "test-1",
+      "prompt": "Thay đổi kích cỡ và màu sắc của văn bản — có phải định dạng văn bản không?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Có",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Không",
+          "isCorrect": false
+        }
+      ],
+      "page": 34,
+      "indexInTest": 2
+    },
+    {
+      "id": "t4-1-q3",
+      "topic": "topic-4",
+      "testId": "test-1",
+      "prompt": "Tổ hợp phím nào được sử dụng để chọn tất cả văn bản trong cùng một tài liệu?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Alt + A",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Tab + A",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Shift + A",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Ctrl + A",
+          "isCorrect": true
+        }
+      ],
+      "page": 34,
+      "indexInTest": 3
+    },
+    {
+      "id": "t5-1-q2",
+      "topic": "topic-5",
+      "testId": "test-1",
+      "prompt": "Bạn cần gửi hai bức ảnh và hai đoạn văn về thằn lằn cho bạn làm áp phích nhóm. Bạn nên gửi bằng cách nào?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gửi bằng Email",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Gửi bằng tin nhắn văn bản",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Đăng trên mạng xã hội",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Trò chuyện Video",
+          "isCorrect": false
+        }
+      ],
+      "page": 42,
+      "indexInTest": 2
+    },
+    {
+      "id": "t5-1-match-email",
+      "topic": "topic-5",
+      "testId": "test-1",
+      "prompt": "Một tin nhắn điện tử qua Internet có thể chứa văn bản, tập tin, hình ảnh — khái niệm nào?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thư điện tử (Email)",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Tin nhắn trong ứng dụng",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Trò chuyện Video",
+          "isCorrect": false
+        }
+      ],
+      "page": 42,
+      "indexInTest": 1
+    },
+    {
+      "id": "t6-1-q2",
+      "topic": "topic-6",
+      "testId": "test-1",
+      "prompt": "Phần thông tin nào là an toàn để chia sẻ trực tuyến?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Màu sắc yêu thích của bạn.",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Địa điểm yêu thích của bạn.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Tên trường của bạn.",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Công viên ưa thích của bạn.",
+          "isCorrect": false
+        }
+      ],
+      "page": 53,
+      "indexInTest": 2
+    },
+    {
+      "id": "t6-1-q3",
+      "topic": "topic-6",
+      "testId": "test-1",
+      "prompt": "Khi nào thì có thể nói chuyện với người lạ trực tuyến?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Không bao giờ",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Bất cứ lúc nào",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Ban ngày",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Cuối tuần",
+          "isCorrect": false
+        }
+      ],
+      "page": 53,
+      "indexInTest": 3
+    },
+    {
+      "id": "t6-1-laptop-heat",
+      "topic": "topic-6",
+      "testId": "test-1",
+      "prompt": "Máy tính xách tay có thể bị hỏng nếu tiếp xúc với nhiệt độ khắc nghiệt.",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đúng",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Sai",
+          "isCorrect": false
+        }
+      ],
+      "page": 53,
+      "indexInTest": 1
+    },
+    {
+      "id": "t6-2-q1",
+      "topic": "topic-6",
+      "testId": "test-2",
+      "prompt": "Cân bằng phương tiện (Media Balance) là gì?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sử dụng phương tiện để cảm thấy khỏe mạnh và cân bằng với các hoạt động sống khác.",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Dành tất cả thời gian rảnh trên điện thoại thông minh.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Bản trình chiếu kết hợp hình ảnh, văn bản và âm thanh.",
+          "isCorrect": false
+        }
+      ],
+      "page": 60,
+      "indexInTest": 1
+    },
+    {
+      "id": "t6-2-q2",
+      "topic": "topic-6",
+      "testId": "test-2",
+      "prompt": "Cách nào sau đây là an toàn nhất để sạc thiết bị di động?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đặt ở nơi an toàn gần ổ cắm và cắm cáp sạc đi kèm với thiết bị.",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Đặt thiết bị trên sàn và cắm cáp sạc của thiết bị khác.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Sạc ngoài trời dưới ánh nắng trực tiếp.",
+          "isCorrect": false
+        }
+      ],
+      "page": 60,
+      "indexInTest": 2
+    },
+    {
+      "id": "t6-2-q3",
+      "topic": "topic-6",
+      "testId": "test-2",
+      "prompt": "Bạn gửi ảnh gia đình cho bạn, bạn đăng lên mạng xã hội. Làm sao xóa ảnh vĩnh viễn khỏi Internet?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bạn không thể xóa ảnh mãi mãi, vì Internet là công khai và vĩnh viễn.",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Bảo bạn gỡ ảnh nếu không còn là bạn.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Gửi yêu cầu hỗ trợ đến dịch vụ khách hàng.",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Đột nhập máy tính bạn và xóa ảnh.",
+          "isCorrect": false
+        }
+      ],
+      "page": 60,
+      "indexInTest": 3
+    },
+    {
+      "id": "ext-1-q1",
+      "topic": "topic-extended",
+      "testId": "test-1",
+      "prompt": "Bài tập đại dương: cần ít nhất 3 sự kiện, không có ý kiến. Phát biểu nào là Ý kiến?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cá sống trong đại dương.",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Đại dương tối tăm và đáng sợ.",
+          "isCorrect": true
+        },
+        {
+          "id": "C",
+          "text": "Đại dương luôn chuyển động.",
+          "isCorrect": false
+        },
+        {
+          "id": "D",
+          "text": "Nhiều loại động vật sống trong đại dương.",
+          "isCorrect": false
+        }
+      ],
+      "page": 66,
+      "indexInTest": 1
+    },
+    {
+      "id": "ext-1-q2",
+      "topic": "topic-extended",
+      "testId": "test-1",
+      "prompt": "Cộng tác (Collaboration) là gì?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khi mọi người làm việc với nhau để hoàn thành một nhiệm vụ.",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Làm việc trên máy tính hàng tuần.",
+          "isCorrect": false
+        },
+        {
+          "id": "C",
+          "text": "Cạnh tranh cho điểm tốt nhất trong lớp.",
+          "isCorrect": false
+        }
+      ],
+      "page": 66,
+      "indexInTest": 2
+    },
+    {
+      "id": "ext-1-q3-alone",
+      "topic": "topic-extended",
+      "testId": "test-1",
+      "prompt": "Học sinh học được rằng cách tốt nhất để làm việc là làm việc một mình — Đúng hay Sai?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đúng",
+          "isCorrect": false
+        },
+        {
+          "id": "B",
+          "text": "Sai",
+          "isCorrect": true
+        }
+      ],
+      "page": 66,
+      "indexInTest": 3
+    },
+    {
+      "id": "ext-1-q3-ideas",
+      "topic": "topic-extended",
+      "testId": "test-1",
+      "prompt": "Học sinh học hỏi từ ý tưởng của người khác — Đúng hay Sai?",
+      "type": "single",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đúng",
+          "isCorrect": true
+        },
+        {
+          "id": "B",
+          "text": "Sai",
+          "isCorrect": false
+        }
+      ],
+      "page": 66,
+      "indexInTest": 3
+    }
+  ]
+}

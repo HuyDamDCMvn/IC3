@@ -1,0 +1,585 @@
+{
+  "topic-3|test-1|3": {
+    "type": "yesno",
+    "yesNoMode": "fact-opinion",
+    "prompt": "Đối với mỗi tuyên bố, hãy chọn Thực tế hoặc Ý kiến.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nhà hàng có một khu trò chơi điện tử thực sự thú vị.",
+        "correct": false
+      },
+      {
+        "id": "B",
+        "text": "Nhà hàng có các món tráng miệng ngon nhất.",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Nhà hàng chỉ cách trường học một dãy nhà.",
+        "correct": true
+      },
+      {
+        "id": "D",
+        "text": "Nhà hàng có mười loại Pizza khác nhau.",
+        "correct": true
+      }
+    ]
+  },
+  "topic-2|test-1|8": {
+    "type": "yesno",
+    "yesNoMode": "dung-sai",
+    "prompt": "Tùy chọn nào sau đây là đúng? Chọn Đúng nếu đáp án đúng và Sai nếu đáp án sai.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trực tuyến là mãi mãi.",
+        "correct": false
+      },
+      {
+        "id": "B",
+        "text": "Bạn có thể xóa vĩnh viễn các tin nhắn độc hại hoặc các bài đăng trên mạng xã hội khỏi Internet.",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Thông tin cá nhân như địa chỉ và số điện thoại không nên được đăng trực tuyến.",
+        "correct": true
+      },
+      {
+        "id": "D",
+        "text": "Bạn nên gửi tin nhắn riêng cho bạn cùng lớp bằng mật khẩu của mình trong trường hợp bạn quên mật khẩu.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-2|test-1|1": {
+    "type": "single",
+    "correct": [
+      "B"
+    ],
+    "prompt": "Quyền riêng tư kỹ thuật số là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Che Camera trên máy tính xách tay khi không sử dụng.",
+        "correct": false
+      },
+      {
+        "id": "B",
+        "text": "Bảo vệ thông tin được lưu trữ hoặc chia sẻ trực tuyến.",
+        "correct": true
+      },
+      {
+        "id": "C",
+        "text": "Trở thành bạn bè trực tuyến chỉ với những người bạn biết trong thế giới thực.",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng mật khẩu phức tạp.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-6|test-2|3": {
+    "type": "single",
+    "correct": [
+      "A"
+    ],
+    "prompt": "Bạn gửi ảnh gia đình cho bạn, bạn đăng lên mạng xã hội. Làm sao xóa ảnh vĩnh viễn khỏi Internet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bạn không thể xóa ảnh mãi mãi, vì Internet là công khai và vĩnh viễn.",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Bảo bạn gỡ ảnh nếu không còn là bạn.",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Gửi yêu cầu hỗ trợ đến dịch vụ khách hàng.",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Đột nhập máy tính bạn và xóa ảnh.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-1|test-2|3": {
+    "type": "yesno",
+    "yesNoMode": "co-khong",
+    "prompt": "Đối với mỗi phát biểu sau, hãy chọn Có nếu phát biểu đó đúng và Không nếu phát biểu đó sai.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Máy tính để bàn có thể di động được.",
+        "correct": false
+      },
+      {
+        "id": "B",
+        "text": "Điện thoại thông minh, máy tính bảng và máy tính xách tay có thể di động được.",
+        "correct": true
+      },
+      {
+        "id": "C",
+        "text": "Tai nghe (Headsets, Headphones), loa đều là thiết bị ngoại vi cho âm thanh (Sound/Audio).",
+        "correct": true
+      }
+    ]
+  },
+  "topic-1|test-2|2": {
+    "type": "yesno",
+    "prompt": "Phương pháp nào sau đây được sử dụng để khởi động ứng dụng đã cài đặt trên máy tính để bàn? Chọn Có nếu đáp án đúng và Không nếu đáp án sai.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nhấp chuột trái vào biểu tượng của chương trình trên Thanh tác vụ (Taskbar).",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Nhấp đúp chuột vào biểu tượng lối tắt của chương trình trên màn hình nền (Desktop).",
+        "correct": true
+      },
+      {
+        "id": "C",
+        "text": "Chọn tất cả các biểu tượng lối tắt trên màn hình và nhấn Enter trên bàn phím.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-1|test-2|11": {
+    "type": "multiple",
+    "correct": [
+      "A",
+      "C"
+    ],
+    "prompt": "Tùy chọn nào sau đây là những cách có thể sử dụng để kết nối máy tính bảng với Internet? (Chọn 2)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sử dụng kết nối Wifi công cộng."
+      },
+      {
+        "id": "B",
+        "text": "Cắm cáp Ethernet vào thiết bị và tường."
+      },
+      {
+        "id": "C",
+        "text": "Sử dụng gói dữ liệu từ nhà cung cấp dịch vụ di động."
+      }
+    ]
+  },
+  "topic-1|test-1|8": {
+    "type": "single",
+    "correct": [
+      "D"
+    ],
+    "prompt": "An cần sạc điện thoại vào ban đêm để có thể sử dụng nó vào sáng hôm sau. Đâu là nơi an toàn để An giữ điện thoại của mình trong khi đang sạc?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dưới gối nằm của An"
+      },
+      {
+        "id": "B",
+        "text": "Trên sàn nhà"
+      },
+      {
+        "id": "C",
+        "text": "Trên kệ trong phòng tắm"
+      },
+      {
+        "id": "D",
+        "text": "Trên bàn làm việc của An"
+      }
+    ]
+  },
+  "topic-1|test-1|14": {
+    "type": "multiple",
+    "prompt": "Hình ảnh này cho biết loại thiết bị máy tính nào?",
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Máy tính xách tay (Laptop)",
+        "correct": false
+      },
+      {
+        "id": "B",
+        "text": "Điện thoại thông minh (Smartphone)",
+        "correct": true
+      },
+      {
+        "id": "C",
+        "text": "Máy tính để bàn (Desktop)",
+        "correct": true
+      },
+      {
+        "id": "D",
+        "text": "Máy tính bảng (Tablet)",
+        "correct": true
+      }
+    ]
+  },
+  "topic-1|test-1|7": {
+    "type": "single",
+    "correctIndices": [
+      0
+    ],
+    "prompt": "Bạn đang học trực tuyến tại thư viện công cộng. Bạn cần sạc pin máy tính xách tay để hoàn thành công việc của mình. Một người lạ đang sạc điện thoại di động của họ ở ổ cắm gần nhất. Bạn nên làm gì để vừa sạc pin máy tính và vừa tiếp tục làm việc?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di chuyển đến khu vực có sẵn một ổ cắm để sạc pin máy tính và tiếp tục buổi học.",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Học cho đến khi hết pin máy tính xách tay để bạn không làm phiền bất cứ ai.",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Sử dụng dây nối dài kéo dài khắp thư viện để bạn không phải thay đổi chỗ ngồi.",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Rút phích cắm của điện thoại di động để bạn có thể sử dụng ổ cắm gần đó.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-1|test-1|4": {
+    "type": "single",
+    "correct": [
+      "C"
+    ],
+    "prompt": "Bạn cần kết nối máy tính bảng với Internet. Bạn nên sử dụng phương tiện gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monitor Cable",
+        "correct": false
+      },
+      {
+        "id": "B",
+        "text": "Printer Cable",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Wifi",
+        "correct": true
+      },
+      {
+        "id": "D",
+        "text": "Bluetooth",
+        "correct": false
+      }
+    ]
+  },
+  "topic-2|test-1|3": {
+    "type": "single",
+    "correct": [
+      "A"
+    ],
+    "prompt": "Trolling là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cố gắng làm cho ai đó tức giận bằng cách đăng những điều có ý nghĩa về họ.",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Cố tình bỏ ai đó ra ngoài.",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Đăng nhập vào trang cá nhân của người khác và mạo danh người đó.",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Chia sẻ thông tin cá nhân về ai đó mà không có sự cho phép của họ.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-4|test-1|3": {
+    "type": "single",
+    "correct": [
+      "D"
+    ],
+    "prompt": "Tổ hợp phím nào được sử dụng để chọn tất cả văn bản trong cùng một tài liệu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alt + A",
+        "correct": false
+      },
+      {
+        "id": "B",
+        "text": "Tab + A",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Shift + A",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Ctrl + A",
+        "correct": true
+      }
+    ]
+  },
+  "topic-5|test-1|2": {
+    "type": "single",
+    "correct": [
+      "A"
+    ],
+    "prompt": "Bạn cần gửi hai bức ảnh và hai đoạn văn về thằn lằn cho bạn làm áp phích nhóm. Bạn nên gửi bằng cách nào?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gửi bằng Email",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Gửi bằng tin nhắn văn bản",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Đăng trên mạng xã hội",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Trò chuyện Video",
+        "correct": false
+      }
+    ]
+  },
+  "topic-6|test-1|2": {
+    "type": "single",
+    "correct": [
+      "A"
+    ],
+    "prompt": "Phần thông tin nào là an toàn để chia sẻ trực tuyến?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Màu sắc yêu thích của bạn.",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Địa điểm yêu thích của bạn.",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Tên trường của bạn.",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Công viên ưa thích của bạn.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-6|test-1|3": {
+    "type": "single",
+    "correct": [
+      "A"
+    ],
+    "prompt": "Khi nào thì có thể nói chuyện với người lạ trực tuyến?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Không bao giờ",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Bất cứ lúc nào",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Ban ngày",
+        "correct": false
+      },
+      {
+        "id": "D",
+        "text": "Cuối tuần",
+        "correct": false
+      }
+    ]
+  },
+  "topic-extended|test-1|2": {
+    "type": "single",
+    "correct": [
+      "A"
+    ],
+    "prompt": "Cộng tác (Collaboration) là gì?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Khi mọi người làm việc với nhau để hoàn thành một nhiệm vụ.",
+        "correct": true
+      },
+      {
+        "id": "B",
+        "text": "Làm việc trên máy tính hàng tuần.",
+        "correct": false
+      },
+      {
+        "id": "C",
+        "text": "Cạnh tranh cho điểm tốt nhất trong lớp.",
+        "correct": false
+      }
+    ]
+  },
+  "topic-1|test-1|1": {
+    "type": "single",
+    "correctIndices": [
+      0
+    ]
+  },
+  "topic-1|test-1|5": {
+    "type": "single",
+    "correctIndices": [
+      2
+    ]
+  },
+  "topic-1|test-1|6": {
+    "type": "single",
+    "correctIndices": [
+      1,
+      2
+    ]
+  },
+  "topic-1|test-1|12": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      1,
+      3
+    ]
+  },
+  "topic-2|test-1|16": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "topic-3|test-1|9": {
+    "type": "single",
+    "correctIndices": [
+      2
+    ]
+  },
+  "topic-3|test-1|11": {
+    "type": "single",
+    "correctIndices": [
+      2
+    ]
+  },
+  "topic-3|test-1|12": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      1,
+      2
+    ]
+  },
+  "topic-3|test-1|19": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      1,
+      2
+    ]
+  },
+  "topic-5|test-1|6": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      2
+    ]
+  },
+  "topic-5|test-1|9": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      1
+    ]
+  },
+  "topic-1|test-2|12": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      2
+    ]
+  },
+  "topic-5|test-1|16": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      3
+    ]
+  },
+  "topic-5|test-1|20": {
+    "type": "single",
+    "correctIndices": [
+      0,
+      1
+    ]
+  },
+  "topic-5|test-1|13": {
+    "type": "single",
+    "prompt": "Bạn là đội trưởng của đội bóng đá. Bạn cần thay mặt đội bóng hỏi huấn luyện viên của mình một câu hỏi khẩn cấp. Bạn nên đặt URGENT ở đâu để đảm bảo rằng huấn luyện viên của bạn nhận được thông báo và mở Email một cách nhanh chóng?",
+    "correctIndices": [1],
+    "correct": ["B"],
+    "options": [
+      { "id": "A", "text": "A — Ô To (Người nhận)" },
+      { "id": "B", "text": "B — Ô Subject (Chủ đề)" },
+      { "id": "C", "text": "C — Vùng dưới Subject" },
+      { "id": "D", "text": "D — Nội dung thư (Message body)" }
+    ]
+  },
+  "topic-4|test-1|9": {
+    "type": "single",
+    "prompt": "Em hãy cho biết, đây là loại tập tin gì?",
+    "correctIndices": [3],
+    "correct": ["D"],
+    "options": [
+      { "id": "A", "text": "Một trang Web (Web Page)" },
+      { "id": "B", "text": "Một trang tính (Spreadsheet)" },
+      { "id": "C", "text": "Một bài trình chiếu (Presentation)" },
+      { "id": "D", "text": "Một tài liệu (Document)" }
+    ]
+  }
+}

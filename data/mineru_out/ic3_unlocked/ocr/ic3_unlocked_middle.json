@@ -1,0 +1,1013 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        76,
+                        637,
+                        128,
+                        665
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.4739,
+                            "bbox": [
+                                76,
+                                637,
+                                128,
+                                665
+                            ],
+                            "index": 1,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        637,
+                                        128,
+                                        665
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                76,
+                                                637,
+                                                128,
+                                                665
+                                            ],
+                                            "type": "image",
+                                            "image_path": "6848aba5799a05e9c5e2f626980926cb7346db555f139e07118431184ac0e911.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.4739
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        63,
+                        677,
+                        128,
+                        700
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.4583,
+                            "bbox": [
+                                63,
+                                677,
+                                128,
+                                700
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        63,
+                                        677,
+                                        128,
+                                        700
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                63,
+                                                677,
+                                                128,
+                                                700
+                                            ],
+                                            "type": "image",
+                                            "image_path": "da055db38b00a5ae527104d35e171f4d833211f4d6557918c9f119ea62716981.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.4583
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        55,
+                        73,
+                        268,
+                        517
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.4631,
+                            "bbox": [
+                                55,
+                                73,
+                                268,
+                                517
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        73,
+                                        268,
+                                        517
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                55,
+                                                73,
+                                                268,
+                                                517
+                                            ],
+                                            "type": "image",
+                                            "image_path": "e058d2231ba5a4d6b66ca262bfeb3bb1ab96a7aafc8574ac22100b52cd7b62cc.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.4631
+                },
+                {
+                    "score": 0.7137,
+                    "bbox": [
+                        64,
+                        529,
+                        159,
+                        541
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                66,
+                                529,
+                                159,
+                                541
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        531,
+                                        102,
+                                        540
+                                    ],
+                                    "type": "text",
+                                    "content": "Resources",
+                                    "score": 0.994
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        529,
+                                        159,
+                                        541
+                                    ],
+                                    "type": "text",
+                                    "content": "Question 3 of 15",
+                                    "score": 0.979
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8541,
+                    "bbox": [
+                        75,
+                        560,
+                        505,
+                        596
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                558,
+                                506,
+                                582
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        558,
+                                        506,
+                                        582
+                                    ],
+                                    "type": "text",
+                                    "content": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi?",
+                                    "score": 0.922
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                74,
+                                573,
+                                152,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        573,
+                                        152,
+                                        599
+                                    ],
+                                    "type": "text",
+                                    "content": "(Chon 2)",
+                                    "score": 0.908
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                842
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.7096,
+                    "bbox": [
+                        101,
+                        41,
+                        492,
+                        57
+                    ],
+                    "index": 4,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                101,
+                                38,
+                                492,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        38,
+                                        492,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "TTNNTH AN QUoc ViET * TAI LIEU ON THI * IC3 GS6 SPARK LEvEL 1",
+                                    "score": 0.829
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.936,
+                    "bbox": [
+                        474,
+                        788,
+                        540,
+                        802
+                    ],
+                    "index": 7,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                473,
+                                786,
+                                541,
+                                802
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        473,
+                                        786,
+                                        541,
+                                        802
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 2 of 70",
+                                    "score": 0.977
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        76,
+                        637,
+                        128,
+                        665
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.4739,
+                            "bbox": [
+                                76,
+                                637,
+                                128,
+                                665
+                            ],
+                            "index": 1,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        637,
+                                        128,
+                                        665
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                76,
+                                                637,
+                                                128,
+                                                665
+                                            ],
+                                            "type": "image",
+                                            "image_path": "6848aba5799a05e9c5e2f626980926cb7346db555f139e07118431184ac0e911.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "score": 0.4739
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        63,
+                        677,
+                        128,
+                        700
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.4583,
+                            "bbox": [
+                                63,
+                                677,
+                                128,
+                                700
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        63,
+                                        677,
+                                        128,
+                                        700
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                63,
+                                                677,
+                                                128,
+                                                700
+                                            ],
+                                            "type": "image",
+                                            "image_path": "da055db38b00a5ae527104d35e171f4d833211f4d6557918c9f119ea62716981.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.4583
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        55,
+                        73,
+                        268,
+                        517
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.4631,
+                            "bbox": [
+                                55,
+                                73,
+                                268,
+                                517
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        73,
+                                        268,
+                                        517
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                55,
+                                                73,
+                                                268,
+                                                517
+                                            ],
+                                            "type": "image",
+                                            "image_path": "e058d2231ba5a4d6b66ca262bfeb3bb1ab96a7aafc8574ac22100b52cd7b62cc.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.4631
+                },
+                {
+                    "score": 0.7137,
+                    "bbox": [
+                        64,
+                        529,
+                        159,
+                        541
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                66,
+                                529,
+                                159,
+                                541
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        531,
+                                        102,
+                                        540
+                                    ],
+                                    "type": "text",
+                                    "content": "Resources",
+                                    "score": 0.994
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        529,
+                                        159,
+                                        541
+                                    ],
+                                    "type": "text",
+                                    "content": "Question 3 of 15",
+                                    "score": 0.979
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        66,
+                        529,
+                        159,
+                        541
+                    ]
+                },
+                {
+                    "score": 0.8541,
+                    "bbox": [
+                        75,
+                        560,
+                        505,
+                        596
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                558,
+                                506,
+                                582
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        558,
+                                        506,
+                                        582
+                                    ],
+                                    "type": "text",
+                                    "content": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi?",
+                                    "score": 0.922
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                74,
+                                573,
+                                152,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        573,
+                                        152,
+                                        599
+                                    ],
+                                    "type": "text",
+                                    "content": "(Chon 2)",
+                                    "score": 0.908
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        74,
+                        558,
+                        506,
+                        599
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        56,
+                        71,
+                        525,
+                        288
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9815,
+                            "bbox": [
+                                56,
+                                71,
+                                525,
+                                288
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        71,
+                                        525,
+                                        288
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                71,
+                                                525,
+                                                288
+                                            ],
+                                            "type": "image",
+                                            "image_path": "a80b7f42efd6006ca86d2a62410b70cfa7bd35ac0da355dcc78c98dc0194a190.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9815
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        56,
+                        298,
+                        362,
+                        737
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.978,
+                            "bbox": [
+                                56,
+                                298,
+                                362,
+                                737
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        298,
+                                        362,
+                                        737
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                298,
+                                                362,
+                                                737
+                                            ],
+                                            "type": "image",
+                                            "image_path": "8d83e6e179335f1bf2e95e61c96fbd7b866b90010231e37edda261ff94ac1122.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.978
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                595,
+                842
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.7778,
+                    "bbox": [
+                        102,
+                        41,
+                        491,
+                        56
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                101,
+                                39,
+                                493,
+                                57
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        39,
+                                        493,
+                                        57
+                                    ],
+                                    "type": "text",
+                                    "content": "TTNNTH AN QUoc ViET * TAI LiEU ON THI * IC3 GS6 SPARK LEveL 1",
+                                    "score": 0.825
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9379,
+                    "bbox": [
+                        474,
+                        788,
+                        540,
+                        802
+                    ],
+                    "index": 4,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                473,
+                                786,
+                                541,
+                                802
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        473,
+                                        786,
+                                        541,
+                                        802
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 3 of 70",
+                                    "score": 0.947
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        56,
+                        71,
+                        525,
+                        288
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9815,
+                            "bbox": [
+                                56,
+                                71,
+                                525,
+                                288
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        71,
+                                        525,
+                                        288
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                71,
+                                                525,
+                                                288
+                                            ],
+                                            "type": "image",
+                                            "image_path": "a80b7f42efd6006ca86d2a62410b70cfa7bd35ac0da355dcc78c98dc0194a190.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9815
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        56,
+                        298,
+                        362,
+                        737
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.978,
+                            "bbox": [
+                                56,
+                                298,
+                                362,
+                                737
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        298,
+                                        362,
+                                        737
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                298,
+                                                362,
+                                                737
+                                            ],
+                                            "type": "image",
+                                            "image_path": "8d83e6e179335f1bf2e95e61c96fbd7b866b90010231e37edda261ff94ac1122.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.978
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        56,
+                        71,
+                        393,
+                        410
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9591,
+                            "bbox": [
+                                56,
+                                71,
+                                393,
+                                410
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        71,
+                                        393,
+                                        410
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                71,
+                                                393,
+                                                410
+                                            ],
+                                            "type": "image",
+                                            "image_path": "e3a20c99e716d81c33ceb995f7ed396dad195674f05e538c6d18c7cc48e9fccc.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9591
+                }
+            ],
+            "page_idx": 2,
+            "page_size": [
+                595,
+                842
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.8843,
+                    "bbox": [
+                        102,
+                        41,
+                        491,
+                        56
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                101,
+                                39,
+                                493,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        101,
+                                        39,
+                                        493,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "TTNNTH AN QUoc ViET * TAI LiEU ON THI * IC3 GS6 SPARK LEVEL 1",
+                                    "score": 0.816
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9328,
+                    "bbox": [
+                        474,
+                        788,
+                        540,
+                        802
+                    ],
+                    "index": 3,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                473,
+                                786,
+                                541,
+                                802
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        473,
+                                        786,
+                                        541,
+                                        802
+                                    ],
+                                    "type": "text",
+                                    "content": "Page 4 of 70",
+                                    "score": 0.969
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        56,
+                        71,
+                        393,
+                        410
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9591,
+                            "bbox": [
+                                56,
+                                71,
+                                393,
+                                410
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        71,
+                                        393,
+                                        410
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                56,
+                                                71,
+                                                393,
+                                                410
+                                            ],
+                                            "type": "image",
+                                            "image_path": "e3a20c99e716d81c33ceb995f7ed396dad195674f05e538c6d18c7cc48e9fccc.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.9591
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.1.15"
+}

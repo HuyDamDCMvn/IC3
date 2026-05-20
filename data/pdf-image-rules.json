@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "source": "IC3 GS6 Spark LV1 PDF + MinerU",
+  "summary": {
+    "totalQuestions": 139,
+    "withIllustration": 14,
+    "withoutIllustration": 125
+  },
+  "withIllustration": {
+    "total": 14,
+    "byKind": {
+      "B_options_are_images": [
+        "topic-1|test-1|2",
+        "topic-1|test-1|3"
+      ],
+      "A_single_illustration": [
+        "topic-1|test-1|14"
+      ],
+      "C_ui_screenshot_context": [
+        "topic-1|test-2|13",
+        "topic-3|test-1|3",
+        "topic-3|test-1|5",
+        "topic-3|test-1|7",
+        "topic-3|test-1|18",
+        "topic-4|test-1|9",
+        "topic-4|test-1|13",
+        "topic-4|test-1|15",
+        "topic-5|test-1|13",
+        "topic-5|test-1|16",
+        "topic-5|test-1|19"
+      ]
+    },
+    "kinds": {
+      "A_single_illustration": {
+        "count": 1,
+        "rule": "Đề có 'Hình ảnh này cho biết…' + 1–2 ảnh thiết bị lớn; đáp án là chữ (Laptop, Tablet…).",
+        "app": "Hiển thị snapshot giữa màn hình (should_attach_snapshot=true).",
+        "keys": [
+          "topic-1|test-1|14"
+        ]
+      },
+      "B_options_are_images": {
+        "count": 2,
+        "rule": "Đề 'Hình ảnh nào sau đây là…' hoặc '(Chọn 2)' kèm lưới 4+ ảnh; đáp án là ảnh, không phải A/B/C chữ.",
+        "app": "Không snapshot giữa màn hình; gắn ảnh vào từng lựa chọn (option images).",
+        "keys": [
+          "topic-1|test-1|2",
+          "topic-1|test-1|3"
+        ]
+      },
+      "C_ui_screenshot_context": {
+        "count": 11,
+        "rule": "Có ảnh chụp giao diện (trình duyệt, tập tin, email…) nhưng đề không bắt đầu bằng 'Hình ảnh này'.",
+        "app": "Tùy curated: có thể snapshot hoặc chỉ chữ nếu đề đủ rõ.",
+        "keys": [
+          "topic-1|test-2|13",
+          "topic-3|test-1|3",
+          "topic-3|test-1|5",
+          "topic-3|test-1|7",
+          "topic-3|test-1|18",
+          "topic-4|test-1|9",
+          "topic-4|test-1|13",
+          "topic-4|test-1|15",
+          "topic-5|test-1|13",
+          "topic-5|test-1|16",
+          "topic-5|test-1|19"
+        ]
+      }
+    }
+  },
+  "withoutIllustration": {
+    "description": "Chỉ hiển thị đề + đáp án chữ, không snapshot PDF",
+    "types": [
+      "Trắc nghiệm chữ (là gì?, kịch bản, chọn A/B/C/D)",
+      "Có/Không / Đúng-Sai / Thực tế-Ý kiến (dropdown)",
+      "Ghép mảnh (matching) — UI ghép trong app, không ảnh đề",
+      "Chọn 2 / Chọn 3 — chỉ text"
+    ],
+    "detectBy": [
+      "Không có prompt 'hình ảnh'",
+      "Không có image block MinerU lớn trong nhóm",
+      "reason: text_only | yesno_dropdown | matching_ui"
+    ]
+  },
+  "implementation": {
+    "shouldAttachSnapshot": "hasIllustration only",
+    "legacyRule": "is_illustration_question() — chỉ khớp 'Hình ảnh này…', bỏ sót Q2/Q3"
+  }
+}

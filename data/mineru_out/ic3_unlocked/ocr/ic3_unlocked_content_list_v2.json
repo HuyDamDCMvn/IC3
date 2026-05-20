@@ -1,0 +1,240 @@
+[
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6848aba5799a05e9c5e2f626980926cb7346db555f139e07118431184ac0e911.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                127,
+                756,
+                215,
+                789
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/da055db38b00a5ae527104d35e171f4d833211f4d6557918c9f119ea62716981.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                105,
+                804,
+                215,
+                831
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e058d2231ba5a4d6b66ca262bfeb3bb1ab96a7aafc8574ac22100b52cd7b62cc.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                92,
+                86,
+                450,
+                614
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Resources Question 3 of 15"
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                628,
+                267,
+                642
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi? (Chon 2)"
+                    }
+                ]
+            },
+            "bbox": [
+                126,
+                665,
+                848,
+                707
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "TTNNTH AN QUoc ViET * TAI LIEU ON THI * IC3 GS6 SPARK LEvEL 1"
+                    }
+                ]
+            },
+            "bbox": [
+                169,
+                48,
+                826,
+                67
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 2 of 70"
+                    }
+                ]
+            },
+            "bbox": [
+                796,
+                935,
+                907,
+                952
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a80b7f42efd6006ca86d2a62410b70cfa7bd35ac0da355dcc78c98dc0194a190.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                94,
+                84,
+                882,
+                342
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8d83e6e179335f1bf2e95e61c96fbd7b866b90010231e37edda261ff94ac1122.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                94,
+                353,
+                608,
+                875
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "TTNNTH AN QUoc ViET * TAI LiEU ON THI * IC3 GS6 SPARK LEveL 1"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                48,
+                825,
+                66
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 3 of 70"
+                    }
+                ]
+            },
+            "bbox": [
+                796,
+                935,
+                907,
+                952
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e3a20c99e716d81c33ceb995f7ed396dad195674f05e538c6d18c7cc48e9fccc.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                94,
+                84,
+                660,
+                486
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "TTNNTH AN QUoc ViET * TAI LiEU ON THI * IC3 GS6 SPARK LEVEL 1"
+                    }
+                ]
+            },
+            "bbox": [
+                171,
+                48,
+                825,
+                66
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "Page 4 of 70"
+                    }
+                ]
+            },
+            "bbox": [
+                796,
+                935,
+                907,
+                952
+            ]
+        }
+    ]
+]
