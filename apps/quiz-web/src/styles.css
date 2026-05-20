@@ -131,6 +131,13 @@ body {
   line-height: 1.45;
 }
 
+.exam-pool-warn {
+  margin: -0.5rem 0 1rem;
+  font-size: 0.88rem;
+  color: #b45309;
+  font-weight: 600;
+}
+
 .btn-practice {
   width: 100%;
   font-size: 1.05rem;
@@ -380,7 +387,15 @@ body {
 
 /* Có / Không — một câu, nhiều dropdown */
 .yesno-question {
-  padding: 0.75rem 1rem 1rem;
+  padding: 0;
+}
+
+.yesno-pdf {
+  padding: 0;
+}
+
+.yesno-pdf .yesno-rows {
+  gap: 0.4rem;
 }
 
 .yesno-hint {
@@ -419,6 +434,21 @@ body {
   background: #fff1f2;
 }
 
+.yesno-pdf .yesno-row {
+  padding: 0.35rem 0.25rem;
+  border: none;
+  background: transparent;
+  gap: 0.75rem;
+}
+
+.yesno-pdf .yesno-row.ok {
+  background: rgba(232, 248, 237, 0.5);
+}
+
+.yesno-pdf .yesno-row.err {
+  background: rgba(253, 236, 234, 0.5);
+}
+
 .yesno-select {
   min-width: 5.5rem;
   padding: 0.35rem 0.5rem;
@@ -447,6 +477,23 @@ body {
   font-size: 0.8rem;
   color: var(--pdf-muted);
   font-weight: 600;
+}
+
+.yesno-pdf .yesno-select {
+  min-width: 4.5rem;
+  border: 2px solid #8a9aa8;
+  background: #f8fafb;
+}
+
+.yesno-pdf .yesno-statement {
+  font-weight: 500;
+}
+
+.yesno-expected-pdf {
+  margin-left: auto;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--correct);
 }
 
 .review-filters {
@@ -809,10 +856,6 @@ select {
   border: 1px solid var(--pdf-option-border);
 }
 
-.quiz-body {
-  margin: 0 1rem;
-}
-
 .quiz-meta {
   display: flex;
   justify-content: space-between;
@@ -821,28 +864,88 @@ select {
   margin-bottom: 0.5rem;
 }
 
-/* IC3 question block */
+.quiz-body {
+  margin: 0 1rem;
+  background: var(--pdf-card);
+  border: 1px solid #c5d0da;
+  border-radius: 4px;
+  padding: 0.75rem 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.quiz-body .pdf-page-block {
+  border: none;
+  box-shadow: none;
+}
+
+/* IC3 question block — bố cục giống PDF */
 .ic3-question {
   background: var(--pdf-card);
-  border: 1px solid #dde2e7;
-  border-radius: 2px;
+  border: 1px solid #c5d0da;
+  border-radius: 4px;
   overflow: hidden;
   margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.pdf-page-block {
+  margin: 0;
+}
+
+.ic3-resources-line {
+  padding: 0.45rem 1rem 0.35rem;
+  font-size: 0.78rem;
+  color: #6b7c8f;
+  background: #f3f5f7;
+  border-bottom: 1px solid #e2e8ee;
 }
 
 .ic3-question-bar {
   background: var(--pdf-question-bar);
   color: var(--pdf-question-bar-text);
-  padding: 0.75rem 1rem;
-  font-size: 0.95rem;
-  line-height: 1.45;
+  padding: 0.7rem 1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
-.ic3-question-bar .q-num {
-  display: block;
-  font-size: 0.75rem;
-  opacity: 0.85;
-  margin-bottom: 0.35rem;
+.mc-hint-pdf {
+  margin: 0 0 0.65rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.ic3-answers-pane {
+  padding: 0.85rem 1rem 1rem;
+  background:
+    radial-gradient(ellipse 70% 55% at 12% 18%, rgba(255, 190, 120, 0.22), transparent),
+    radial-gradient(ellipse 60% 50% at 88% 75%, rgba(110, 181, 232, 0.2), transparent),
+    linear-gradient(180deg, #fafcfe 0%, #f4f7fa 100%);
+}
+
+.ic3-body-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.ic3-options-column {
+  flex: 1;
+  min-width: 0;
+}
+
+.ic3-figure-column {
+  flex: 0 0 44%;
+  max-width: 400px;
+}
+
+.has-side-figure .ic3-body-row .ic3-options-column {
+  flex: 1 1 52%;
+}
+
+.has-side-figure .snapshot {
+  margin: 0;
 }
 
 .ic3-content {
@@ -852,34 +955,88 @@ select {
 
 .snapshot {
   width: 100%;
-  max-height: 420px;
+  max-height: 400px;
   object-fit: contain;
-  border: 1px solid var(--pdf-option-border);
+  border: 1px solid #c8d4de;
   border-radius: 2px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   background: #fff;
+}
+
+.snapshot-above {
+  max-height: 280px;
+}
+
+.snapshot-compact {
+  max-height: 200px;
+  margin-bottom: 0.75rem;
 }
 
 .options-grid {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.35rem;
+}
+
+.options-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.options-image-grid .pdf-option {
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+}
+
+.options-image-grid .option-image {
+  max-height: 120px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .option {
   display: flex;
   align-items: flex-start;
-  gap: 0.65rem;
-  padding: 0.65rem 0.85rem;
-  border: 2px solid var(--pdf-option-border);
-  border-radius: 2px;
-  background: var(--pdf-option-bg);
+  gap: 0.5rem;
+  padding: 0.45rem 0.35rem;
+  border: none;
+  border-radius: 0;
+  background: transparent;
   cursor: pointer;
   text-align: left;
   width: 100%;
   color: var(--pdf-text);
   font-size: 0.9rem;
-  transition: border-color 0.12s, background 0.12s;
+  transition: background 0.12s;
+}
+
+.pdf-option:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.pdf-option.selected {
+  background: rgba(238, 246, 252, 0.85);
+}
+
+.pdf-option.correct {
+  background: rgba(232, 248, 237, 0.7);
+}
+
+.pdf-option.wrong {
+  background: rgba(253, 236, 234, 0.65);
+}
+
+.review-card .option {
+  padding: 0.65rem 0.85rem;
+  border: 2px solid var(--pdf-option-border);
+  border-radius: 2px;
+  background: var(--pdf-option-bg);
+}
+
+.review-card .option:hover:not(:disabled) {
+  border-color: var(--pdf-header);
 }
 
 .option:hover:not(:disabled) {
@@ -910,13 +1067,35 @@ select {
   cursor: default;
 }
 
+.option-mark {
+  width: 22px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20px;
+}
+
+.pdf-answer-check {
+  color: var(--correct);
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.pdf-answer-wrong {
+  color: var(--wrong);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
 .option-radio {
-  width: 18px;
-  height: 18px;
-  border: 2px solid #888;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #7a8694;
   border-radius: 50%;
   flex-shrink: 0;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .option.selected .option-radio {

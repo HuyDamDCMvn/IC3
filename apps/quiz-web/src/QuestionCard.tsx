@@ -12,6 +12,7 @@ import {
 } from "@ic3-quiz/core";
 import type { QuizQuestion, YesNoChoice } from "@ic3-quiz/core";
 import { MatchingPuzzle } from "./MatchingPuzzle";
+import { getPdfLayoutKind } from "./pdfLayout";
 import { YesNoQuestion } from "./YesNoQuestion";
 
 const TOPIC_LABELS: Record<string, string> = {
@@ -37,6 +38,73 @@ type Props = {
   showMeta?: boolean;
 };
 
+function ResourcesLine({ question }: { question: QuizQuestion }) {
+  if (question.indexInTest == null) return null;
+  return (
+    <div className="ic3-resources-line">
+      Resources | Question {question.indexInTest} of{" "}
+      {question.totalInTest ?? "?"}
+    </div>
+  );
+}
+
+function QuestionBar({ prompt }: { prompt: string }) {
+  return <div className="ic3-question-bar">{prompt}</div>;
+}
+
+function PdfOptionRow({
+  opt,
+  style,
+  revealed,
+  readOnly,
+  showLetter,
+  onToggle,
+}: {
+  opt: QuizQuestion["options"][0];
+  style: string;
+  revealed: boolean;
+  readOnly: boolean;
+  showLetter: boolean;
+  onToggle?: (id: string) => void;
+}) {
+  return (
+    <button
+      type="button"
+      className={`option pdf-option ${style}`}
+      onClick={() => onToggle?.(opt.id)}
+      disabled={readOnly || revealed}
+    >
+      <span className="option-mark" aria-hidden>
+        {revealed && opt.isCorrect && (
+          <span className="pdf-answer-check" title="Đáp án đúng">
+            ✓
+          </span>
+        )}
+        {revealed && style === "wrong" && (
+          <span className="pdf-answer-wrong" title="Đã chọn sai">
+            ●
+          </span>
+        )}
+      </span>
+      <span className="option-radio" aria-hidden />
+      <div className="option-body">
+        {opt.imageUrl && (
+          <img className="option-image" src={opt.imageUrl} alt={opt.text} />
+        )}
+        <span className="option-text">
+          {showLetter && !opt.imageUrl ? (
+            <>
+              <strong>{opt.id}.</strong> {opt.text}
+            </>
+          ) : (
+            opt.text
+          )}
+        </span>
+      </div>
+    </button>
+  );
+}
+
 export function QuestionCard({
   question,
   index,
@@ -49,6 +117,8 @@ export function QuestionCard({
   onYesNoChange,
   showMeta = true,
 }: Props) {
+  const pdfMode = !showMeta;
+  const layoutKind = getPdfLayoutKind(question);
   const matchingData = useMemo(() => getMatchingData(question), [question]);
   const isMatching = isMatchingQuestion(question) && matchingData;
   const isYesNo = isYesNoQuestion(question);
@@ -62,13 +132,24 @@ export function QuestionCard({
     : null;
   const rowResults = matchGrade?.rowResults ?? {};
 
+  const rootClass = [
+    "ic3-question",
+    showMeta ? "review-card" : "pdf-page-block",
+    isYesNo ? "yesno-card" : "",
+    isMatching ? "matching-card" : "",
+    layoutKind === "mc-side-image" ? "has-side-figure" : "",
+    layoutKind === "mc-image-grid" ? "has-image-grid" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
   if (isYesNo) {
     const statements = getYesNoStatements(question);
     const ynLabels = getYesNoLabels(
       getYesNoLabelMode(question.prompt, question.yesNoMode)
     );
     return (
-      <article className="ic3-question review-card yesno-card">
+      <article className={rootClass}>
         {showMeta && (
           <div className="review-card-meta">
             <span className="review-badge">
@@ -85,20 +166,14 @@ export function QuestionCard({
             </span>
           </div>
         )}
-        <div className="ic3-question-bar">
-          {question.indexInTest != null && (
-            <span className="q-num">
-              Question {question.indexInTest} of {question.totalInTest ?? "?"}
-            </span>
-          )}
-          {question.prompt}
-        </div>
-        <div className="ic3-content">
+        {pdfMode && <ResourcesLine question={question} />}
+        <QuestionBar prompt={question.prompt} />
+        <div className="ic3-answers-pane">
           {question.snapshotUrl && (
             <img
-              className="snapshot"
+              className="snapshot snapshot-above"
               src={question.snapshotUrl}
-              alt="Câu hỏi"
+              alt="Minh họa"
             />
           )}
           <YesNoQuestion
@@ -106,12 +181,13 @@ export function QuestionCard({
             revealed={revealed}
             answers={yesNoAnswers}
             onChange={onYesNoChange ?? (() => {})}
+            pdfMode={pdfMode}
           />
           {revealed && (
             <div className="review-answer-key">
               {statements.map((s) => (
                 <div key={s.id}>
-                  <strong>{s.id}.</strong>{" "}
+                  <strong>{s.text}</strong> →{" "}
                   {expectedChoiceLabel(
                     s.isCorrect,
                     getYesNoLabelMode(question.prompt, question.yesNoMode)
@@ -126,8 +202,10 @@ export function QuestionCard({
   }
 
   if (isMatching && matchingData) {
+    const prompt =
+      matchingData.instruction || question.prompt || "Ghép mảnh";
     return (
-      <article className="ic3-question review-card matching-card">
+      <article className={rootClass}>
         {showMeta && (
           <div className="review-card-meta">
             <span className="review-badge">
@@ -141,43 +219,93 @@ export function QuestionCard({
             </span>
           </div>
         )}
-        {question.snapshotUrl && (
-          <img
-            className="snapshot snapshot-compact"
-            src={question.snapshotUrl}
-            alt="Tham khảo PDF"
+        {pdfMode && <ResourcesLine question={question} />}
+        <QuestionBar prompt={prompt} />
+        <div className="ic3-answers-pane">
+          {question.snapshotUrl && (
+            <img
+              className="snapshot snapshot-compact"
+              src={question.snapshotUrl}
+              alt="Tham khảo PDF"
+            />
+          )}
+          <MatchingPuzzle
+            data={matchingData}
+            revealed={revealed}
+            rowResults={rowResults}
+            userMap={map}
+            onMapChange={setMap}
           />
-        )}
-        <MatchingPuzzle
-          data={matchingData}
-          revealed={revealed}
-          rowResults={rowResults}
-          userMap={map}
-          onMapChange={setMap}
-        />
-        {revealed && matchGrade && (
-          <div
-            className={`feedback ${matchGrade.isCorrect ? "ok" : "err"}`}
-            style={{ margin: "0 1rem 1rem" }}
-          >
-            {matchGrade.isCorrect
-              ? "✓ Tất cả cặp ghép đúng!"
-              : `✗ Đúng ${matchGrade.correctCount}/${matchGrade.total} cặp`}
-          </div>
-        )}
+          {revealed && matchGrade && (
+            <div
+              className={`feedback ${matchGrade.isCorrect ? "ok" : "err"}`}
+            >
+              {matchGrade.isCorrect
+                ? "✓ Tất cả cặp ghép đúng!"
+                : `✗ Đúng ${matchGrade.correctCount}/${matchGrade.total} cặp`}
+            </div>
+          )}
+        </div>
       </article>
     );
   }
 
   const readOnly = !onToggle;
+  const showLetter = !pdfMode;
+  const optionsList = (
+    <div
+      className={
+        layoutKind === "mc-image-grid"
+          ? "options-grid options-image-grid"
+          : "options-grid"
+      }
+    >
+      {question.options.map((opt) => {
+        const style = readOnly
+          ? revealed && opt.isCorrect
+            ? "correct"
+            : "default"
+          : optionStyle(opt, selected, revealed);
+        return (
+          <PdfOptionRow
+            key={opt.id}
+            opt={opt}
+            style={style}
+            revealed={revealed}
+            readOnly={readOnly}
+            showLetter={showLetter}
+            onToggle={onToggle}
+          />
+        );
+      })}
+    </div>
+  );
+
+  const figure =
+    question.snapshotUrl && layoutKind === "mc-side-image" ? (
+      <div className="ic3-figure-column">
+        <img
+          className="snapshot"
+          src={question.snapshotUrl}
+          alt="Minh họa câu hỏi"
+        />
+      </div>
+    ) : null;
+
+  const snapshotAbove =
+    question.snapshotUrl && layoutKind !== "mc-side-image" ? (
+      <img className="snapshot" src={question.snapshotUrl} alt="Minh họa câu hỏi" />
+    ) : null;
 
   return (
-    <article className="ic3-question review-card">
+    <article className={rootClass}>
       {showMeta && (
         <div className="review-card-meta">
           <span className="review-badge">
             {TOPIC_LABELS[question.topic] ?? question.topic}
-            {question.testId ? ` · ${question.testId.replace("test-", "Test ")}` : ""}
+            {question.testId
+              ? ` · ${question.testId.replace("test-", "Test ")}`
+              : ""}
           </span>
           <span className="review-num">
             #{index + 1}
@@ -186,55 +314,16 @@ export function QuestionCard({
           </span>
         </div>
       )}
-      <div className="ic3-question-bar">
-        {question.indexInTest != null && (
-          <span className="q-num">
-            Question {question.indexInTest} of {question.totalInTest ?? "?"}
-          </span>
+      {pdfMode && <ResourcesLine question={question} />}
+      <QuestionBar prompt={question.prompt} />
+      <div className="ic3-answers-pane">
+        {pdfMode && question.type === "multiple" && (
+          <p className="mc-hint-pdf">Chọn tất cả đáp án đúng (nhiều lựa chọn).</p>
         )}
-        {question.prompt}
-      </div>
-      <div className="ic3-content">
-        {question.snapshotUrl && (
-          <img className="snapshot" src={question.snapshotUrl} alt="Câu hỏi" />
-        )}
-        <div className="options-grid">
-          {question.options.map((opt) => {
-            const style = readOnly
-              ? revealed && opt.isCorrect
-                ? "correct"
-                : "default"
-              : optionStyle(opt, selected, revealed);
-            return (
-              <button
-                key={opt.id}
-                type="button"
-                className={`option ${style}`}
-                onClick={() => onToggle?.(opt.id)}
-                disabled={readOnly || revealed}
-              >
-                <span className="option-radio" aria-hidden />
-                <div className="option-body">
-                  {opt.imageUrl && (
-                    <img
-                      className="option-image"
-                      src={opt.imageUrl}
-                      alt={opt.text}
-                    />
-                  )}
-                  <span>
-                    <strong>{opt.id}.</strong> {opt.text}
-                  </span>
-                </div>
-                {revealed && opt.isCorrect && (
-                  <span className="option-tag">✓ Đúng</span>
-                )}
-                {!readOnly && revealed && style === "wrong" && (
-                  <span className="option-tag">✗ Sai</span>
-                )}
-              </button>
-            );
-          })}
+        {snapshotAbove}
+        <div className="ic3-body-row">
+          <div className="ic3-options-column">{optionsList}</div>
+          {figure}
         </div>
         {revealed && (
           <div className="review-answer-key">

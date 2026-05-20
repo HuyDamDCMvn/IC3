@@ -92,6 +92,12 @@ def audit_question(q: dict) -> list[str]:
     if len(correct) == 0:
         issues.append("no_correct_answer")
 
+    if len(correct) >= 2 and qtype != "multiple":
+        issues.append(f"ticks_{len(correct)}_not_multiple")
+    if len(correct) == 1 and qtype == "multiple":
+        if not (CHON2_RE.search(prompt) or CHON3_RE.search(prompt)):
+            issues.append("one_tick_but_multiple")
+
     if CHON2_RE.search(prompt):
         if qtype != "multiple":
             issues.append("chon2_not_multiple")

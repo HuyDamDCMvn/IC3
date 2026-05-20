@@ -4,6 +4,7 @@ import {
   buildMixedExam,
   filterQuestions,
   getMatchingData,
+  getPlayableQuestions,
   getTestsForTopic,
   getTopics,
   getYesNoStatements,
@@ -162,6 +163,10 @@ export default function App() {
 
   );
 
+  /** Đề thi thử: luôn dùng toàn ngân hàng, không lọc "chỉ câu có hình". */
+  const examPool = useMemo(() => getPlayableQuestions(bank), [bank]);
+  const examSize = Math.min(PRACTICE_EXAM_SIZE, examPool.length);
+
 
 
   const tests = useMemo(
@@ -198,7 +203,7 @@ export default function App() {
   }, [filteredBank, topic, testId, limit, resetQuizState]);
 
   const startMixedExam = useCallback(() => {
-    const qs = buildMixedExam(filteredBank, PRACTICE_EXAM_SIZE, {
+    const qs = buildMixedExam(examPool, PRACTICE_EXAM_SIZE, {
       balanceTopics: true,
       shuffle: true,
     });
@@ -207,7 +212,7 @@ export default function App() {
     resetQuizState();
     setPhase("quiz");
     setAppTab("quiz");
-  }, [filteredBank, resetQuizState]);
+  }, [examPool, resetQuizState]);
 
 
 
@@ -430,16 +435,22 @@ export default function App() {
           <div className="practice-exam-hero">
             <h2>Thi thử {PRACTICE_EXAM_SIZE} câu</h2>
             <p>
-              Trộn ngẫu nhiên {PRACTICE_EXAM_SIZE} câu từ toàn bộ ngân hàng ({filteredBank.length}{" "}
-              câu), đều các chủ đề — giống đề ôn IC3.
+              Trộn ngẫu nhiên tối đa {PRACTICE_EXAM_SIZE} câu từ toàn bộ ngân hàng (
+              {examPool.length} câu làm được), đều 7 chủ đề — không áp dụng lọc
+              &quot;chỉ câu có hình&quot;.
             </p>
+            {examPool.length < PRACTICE_EXAM_SIZE && (
+              <p className="exam-pool-warn">
+                Hiện chỉ có {examPool.length} câu đủ điều kiện; đề thi sẽ gồm {examSize} câu.
+              </p>
+            )}
             <button
               type="button"
               className="btn btn-primary btn-practice"
               onClick={startMixedExam}
-              disabled={filteredBank.length < PRACTICE_EXAM_SIZE}
+              disabled={examPool.length === 0}
             >
-              Bắt đầu thi thử {PRACTICE_EXAM_SIZE} câu
+              Bắt đầu thi thử {examSize} câu
             </button>
           </div>
 
@@ -716,7 +727,9 @@ export default function App() {
           <div className="card score-ring">
 
             {examMode === "mixed45" && (
-              <p className="score-exam-label">Kết quả đề thi thử {PRACTICE_EXAM_SIZE} câu</p>
+              <p className="score-exam-label">
+                Kết quả đề thi thử {questions.length} câu
+              </p>
             )}
 
             <div className="percent">{sessionResult.scorePercent}%</div>
@@ -785,7 +798,7 @@ export default function App() {
               onClick={examMode === "mixed45" ? startMixedExam : startQuiz}
             >
               {examMode === "mixed45"
-                ? `Thi lại ${PRACTICE_EXAM_SIZE} câu`
+                ? `Thi lại ${examSize} câu`
                 : "Làm lại"}
             </button>
 

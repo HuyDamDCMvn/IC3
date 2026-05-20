@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/inspecttab.tsx","./src/matchingpuzzle.tsx","./src/questioncard.tsx","./src/yesnoquestion.tsx","./src/main.tsx"],"errors":true,"version":"5.9.3"}
+{"root":["./src/app.tsx","./src/inspecttab.tsx","./src/matchingpuzzle.tsx","./src/questioncard.tsx","./src/yesnoquestion.tsx","./src/main.tsx","./src/pdflayout.ts"],"version":"5.9.3"}

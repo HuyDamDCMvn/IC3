@@ -66,8 +66,11 @@ export function getInspectIssues(q: QuizQuestion): string[] {
   }
   const correct = correctIds(q);
   if (correct.length === 0) issues.push("Chưa có đáp án đúng");
-  if (q.type === "multiple" && correct.length > 0 && correct.length !== 2) {
-    issues.push(`Chọn 2 nhưng có ${correct.length} đáp án đúng`);
+  if (correct.length >= 2 && q.type !== "multiple") {
+    issues.push(`${correct.length} tick xanh nhưng type=single`);
+  }
+  if (q.type === "multiple" && correct.length > 0 && correct.length < 2) {
+    issues.push("Multiple nhưng chỉ 1 tick xanh");
   }
   return issues;
 }

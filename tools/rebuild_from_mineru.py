@@ -78,6 +78,9 @@ YESNO_PREFIX_OPINION = re.compile(r"^(ý\s*ki|y\s*ki|opinion)\s+(.+)", re.I)
 YESNO_PREFIX_FACT = re.compile(r"^(th[uự]c\s*t|thyc\s*t|fact)\s+(.+)", re.I)
 YESNO_PREFIX_CO = re.compile(r"^(c[oó]|kh[oô]ng|co|khong)\s+(.+)", re.I)
 ONLY_DUNG_SAI = re.compile(r"^[dđ][uú]ng$|^sai$|^dung$", re.I)
+ONLY_MANH_LABEL = re.compile(r"^(m[aạ]nh|manh)$", re.I)
+ONLY_YEU_LABEL = re.compile(r"^(y[eé]u|yeu|y[eě]u)$", re.I)
+PASSWORD_LIKE = re.compile(r"[@*#0-9A-Za-z]{6,}")
 YESNO_PREFIX_DUNG = re.compile(r"^([dđ][uú]ng|sai|dung)\s+(.+)", re.I)
 MATCH_HINT = re.compile(
     r"gh[eé]p|n[oố]i\s+m[oỗ]i|kéo|di chuy|chuy[eê]n t",
@@ -387,6 +390,7 @@ def is_yesno_prompt(prompt: str) -> bool:
         YESNO_CO_PROMPT_RE.search(n)
         or YESNO_DUNG_PROMPT_RE.search(n)
         or _is_fact_opinion_prompt(n)
+        or _is_manh_yeu_prompt(n)
     )
 
 
@@ -399,7 +403,18 @@ def _is_fact_opinion_prompt(prompt: str) -> bool:
     )
 
 
+def _is_manh_yeu_prompt(prompt: str) -> bool:
+    n = normalize_vn(prompt)
+    return bool(
+        re.search(r"mat\s*khau|mật\s*khẩu", n, re.I)
+        and re.search(r"manh|mạnh", n, re.I)
+        and re.search(r"yeu|yếu", n, re.I)
+    )
+
+
 def yesno_label_mode(prompt: str) -> str:
+    if _is_manh_yeu_prompt(prompt):
+        return "manh-yeu"
     if _is_fact_opinion_prompt(prompt):
         return "fact-opinion"
     if YESNO_DUNG_PROMPT_RE.search(prompt):
@@ -412,6 +427,8 @@ def _is_dropdown_label_only(t: str, mode: str) -> bool:
         return bool(ONLY_OPINION_LABEL.match(t) or ONLY_FACT_LABEL.match(t))
     if mode == "dung-sai":
         return bool(ONLY_DUNG_SAI.match(t))
+    if mode == "manh-yeu":
+        return bool(ONLY_MANH_LABEL.match(t) or ONLY_YEU_LABEL.match(t))
     return bool(ONLY_CO_KHONG.match(t))
 
 
@@ -473,6 +490,52 @@ def _strip_label_prefix(t: str, mode: str) -> tuple[bool | None, str]:
     return None, t
 
 
+def build_yesno_options_manh_yeu_pairs(
+    option_blocks: list[dict],
+    page_img: np.ndarray,
+    page_h: int,
+    page_w: int,
+) -> list[dict]:
+    """Nhãn Mạnh/Yếu + mật khẩu ở dòng kế — đúng PDF Question 8."""
+    items: list[dict] = []
+    blocks = [ob for ob in option_blocks if len((ob.get("text") or "").strip()) >= 2]
+    i = 0
+    while i < len(blocks):
+        t = (blocks[i].get("text") or "").strip()
+        if _is_dropdown_label_only(t, "manh-yeu"):
+            label_bbox = blocks[i].get("bbox")
+            vis = (
+                row_dropdown_is_yes(page_img, label_bbox, page_h, page_w)
+                if label_bbox
+                else None
+            )
+            is_manh_label = bool(ONLY_MANH_LABEL.match(t))
+            # Chữ xanh trên nhãn đang hiển thị = đáp án đúng là nhãn đó
+            if vis is not None:
+                pick_manh = vis if is_manh_label else not vis
+            else:
+                pick_manh = is_manh_label
+            i += 1
+            while i < len(blocks):
+                nt = (blocks[i].get("text") or "").strip()
+                if _is_dropdown_label_only(nt, "manh-yeu"):
+                    break
+                if PASSWORD_LIKE.search(nt) and not Q_RE.search(nt):
+                    items.append(
+                        {
+                            "text": nt.replace("\\*", "*"),
+                            "isCorrect": pick_manh,
+                            "bbox": label_bbox,
+                        }
+                    )
+                    i += 1
+                    break
+                i += 1
+        else:
+            i += 1
+    return items
+
+
 def build_yesno_options_fact_pairs(
     option_blocks: list[dict],
     page_img: np.ndarray,
@@ -520,6 +583,13 @@ def build_yesno_options(
     mode: str,
 ) -> list[dict]:
     """Gom mệnh đề; màu chữ dropdown hoặc prefix OCR."""
+    if mode == "manh-yeu":
+        paired = build_yesno_options_manh_yeu_pairs(
+            option_blocks, page_img, page_h, page_w
+        )
+        if len(paired) >= 1:
+            return paired
+
     if mode == "fact-opinion":
         paired = build_yesno_options_fact_pairs(
             option_blocks, page_img, page_h, page_w
@@ -575,6 +645,24 @@ def classify_type(prompt: str) -> str:
         return "multiple"
     if MATCH_HINT.search(prompt):
         return "matching"
+    return "single"
+
+
+def infer_mc_type(qtype: str, prompt: str, options: list[dict]) -> str:
+    """
+    Loại câu sau khi đã gắn tick xanh / curated:
+    - >= 2 tick xanh (đáp án đúng) → multiple
+    - còn lại → single (kể cả đề ghi Chọn 2 nếu PDF chỉ có 1 tick)
+    """
+    if qtype in ("yesno", "matching"):
+        return qtype
+    if is_yesno_prompt(prompt):
+        return "yesno"
+    if MATCH_HINT.search(prompt):
+        return "matching"
+    n_ok = sum(1 for o in options if o.get("isCorrect"))
+    if n_ok >= 2:
+        return "multiple"
     return "single"
 
 
@@ -888,16 +976,8 @@ def build_question(
             if 0 <= i < len(options):
                 options[i]["isCorrect"] = True
 
-        if qtype == "multiple" and CHON2_RE.search(normalize_vn(prompt)):
-            n_ok = sum(1 for o in options if o["isCorrect"])
-            if n_ok > 2:
-                for i, o in enumerate(options):
-                    o["isCorrect"] = i in correct_idx[:2]
-        elif qtype == "multiple" and CHON3_RE.search(normalize_vn(prompt)):
-            n_ok = sum(1 for o in options if o["isCorrect"])
-            if n_ok > 3:
-                for i, o in enumerate(options):
-                    o["isCorrect"] = i in correct_idx[:3]
+    if qtype not in ("yesno", "matching") and options:
+        qtype = infer_mc_type(qtype, prompt, options)
 
     if qtype == "single" and len(options) < 2:
         if not prompt:
@@ -950,6 +1030,8 @@ def build_question(
                 for i in snap_correct:
                     if 0 <= i < len(options):
                         options[i]["isCorrect"] = True
+                if qtype not in ("yesno", "matching"):
+                    qtype = infer_mc_type(qtype, prompt, options)
 
     out: dict = {
         "id": str(uuid.uuid4()),

@@ -570,6 +570,16 @@
       { "id": "D", "text": "D — Nội dung thư (Message body)" }
     ]
   },
+  "topic-6|test-1|8": {
+    "type": "yesno",
+    "yesNoMode": "manh-yeu",
+    "prompt": "Đối với mỗi mật khẩu, hãy chọn Mạnh nếu mật khẩu mạnh hoặc Yếu nếu mật khẩu yếu.",
+    "options": [
+      { "id": "1", "text": "W3*ud28x", "correct": false },
+      { "id": "2", "text": "1234567890", "correct": false },
+      { "id": "3", "text": "ILoveC@ndy2", "correct": false }
+    ]
+  },
   "topic-4|test-1|9": {
     "type": "single",
     "prompt": "Em hãy cho biết, đây là loại tập tin gì?",

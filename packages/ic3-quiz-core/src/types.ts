@@ -1,4 +1,8 @@
-export type YesNoLabelMode = "co-khong" | "dung-sai" | "fact-opinion";
+export type YesNoLabelMode =
+  | "co-khong"
+  | "dung-sai"
+  | "fact-opinion"
+  | "manh-yeu";
 
 export type QuestionType =
   | "single"

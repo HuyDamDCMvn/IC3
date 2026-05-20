@@ -13,6 +13,7 @@ type Props = {
   revealed: boolean;
   answers: Record<string, YesNoChoice>;
   onChange: (answers: Record<string, YesNoChoice>) => void;
+  pdfMode?: boolean;
 };
 
 export function YesNoQuestion({
@@ -20,6 +21,7 @@ export function YesNoQuestion({
   revealed,
   answers,
   onChange,
+  pdfMode = false,
 }: Props) {
   const mode = getYesNoLabelMode(question.prompt, question.yesNoMode);
   const labels = getYesNoLabels(mode);
@@ -32,8 +34,8 @@ export function YesNoQuestion({
   };
 
   return (
-    <div className="yesno-question">
-      <p className="yesno-hint">{labels.hint}</p>
+    <div className={`yesno-question ${pdfMode ? "yesno-pdf" : ""}`}>
+      {!pdfMode && <p className="yesno-hint">{labels.hint}</p>}
       <ul className="yesno-rows">
         {statements.map((s) => {
           const choice = answers[s.id];
@@ -51,28 +53,33 @@ export function YesNoQuestion({
                 className="yesno-select"
                 value={choice ?? ""}
                 disabled={revealed}
-                aria-label={`Lựa chọn cho mệnh đề ${s.id}`}
+                aria-label={`${labels.yes} / ${labels.no} — ${s.text}`}
                 onChange={(e) =>
                   setChoice(s.id, e.target.value as YesNoChoice)
                 }
               >
                 <option value="" disabled>
-                  —
+                  {labels.yes}
                 </option>
                 <option value="yes">{labels.yes}</option>
                 <option value="no">{labels.no}</option>
               </select>
               <span className="yesno-statement">{s.text}</span>
-              {revealed && (
+              {revealed && !pdfMode && (
                 <span className="yesno-expected">
                   → {expectedChoiceLabel(s.isCorrect, mode)}
+                </span>
+              )}
+              {revealed && pdfMode && (
+                <span className="yesno-expected-pdf">
+                  {expectedChoiceLabel(s.isCorrect, mode)}
                 </span>
               )}
             </li>
           );
         })}
       </ul>
-      {revealed && (
+      {revealed && !pdfMode && (
         <div className={`feedback ${grade.isCorrect ? "ok" : "err"}`}>
           {grade.isCorrect
             ? "✓ Tất cả mệnh đề đúng!"

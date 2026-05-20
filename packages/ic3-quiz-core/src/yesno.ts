@@ -1,10 +1,12 @@
-import type { GradeResult, QuizOption, QuizQuestion } from "./types.js";
+import type {
+  GradeResult,
+  QuizOption,
+  QuizQuestion,
+  YesNoLabelMode,
+} from "./types.js";
 
 export type YesNoChoice = "yes" | "no";
-export type YesNoLabelMode =
-  | "co-khong"
-  | "dung-sai"
-  | "fact-opinion";
+export type { YesNoLabelMode };
 
 /** Một mệnh đề — isCorrect=true → chọn nhãn「yes」(Có/Đúng/Thực tế) */
 export interface YesNoStatement {
@@ -22,6 +24,12 @@ const YESNO_DUNG_PROMPT_RE =
 const YESNO_FACT_PROMPT_RE =
   /th[uự]c\s*t[eé]|thyc\s*t[eé]|ý\s*ki[eế]n|y\s*ki[eế]n/i;
 
+const YESNO_MANH_PROMPT_RE =
+  /mat\s*khau|m[aậ]t\s*kh[aẩ]u/i;
+
+const ONLY_MANH_RE = /^(m[aạ]nh|manh)$/i;
+const ONLY_YEU_RE = /^(y[eé]u|yeu|y[eě]u)$/i;
+
 const PREFIX_CO_RE = /^(c[oó]|kh[oô]ng|co|khong)\s*(.*)$/i;
 const PREFIX_DUNG_RE = /^([dđ][uú]ng|sai|dung)\s*(.*)$/i;
 const PREFIX_FACT_RE = /^(th[uự]c\s*t[eé]|thyc\s*t[eé]|fact)\s*(.*)$/i;
@@ -32,11 +40,21 @@ const ONLY_DUNG_RE = /^[dđ][uú]ng$|^sai$|^dung$/i;
 const ONLY_FACT_RE = /^(th[uự]c\s*t[eé]|thyc\s*t[eé]|fact)/i;
 const ONLY_OPINION_RE = /^(ý\s*ki[eế]n|y\s*ki[eế]n|opinion)/i;
 
+function isManhYeuPrompt(prompt: string): boolean {
+  const n = prompt.toLowerCase();
+  return (
+    YESNO_MANH_PROMPT_RE.test(n) &&
+    /manh|mạnh/i.test(n) &&
+    /y[eé]u|yeu/i.test(n)
+  );
+}
+
 export function getYesNoLabelMode(
   prompt: string,
   stored?: YesNoLabelMode
 ): YesNoLabelMode {
   if (stored) return stored;
+  if (isManhYeuPrompt(prompt)) return "manh-yeu";
   if (
     /ch[oơ]n|hay\s+chon/i.test(prompt) &&
     /th[uự]c|thyc/i.test(prompt) &&
@@ -66,6 +84,12 @@ export function getYesNoLabels(mode: YesNoLabelMode): {
         no: "Ý kiến",
         hint: "Chọn Thực tế nếu là sự thật có thể kiểm chứng, Ý kiến nếu là quan điểm cá nhân.",
       };
+    case "manh-yeu":
+      return {
+        yes: "Mạnh",
+        no: "Yếu",
+        hint: "Chọn Mạnh nếu mật khẩu mạnh, Yếu nếu mật khẩu yếu.",
+      };
     default:
       return {
         yes: "Có",
@@ -79,7 +103,8 @@ export function isYesNoPrompt(prompt: string): boolean {
   return (
     YESNO_CO_PROMPT_RE.test(prompt) ||
     YESNO_DUNG_PROMPT_RE.test(prompt) ||
-    getYesNoLabelMode(prompt) === "fact-opinion"
+    getYesNoLabelMode(prompt) === "fact-opinion" ||
+    isManhYeuPrompt(prompt)
   );
 }
 
@@ -147,6 +172,16 @@ export function parseYesNoLine(
     const mf = PREFIX_FACT_RE.exec(t);
     if (mf) {
       return { prefix: "yes", statement: (mf[2] || "").trim() };
+    }
+    return { prefix: null, statement: t };
+  }
+
+  if (mode === "manh-yeu") {
+    if (ONLY_MANH_RE.test(t)) {
+      return { prefix: "yes", statement: "" };
+    }
+    if (ONLY_YEU_RE.test(t)) {
+      return { prefix: "no", statement: "" };
     }
     return { prefix: null, statement: t };
   }
@@ -253,6 +288,9 @@ export function isDropdownLabelOnly(
   }
   if (mode === "dung-sai") {
     return ONLY_DUNG_RE.test(t);
+  }
+  if (mode === "manh-yeu") {
+    return ONLY_MANH_RE.test(t) || ONLY_YEU_RE.test(t);
   }
   return ONLY_CO_RE.test(t);
 }

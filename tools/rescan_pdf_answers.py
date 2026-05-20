@@ -88,8 +88,9 @@ def main() -> int:
         correct_idx = detect_on_page(doc, page_idx, len(opts))
         if not correct_idx:
             continue
+        qtype = "multiple" if len(correct_idx) >= 2 else "single"
         curated[k] = {
-            "type": q.get("type", "single"),
+            "type": qtype,
             "correctIndices": correct_idx,
         }
         added += 1
