@@ -4,7 +4,7 @@
   "total": 137,
   "questions": [
     {
-      "id": "e987956e-bacc-4727-9ba1-ce9c06bd444b",
+      "id": "aabefd03-4640-4d4c-9d8d-fd053328eb5f",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi? (Chon 2)",
@@ -31,13 +31,13 @@
           "id": "C",
           "text": "Lựa chọn C",
           "imageUrl": "/quiz-visual/assets/d85048ce78b852841e04592592dc50b1a0d19e17ac443643c76f08ae2721a133.jpg",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "D",
           "text": "Lựa chọn D",
           "imageUrl": "/quiz-visual/assets/f00fbc0fc3c9a94fcd0da3203c05f29bc99d074b6e0ee22c941b21c019c0a6ab.jpg",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "E",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": "ff966fbf-a118-4005-99ad-f2b0a833075d",
+      "id": "7dfe69a2-e206-473e-b66a-e7c53869f250",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Bạn cần kết nối máy tính bảng với Internet. Bạn nên sử dụng phương tiện gì?",
@@ -94,7 +94,7 @@
       "images": []
     },
     {
-      "id": "8b537d46-1f0d-4f63-b30d-b35a9f7a6f31",
+      "id": "cf735918-03b4-4c2d-80ec-1eaa21b6d93d",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Quyền riêng tư kỹ thuật số là gì?",
@@ -133,7 +133,7 @@
       "images": []
     },
     {
-      "id": "f32841b2-0e33-40d1-be84-3ad182025efc",
+      "id": "c1e0b988-fec5-4aba-9463-b70abf2dfc27",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Ban thay nhüng bình luàn ác y trong mòt cuòc trò chuyèn trong nhóm truc tuyěn. Mot cong dān tot cùa thǎi dai ky nguyèn sō, ban nēn nói gì?",
@@ -172,7 +172,7 @@
       "images": []
     },
     {
-      "id": "8f6ea830-e5fa-4afe-8f7b-72288a968013",
+      "id": "06a43b41-3d55-4b02-ab9f-6d9bea59a085",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Trolling là gì?",
@@ -211,7 +211,7 @@
       "images": []
     },
     {
-      "id": "6e4eb5c6-f6a0-4464-a8bd-67f154772d01",
+      "id": "64ab6fc7-f3f9-442c-8dff-55245f3c7128",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Bàng cách sù' dung tiính nǎng Bookmarks/Favorites cúa trinh duyet Web, ban co thě luu gì?",
@@ -250,7 +250,7 @@
       "images": []
     },
     {
-      "id": "d22f5561-b33b-419f-8182-bdadae41e3ef",
+      "id": "107cb549-8887-4fb5-9451-01e4c12d6f93",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Đối với mỗi tuyên bố, hãy chọn Thực tế hoặc Ý kiến.",
@@ -292,7 +292,7 @@
       "yesNoMode": "fact-opinion"
     },
     {
-      "id": "099b8c06-577d-445a-bf7d-bcfc5841d6d0",
+      "id": "0b45839e-7cb7-4d50-9e15-e6019b370656",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Di chuyen tùng thuàt ngü tù danh sách bèn trái sang dinh nghia cùa nó ø bèn phài.\"",
@@ -343,7 +343,7 @@
       "images": []
     },
     {
-      "id": "cd1e597f-f2d9-4a56-be8f-0e8ad356b742",
+      "id": "be3b70ae-9c72-49b8-ab45-7e17cb0f6a0a",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Ban nèn sù' dung dinh dang nào dě hiēn thi, anh, bàn do và Video tù ky nghi hè cúa ban cho các ban trong lóp cua ban xem?",
@@ -382,7 +382,7 @@
       "images": []
     },
     {
-      "id": "74cd0f95-7e2e-415a-a645-e0d3cd9b4c49",
+      "id": "0435be42-47e4-4854-be20-79e5c32d4da5",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Doi vói mǎi hành dòng, hāy chon có něu dó là ví du vě dinh dang vǎn bàn hoǎc khòng nēu khòng phài.",
@@ -404,7 +404,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "28252446-8cad-4487-aa9f-6eb9f5261c7f",
+      "id": "53c67e1f-d96b-410b-904a-8bc82cace8ca",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Tổ hợp phím nào được sử dụng để chọn tất cả văn bản trong cùng một tài liệu?",
@@ -443,7 +443,7 @@
       "images": []
     },
     {
-      "id": "c7cd49eb-5dbe-4e58-b894-a419e49eba24",
+      "id": "5bd1bfcc-817b-45a0-9966-a83fd030978c",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Bạn cần gửi hai bức ảnh và hai đoạn văn về thằn lằn cho bạn làm áp phích nhóm. Bạn nên gửi bằng cách nào?",
@@ -482,7 +482,7 @@
       "images": []
     },
     {
-      "id": "3cf21145-8965-4514-bede-00eafeb4196a",
+      "id": "8864fdb7-0ed0-4bfe-9c46-6c7f1f69a6fb",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Noi mǒi tù vái dinh nghia thich hop.",
@@ -533,7 +533,7 @@
       "images": []
     },
     {
-      "id": "7f298ff9-2f80-44c4-8752-7ae941d19cae",
+      "id": "45176072-98ac-4b1b-91a4-4322d9433ed4",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Phần thông tin nào là an toàn để chia sẻ trực tuyến?",
@@ -572,7 +572,7 @@
       "images": []
     },
     {
-      "id": "6a4e66ca-1800-4f34-8e34-f4610427c474",
+      "id": "aa15f5f2-a770-4f52-8c43-c8aabd315f30",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Khi nào thì có thể nói chuyện với người lạ trực tuyến?",
@@ -611,7 +611,7 @@
       "images": []
     },
     {
-      "id": "3556b21a-d9aa-4edd-9215-2ae88766626c",
+      "id": "84eec8dc-4428-40a1-a91c-71534eaa6990",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Dǎi vái mǒi phát biēu vě vièc vàn chuyěn máy tính xách tay, hāy chon Dúng hoǎc Sai.",
@@ -645,7 +645,7 @@
       "yesNoMode": "dung-sai"
     },
     {
-      "id": "38936534-8aee-43e1-b84b-09314bee82b2",
+      "id": "a1af0e14-e666-4f65-8eae-ac082e777ff5",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Càn bàng phuong tién (Media Balance) là gi?",
@@ -678,7 +678,7 @@
       "images": []
     },
     {
-      "id": "6a0f4158-3bec-405a-99a2-e222a2efb402",
+      "id": "247fd3c1-cc1f-49cc-9cc3-705a07e2548d",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Cách nào sau dày là an toàn nhat dě sac thiět bi di dòng?",
@@ -711,7 +711,7 @@
       "images": []
     },
     {
-      "id": "1d654d65-d8be-4778-9287-a428e139fc4f",
+      "id": "0a04bed0-b26f-4c34-8a7f-99d85d612fc9",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Bạn gửi ảnh gia đình cho bạn, bạn đăng lên mạng xã hội. Làm sao xóa ảnh vĩnh viễn khỏi Internet?",
@@ -750,7 +750,7 @@
       "images": []
     },
     {
-      "id": "49cba9bc-9c46-4348-95eb-6eab326cc2bb",
+      "id": "e51b927b-2fbd-4cc6-95a6-2df23c0be87f",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Ban dang nghièn cúu tryc tuyěn cho mòt bài tàp vě dai duong. Giáo vièn cúa ban da huóng dǎn ban bao gǒm it nhàt ba sy kiēn và khòng có y kiēn. Tùy chon nào sau day là mòt y kiěn?",
@@ -789,7 +789,7 @@
       "images": []
     },
     {
-      "id": "dcd8c190-860e-4443-ae64-64a427cc70ce",
+      "id": "949cde96-5085-4ec2-9aab-48940f8accdd",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Cộng tác (Collaboration) là gì?",
@@ -822,7 +822,7 @@
       "images": []
     },
     {
-      "id": "dc1c27f7-b6e6-40d5-a743-1f5e11b8614f",
+      "id": "008c24a6-e822-42e9-a1c9-c4e22edb6b62",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Doi vói mǒi phát biēu vě muc tièu còng tác, ban hāy chon Dúng hoǎc Sai.",
@@ -856,7 +856,7 @@
       "yesNoMode": "dung-sai"
     },
     {
-      "id": "8e1aa412-5c3d-4218-84e2-9143416bdb74",
+      "id": "fd054922-27fd-44ba-a8a2-d77b450b8111",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "bàn có thě sù dung loai thiět bi nào dě kět nǎi Internet?",
@@ -895,7 +895,7 @@
       "images": []
     },
     {
-      "id": "a2f7c6c0-0e09-4f7e-97db-28aac43875e6",
+      "id": "0ef12e93-d542-4be7-9aab-d41aa04ee46d",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Ban hāy cho biēt, hình ành nào sau dày là hình ành cùa mòt chiec Laptop?",
@@ -939,7 +939,7 @@
       ]
     },
     {
-      "id": "de2fee46-c388-42e1-aa62-d2c151b8b0cd",
+      "id": "f4a7f0f0-ba5d-4e3b-b305-16114c24d68f",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Ban hǎy cho biět, phǎn měm nào duái dày là phǎn měm úíng dung?",
@@ -978,7 +978,7 @@
       "images": []
     },
     {
-      "id": "9d7786b8-b455-40d7-bf95-67fcfd26f62e",
+      "id": "96e1a410-74a4-4adb-8a73-65c786a22850",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Ban hāy cho biět phǎn měm nào sau dày là hè diěu hành? Microsoft Windows",
@@ -1011,7 +1011,7 @@
       "images": []
     },
     {
-      "id": "3798074a-b0b6-4b62-a2b3-3c4ffd2349e9",
+      "id": "fed7ed1a-a028-4008-8397-4aab9386a63b",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Bạn đang học trực tuyến tại thư viện công cộng. Bạn cần sạc pin máy tính xách tay để hoàn thành công việc của mình. Một người lạ đang sạc điện thoại di động của họ ở ổ cắm gần nhất. Bạn nên làm gì để vừa sạc pin máy tính và vừa tiếp tục làm việc?",
@@ -1050,7 +1050,7 @@
       "images": []
     },
     {
-      "id": "d6189069-e0ce-47b1-aa52-c6d337c01186",
+      "id": "784ca0b4-5008-40c2-9464-b7464b239861",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "An cần sạc điện thoại vào ban đêm để có thể sử dụng nó vào sáng hôm sau. Đâu là nơi an toàn để An giữ điện thoại của mình trong khi đang sạc?",
@@ -1089,7 +1089,7 @@
       "images": []
     },
     {
-      "id": "ce6d481e-67cc-4286-a43a-1a3a9e880108",
+      "id": "50c2e3ae-d732-4e10-8059-4ae3191432be",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Thuàt ngǔ cho phan měm chay trèn dièn thoai hoǎc máy tính bàng là gì?",
@@ -1128,7 +1128,7 @@
       "images": []
     },
     {
-      "id": "bfff8cfd-5d97-454f-847e-706908d59b96",
+      "id": "91818257-7d1d-4ed4-a35d-b36b18c71092",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Ban hāy cho biět, loai phan cúng (Hardware) nào gùi dü lièu dēn máy tính?",
@@ -1167,7 +1167,7 @@
       "images": []
     },
     {
-      "id": "c5b08984-d014-4cee-8885-cdcd8778f2c9",
+      "id": "99d04cc8-12d3-4f2a-a921-25b31c17f334",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Di chuyěn tùng dinh nghia tù danh sách bèn trái sang thuàt ngü mà nó xác dinh o bèn phai.",
@@ -1230,7 +1230,7 @@
       "images": []
     },
     {
-      "id": "d55ca614-96f2-42f6-b9c1-2299e703c09a",
+      "id": "e742d0df-9091-4805-a113-4bb34308679a",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Ban hāy xác dinh mǒi muc hoǎc là phǎn cúíng hoǎc phàn měm. Chon cáu trà lòi o hòp bèn trái cho phù hgp vói tùng muc.",
@@ -1275,7 +1275,7 @@
       "images": []
     },
     {
-      "id": "352f9b41-1e70-49e7-b141-77677f7f5ab9",
+      "id": "5524503c-cce9-4394-afd5-b3a3cf6287ae",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Ban muōn tìm mòt trò choi dudc cài dǎt trèn máy tính cùa minh. Trèn thanh tác vu dudc hiēn thi, ban nèn nhap vào dàu dē tìm trò choi?",
@@ -1289,7 +1289,7 @@
       "images": []
     },
     {
-      "id": "c9684492-1ee2-48bd-a646-7195b2c06444",
+      "id": "b01a53d1-1f9b-4f17-b156-e1b4e8e82201",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Hình ảnh này cho biết loại thiết bị máy tính nào?",
@@ -1328,7 +1328,7 @@
       "images": []
     },
     {
-      "id": "4b1219a0-ea62-4e65-866c-e02816583209",
+      "id": "36853423-fda6-4c59-9615-afe553bae130",
       "topic": "topic-1",
       "testId": "test-1",
       "prompt": "Thiet bi nào có bàn di chuòt tích hop dě trò và nhap?",
@@ -1367,7 +1367,7 @@
       "images": []
     },
     {
-      "id": "0254ab42-5e33-40a0-b735-856b4e5ec103",
+      "id": "6c3d743a-da81-4b2f-8dc7-9d56b6c43812",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Phát biēu nào sau dày là dúng vě mòt phǎn měm úng dung trèn máy tính đě bàn?",
@@ -1406,7 +1406,7 @@
       "images": []
     },
     {
-      "id": "44472a92-f011-4f2b-b718-d94a52940630",
+      "id": "be84727b-8823-48b8-845e-ff6115145b68",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Phương pháp nào sau đây được sử dụng để khởi động ứng dụng đã cài đặt trên máy tính để bàn? Chọn Có nếu đáp án đúng và Không nếu đáp án sai.",
@@ -1440,7 +1440,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "ff670a75-0843-45dc-8a2a-63630cf1a43d",
+      "id": "6d1f8fec-8b03-424e-a617-5f2dfe288b5b",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Đối với mỗi phát biểu sau, hãy chọn Có nếu phát biểu đó đúng và Không nếu phát biểu đó sai.",
@@ -1474,7 +1474,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "2dc4c025-a654-48c8-bb3d-9452d88f0b30",
+      "id": "fe972614-c2bf-4fc1-9b59-8c6d7128c00e",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Dièn thoai thòng minh có thě kět noi vói Internet bàng nhǔng cách nào? (Chon 2)",
@@ -1513,7 +1513,7 @@
       "images": []
     },
     {
-      "id": "4df98fd1-6d06-46b0-a5f3-290954a5f65b",
+      "id": "8b633418-e5c7-48f9-91a6-8f0380f9328b",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Mòt sō cách dē thoát khòi úíng dung trèn máy tính dě bàn dā dudc cài dǎt là gì? chon có něu dáp án dúng và Khōng něu dáp án sai.",
@@ -1535,7 +1535,7 @@
       "yesNoMode": "dung-sai"
     },
     {
-      "id": "113beba6-46e3-4c93-b15e-e4d7dbfa1380",
+      "id": "8d400af1-0301-4695-a25d-8c137bd7a408",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Thiět bi dau vào (Input Device) nào sau dày dudc tích hop vào dièn thoai thòng minh?",
@@ -1574,7 +1574,7 @@
       "images": []
     },
     {
-      "id": "f28a1c77-d1f4-46ab-b4b9-086bb994d166",
+      "id": "affa8727-86bb-4157-aba8-40ff565accc1",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Kéo tùng thuàt ngü vào dinh nghia phù hgp. Dě trà lài, häy chuyěn tǔng thuàt ngü tù danh sách bèn phái sang dinh nghia cúa nó o bèn trái.",
@@ -1619,7 +1619,7 @@
       "images": []
     },
     {
-      "id": "110fc04e-33c2-4131-8622-a8639e2b5365",
+      "id": "aecbd483-e026-4a77-a8ed-ccb047a96ac3",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Tùy chon nào sau dày là ví du vě thièt bi dàu vào dugc tích hop sān trèn máy tinh?",
@@ -1652,7 +1652,7 @@
       "images": []
     },
     {
-      "id": "bc09ad97-ddf4-4330-b3cd-1910da3b5ae1",
+      "id": "a521526e-6a24-43ed-9928-9bb2d4fd9bc3",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Ban cǎn sù' dung máy tính bang (Tablet) cúa mình trong giò hoc dè tham gia vào các bài hoc. Ban nhàn thày ràng thài luāng Pin cua máy tính bang dang tra nèn yěu. Bô sac cúa ban khòng hoat dòng. Ban nèn làm gì de tiëp' tuc tham gia trèn 'máy tính bàng cua mình?",
@@ -1691,7 +1691,7 @@
       "images": []
     },
     {
-      "id": "04cfa089-6807-4836-aee5-3b7d23fd4427",
+      "id": "5dcc1fa8-3a74-4ee7-bd03-e6d2d1196925",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Tùy chọn nào sau đây là những cách có thể sử dụng để kết nối máy tính bảng với Internet? (Chọn 2)",
@@ -1724,7 +1724,7 @@
       "images": []
     },
     {
-      "id": "f796b354-86cb-41bb-8e8a-e7251bd8ccd8",
+      "id": "4dca0c4b-0197-4870-b57c-690b5a3c3b94",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Tùy chon nào sau dày là mòt tàp tin (File)?",
@@ -1763,7 +1763,7 @@
       "images": []
     },
     {
-      "id": "56f6d8c4-cbd7-4413-b77e-1afb0e41ba56",
+      "id": "953e602c-9d2d-4997-8b53-88df51acf727",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Máy tính dē bàn có thě sù dung loai thiět bi nào dē kět nǎi Internet?",
@@ -1802,7 +1802,7 @@
       "images": []
     },
     {
-      "id": "dcaf5584-4e9d-4323-90ad-fa1ea05ff107",
+      "id": "ea5bc805-d307-4581-b27d-52c2ca766c5e",
       "topic": "topic-1",
       "testId": "test-2",
       "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng. Dě trà lài, hāy kéo thuat ngǔ' tù danh sách bèn phài sang dinh nghia cua nó ó bèn trái.",
@@ -1847,7 +1847,7 @@
       "images": []
     },
     {
-      "id": "6b47080a-c9d1-49e1-9f25-86790bcf0e58",
+      "id": "b26b4678-25c8-46e4-bc17-9467c9f9c73c",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Tùy chon nào dai dièn cho mòt dǎc diēm cùa còng dàn ky thuàt sō tot?",
@@ -1886,7 +1886,7 @@
       "images": []
     },
     {
-      "id": "79ccaea4-a925-4137-9b9b-8032603c7743",
+      "id": "449a1746-f6bb-4d73-9ca3-ad34953a1cdb",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Ai dó dā đǎng mòt bình luàn xǎu tính trèn mang xā hòi vě ban An. Ban ây dā xóa bình luān, nhung cǔng chính nguài dó da viět nhüng binh luàn ác y hon. Mòt tèn goi cho nguài đā viět các binh luàn ác y là gì?",
@@ -1925,7 +1925,7 @@
       "images": []
     },
     {
-      "id": "6fbfe219-14c3-47b2-a624-032aa1d26e86",
+      "id": "05cd06e0-cd5f-46c3-8e78-7f7e549ce54e",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Diěu nào sau dày là mòt phän cúa dàu ân ky thuàt sö (Digital Footprint) cua ban? (Chon 2)",
@@ -1964,7 +1964,7 @@
       "images": []
     },
     {
-      "id": "f3692603-a1df-43d2-92cd-8115a4fdd786",
+      "id": "6303778d-84cd-4c8c-b8c5-e6f308c9c579",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Tùy chọn nào sau đây là đúng? Chọn Đúng nếu đáp án đúng và Sai nếu đáp án sai.",
@@ -2004,7 +2004,7 @@
       "yesNoMode": "dung-sai"
     },
     {
-      "id": "2e68e94c-1e82-4b34-94f4-758ac3ba1923",
+      "id": "effb9a88-36bc-4043-b132-930563119319",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Ban nhàp tèn cua minh vào mòt còng cu tìm kiěm. Kět quà tim kiěm bao gǒm các ành mà ban dā xóa khòi trang Web ndi ban dā dǎng chúng. Diěu này có nghia là gì?",
@@ -2043,7 +2043,7 @@
       "images": []
     },
     {
-      "id": "d2be3915-4137-4571-9aab-d1fd66e3552e",
+      "id": "d3579e99-d491-4ab4-b9e1-eabf51373243",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
@@ -2082,7 +2082,7 @@
       "images": []
     },
     {
-      "id": "94bba16a-c611-43af-8fbd-be5c36e419ce",
+      "id": "a419bd30-78bf-4768-8778-71a74f3d7dff",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Hành dòng nào là mòt ví dy vě bǎt nat trèn mang?",
@@ -2133,7 +2133,7 @@
       "images": []
     },
     {
-      "id": "f7d3b003-316f-4195-9cad-6b0593d8f657",
+      "id": "27a9e749-3975-4c80-9629-7a5d92c5ff83",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Mòt còng dàn kī thuàt sō tích cuc có thě làm gì?",
@@ -2166,7 +2166,7 @@
       "images": []
     },
     {
-      "id": "140caaa3-7788-4d41-9f48-1eac68c91d02",
+      "id": "00446389-4b2a-4cce-b5aa-4e3e0c52df35",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Dǎi vái mǒi phát biēu vě tuàng tác ky thuàt sō, hāy chon Dúng hoǎc Sai.",
@@ -2200,7 +2200,7 @@
       "yesNoMode": "dung-sai"
     },
     {
-      "id": "0a5cf84f-3cb3-4000-8b0c-48789c4e6db8",
+      "id": "789d575a-4088-4254-b9f0-8ba507fc746a",
       "topic": "topic-2",
       "testId": "test-1",
       "prompt": "Khi ai dó sù dung còng nghè dě gày ác y vái nguài khác, vièc ho dang làm dudc goi là gi?",
@@ -2239,7 +2239,7 @@
       "images": []
     },
     {
-      "id": "58bb583c-73e9-4664-915f-aee8ca60dd7f",
+      "id": "be5d2607-b21f-4170-8ab1-ddb619165e37",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Vi du vě mòt úíng dung Web (Web Application) là gi?",
@@ -2272,7 +2272,7 @@
       "images": []
     },
     {
-      "id": "1efe0a71-c4f2-4de6-8a93-26baf3ac928b",
+      "id": "d8b0291a-7f8c-425f-a05e-e162af724f52",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "",
@@ -2309,7 +2309,7 @@
       ]
     },
     {
-      "id": "a9f32ed0-8f36-420a-bddd-5af8d7275606",
+      "id": "abbc78a2-72a8-4f7e-a3aa-0eba5adbbcdd",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Mòt giáo vièn bào hoc sinh cua mình nghièn cúu mòt chù dě trèn máy tính bang cua ho trong 30 phút tiěp theo. Khi giáo viēn hòi mòt hoc sinh xem ban ǎy có thyc hiēn nghièn cúu hay khòng, ban ây nói có. Làm thě nào giáo viēn có the tìm ra lièu hoc sinh có nói su thàt hay khòng?",
@@ -2348,7 +2348,7 @@
       "images": []
     },
     {
-      "id": "166b5884-294e-456d-88b5-98737b6d2f63",
+      "id": "e0223997-92e4-47c2-b1cd-844e5d30fca5",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Nhǔng thành phǎn nào sau dày thuòc giao dièn cùa trình duyèt Web? (Chon 3)",
@@ -2399,7 +2399,7 @@
       "images": []
     },
     {
-      "id": "43493012-562f-4048-935b-533c5f2d9611",
+      "id": "f10ccbb9-66d7-481b-8873-e21b84178599",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "URL là gì?",
@@ -2438,7 +2438,7 @@
       "images": []
     },
     {
-      "id": "4d3201e6-e67b-4d82-b016-67e47ee01dff",
+      "id": "f940730e-1def-4a07-b8a0-fbb64d368bdb",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Tùy chon nào sau dày là ví dy vě mòt trang Web (Webpage)?",
@@ -2471,7 +2471,7 @@
       "images": []
     },
     {
-      "id": "c351c6c9-8642-4c52-9c30-c2fa633a7a03",
+      "id": "e61f7526-8487-4e86-95bc-0dba5fbd46f4",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Ban có thě tìm thay URL cúa mòt trang Web o dàu dě có thě sao chép và dán?",
@@ -2504,7 +2504,7 @@
       "images": []
     },
     {
-      "id": "22920c07-e6ef-49d6-91c1-fbbc0b0ae8b6",
+      "id": "548b10a5-79c1-4b0e-a12f-0b51cda5ebe8",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Ban thuòng tìm thǎy diěu gì trong uíng dung máy tính dě bàn và trén các trang Web?",
@@ -2543,7 +2543,7 @@
       "images": []
     },
     {
-      "id": "8e35ad56-8611-4490-a332-60aaff9359ab",
+      "id": "ef8079a1-e861-4ceb-97c4-b1755d740ff2",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Ban hāy cho biět, tùy chon nào duói day cho phép truy cap và duyèt thong tin trèn Internet?",
@@ -2582,7 +2582,7 @@
       "images": []
     },
     {
-      "id": "0e715605-6463-4759-aa57-c2f0c55350a2",
+      "id": "b26135bd-a283-48c5-a8b1-8760dd1aa022",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Ban có thē sù dung thòng tin nào dē kiēm tra dà tin cày cùa mòt trang Web? (Chon 3)",
@@ -2621,7 +2621,7 @@
       "images": []
     },
     {
-      "id": "c95c6151-27c8-4c1a-ab86-3cab2ba18376",
+      "id": "97dc19d4-06be-46bc-90df-af9bd8aa4683",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Nhi thich doc các bài báo truc tuyěn. Co äy chi muōn doc các bài báo dua trèn su that, khòng phài y kiěn. Càu hòi nào có thě giúp Nhi xác dinh các bài báo dua trèn thuc tě?",
@@ -2660,7 +2660,7 @@
       "images": []
     },
     {
-      "id": "a37c6630-00db-444a-83c8-d5d5edbe99a8",
+      "id": "2cb0194f-56f4-4e78-84cd-9983b2dac065",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Trong cia so trinh duyèt duoc hiēn thi, ban nèn nhâp hoǎc nhàn vào dàu de truy càp các trang khác cua 'trang Web Net Pc?'",
@@ -2690,7 +2690,7 @@
       ]
     },
     {
-      "id": "fef73fba-3252-4c9e-8017-b1b0e7d90d70",
+      "id": "10249fa4-081b-454a-8004-3b11fd46e733",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Cách nhanh nhǎt dě luu mòt trang Web dě ban có thě quay lai trang dó sau này là gì?",
@@ -2723,7 +2723,7 @@
       "images": []
     },
     {
-      "id": "ce56729c-2380-4a6d-8531-0f04e4e7da51",
+      "id": "6832d864-deed-4306-83cd-1a2ef36d77fd",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
@@ -2762,7 +2762,7 @@
       "images": []
     },
     {
-      "id": "45610c35-627a-4603-93f0-d4394d9ccfc8",
+      "id": "7d7a5798-8d97-4558-974c-dd1b5452750b",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Cách nhanh nhät dě luu trang Web ban dang xem dě ban có thě quay lai sau là gì?",
@@ -2813,7 +2813,7 @@
       "images": []
     },
     {
-      "id": "326122a4-cdb9-429c-94ff-b5012ad3ddeb",
+      "id": "a459c4e9-bd6e-4e80-8e78-3d091ac7f3ff",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
@@ -2864,7 +2864,7 @@
       "images": []
     },
     {
-      "id": "6786513e-e0e0-4951-b308-792c5652acd2",
+      "id": "342abd4b-eb26-441d-aa72-ff33d58742f8",
       "topic": "topic-3",
       "testId": "test-1",
       "prompt": "Ban hāy cho biět, còng cu nào cúa trinh duyèt cho phép truy càp vào các trang Web yēu thich?",
@@ -2903,7 +2903,7 @@
       "images": []
     },
     {
-      "id": "ad8eefaa-598d-481b-a3db-aff71a889ffe",
+      "id": "84c6d9cc-6099-4d8b-99dd-f0bc700e7772",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Em hāy cho biět, tài lièu dièn tù có dǎc diēm gì?",
@@ -2942,7 +2942,7 @@
       "images": []
     },
     {
-      "id": "2334b7ae-1eab-46e1-827e-c3d278ca2272",
+      "id": "2321c3bd-e634-400a-b1b3-2c61d1a2ca75",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Trong tình huōng nào thì mòt tài lièu (Document) sě hǔu ich hon mot ban trinh chieu (Presentation)?",
@@ -2975,7 +2975,7 @@
       "images": []
     },
     {
-      "id": "6083e692-5cae-4eb8-be5c-843d9fed16e7",
+      "id": "920de86c-b068-4384-848c-6ef2238b48fa",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Ban dang tao mot áp phich trèn máy tính. Ban muon thay doi giao diēn cua cac chǔ cái và sō trong tièu dě áp phich. Ban nèn thay doi diěu gì?",
@@ -3014,7 +3014,7 @@
       "images": []
     },
     {
-      "id": "36df4b2b-2b58-4c11-8887-bccabc4d9cd5",
+      "id": "3d933d8d-a6fa-4bbc-b106-f64424cf74e2",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Trong tình huōng nào sau dày là phù hop nhat dě sù dung bài trinh chieu ki thuat so (Digital Presentation)?",
@@ -3047,7 +3047,7 @@
       "images": []
     },
     {
-      "id": "7956e285-eaff-4f78-a321-6f0acbd31519",
+      "id": "59d86cf0-422c-4c4e-9e81-030cfcd3fd45",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Ban nèn nhǎn phím dǎc bièt nào trèn bàn phím tièu chuàn dě bat dau mòt doan moi trong tài lièu vǎn ban?",
@@ -3092,7 +3092,7 @@
       "images": []
     },
     {
-      "id": "b4aff71d-3a0c-4665-882c-a629ac94131d",
+      "id": "c5bcdc3f-fa5b-469e-91c5-591b8e283408",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Em hãy cho biết, đây là loại tập tin gì?",
@@ -3131,7 +3131,7 @@
       "images": []
     },
     {
-      "id": "ddc5c77e-5c97-4393-a8f5-81774ab46a80",
+      "id": "68d06505-71e2-4e68-a0ce-27c3e503afe7",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Ban nèn sù dung úng dung nào dě hiēn thi ành, bàn do và Video tù ky nghi hè cùa minh cho các ban trong lóp hoc cúa ban xem?",
@@ -3184,7 +3184,7 @@
       ]
     },
     {
-      "id": "5b4d9680-e6e8-49a0-a7b6-624352d586e8",
+      "id": "528d96fb-6e1f-414d-a8f6-508ca537a73a",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Hay ghép tùng thuàt ngǔ vói cách sù' dung thích hop.",
@@ -3247,7 +3247,7 @@
       "images": []
     },
     {
-      "id": "29799234-be5e-4246-923e-a3b0199ab529",
+      "id": "c79e2489-0781-43b6-b9ac-189c86ac4309",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Em hāy cho biět, cǎn sù dung phǎn měm úíng dung nào dě tao ra các chǔ cái tièu chuān thay vi sù dung máy dánh chū?",
@@ -3298,7 +3298,7 @@
       "images": []
     },
     {
-      "id": "0e4cd90c-23d1-4715-9235-2b48cb36a623",
+      "id": "06384ee2-09be-476e-a25a-1a7564898e13",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Nhi muön tham gia mòt trang mang xǎ hòi mói noi tiěng. Dě dǎng ky, cò ay phài diēn vào mòt biēu māu truc tuyěn. Nhi nēn giü phím nào trong khi gō đe chi viět hoa chǔ cái däu tièn trong tèn cúa co äy?",
@@ -3328,7 +3328,7 @@
       ]
     },
     {
-      "id": "1b1b0224-d5ca-4fb4-8123-831149bc3a79",
+      "id": "bb212f9e-b184-4ee1-8eb8-0fecdfe1c366",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Nhǔng thao tác nào sau dày, ban có thē thyc hièn vói tài lièu vǎn ban (Text Document)? (Chon 2)",
@@ -3361,7 +3361,7 @@
       "images": []
     },
     {
-      "id": "319769ec-62c3-41cf-9b0b-5947c75e7a0e",
+      "id": "7abaa53b-5f7e-483e-93df-19bdc1489939",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Nhi dang viět mòt báo cáo trèn máy tính cua minh. Ban ãy dudc yèu cǎu thit lě dòng däu tiēn cúa mǎi doan mòt nuá Inch. Nhi nèn nhàn phím nào (mòt län) de thyt iě chính xác dòng däu tièn?",
@@ -3391,7 +3391,7 @@
       ]
     },
     {
-      "id": "d6fde5f0-3362-4bad-99da-0f0fcfe20817",
+      "id": "0f9d42d3-3027-44c3-9ab0-0074794de5d5",
       "topic": "topic-4",
       "testId": "test-1",
       "prompt": "Ghép mǒi thuàt ngü vái dinh nghia tuòng úíng.",
@@ -3460,7 +3460,7 @@
       "images": []
     },
     {
-      "id": "957ed693-eebc-4a20-9db1-cc2f8ba153c1",
+      "id": "2204619d-aa87-490c-b7f3-76e65dd0c1a2",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Häu hět các thu và Email děu có ldi chào và lài kět thúc. Ban hāy lua chon cym tù trong danh sách phù hop vái các câu sau.",
@@ -3523,7 +3523,7 @@
       "images": []
     },
     {
-      "id": "dbe28870-f8da-4541-b1aa-1df3b18537c5",
+      "id": "332e9cb5-2ffc-494f-b527-f205a3c469db",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
@@ -3586,7 +3586,7 @@
       "images": []
     },
     {
-      "id": "92135b8b-40ea-4ad4-bb2c-b7fd134dc519",
+      "id": "30f3aff5-4084-414f-be0c-ca40f03389a2",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Giáo vièn cúa ban gùi mòt Email dě nhǎc nhò phu huynh ràng sě có mòt bài kiēm tra vào ngày mai. Ban muōn 'såp xěp màt budi hoc nhóm truóc khi đěn Iáp. Ban nhán tin cho mòt nguài ban, goi cho ngudi khác và trò chuyèn Video vói nguài ban thú ba dě sáp xěp thdi gian và dia diém hgc nhóm. Quy trinh nào dang dugc sú' dung dě gùi và nhàn thòng tin?",
@@ -3625,7 +3625,7 @@
       "images": []
     },
     {
-      "id": "1cb8e2a7-b163-4e74-964d-86d58c3debe9",
+      "id": "1000bf99-0e2c-4f34-883c-5b174fcf07ed",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Ban cua ban dā gùi mòt tin nhán dièn tù ngǎn tù dièn thoai cùa ban ây dēn dièn thoai cua ban. Tin nhán chúa các chǔ cái, sö và bieu tuong cám xúc. Ban cúa ban dā sú dung hinh thúc giao tiěp ky thuāt sǒ nào?",
@@ -3664,7 +3664,7 @@
       "images": []
     },
     {
-      "id": "8903cae5-10a2-4e65-a930-41fc0333609b",
+      "id": "638da630-f0bb-4279-bc88-8c04a6b6424f",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Nhi da xày dyng mòt mò hình lóp hoc cúa minh nhu mòt bài tàp vě nhà. Ban ày muǒn dua nó cho anh cúa ban ǎy, nguài söng ó xa. Ban ây muōn chì cho anh ây ndi ban ây ngǎi và nói vói anh ây vě giáo vièn cúa ban ây và ban bè cùa minh. Nhi nèn thě hièn và nói vái anh mình nhung diěu này nhu thě nào?",
@@ -3703,7 +3703,7 @@
       "images": []
     },
     {
-      "id": "4f0aca2d-c5fa-4b2d-a654-a70126efb4ad",
+      "id": "3c820946-3cf7-4879-be26-a34435b99d32",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Lòi chào nào duói dày sě thích hop nhat khi hoc sinh gùi Email cho nguài ban thàn nhat cùa ho? Chào! Thě nào roi? (Hey! How's it going?)",
@@ -3730,7 +3730,7 @@
       "images": []
     },
     {
-      "id": "d41539fe-ebca-4422-b2ff-ba313cb64a0f",
+      "id": "f2ddd8cb-811c-453d-985c-359441708f72",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Hinh thúc giao tiēp ky thuàt sō hièu quà nhǎt dē lièn hè vǎi bò phàn hō tro khách hàng và dět càu hòi là gì?",
@@ -3763,7 +3763,7 @@
       "images": []
     },
     {
-      "id": "230d74c9-018a-4ad4-89f8-d2cbe82c861e",
+      "id": "e3a18259-eeb5-47e0-957c-0e543ef2469b",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Tùy chon nào sau dày là nhüng thành phän cd ban cúa thu dièn tú? Chon Có něu là thành phan có trong thu dièn túù và Khòng něu khòng phài.",
@@ -3785,7 +3785,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "e0671009-c73c-44de-a0c5-b289d2d2e59d",
+      "id": "ad035f9a-8917-4fda-bf5a-c2963b15c65a",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Ban dang nói chuyèn vái ban bè trèn thiět bi ky thuàt so cùa minh. Vói sy trd giúp cua 'Camera tích hop, ban có the chú dòng nhìn thay ban bè cúa mình và ban bè cúa ban có thě nhìn thày ban. Ban và ban bè cúa ban dang sú' dung hình thúc giao tiěp ky thuàt sö nào?",
@@ -3824,7 +3824,7 @@
       "images": []
     },
     {
-      "id": "e7f50f1d-7368-4b0f-b92b-a379372be495",
+      "id": "67dd24b4-47d9-473b-8864-0a5d1502ae76",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Mòt sǒ ví du vě truyěn thòng ky thuàt sō (Digital Communication) là gi? (Chon 2)",
@@ -3857,7 +3857,7 @@
       "images": []
     },
     {
-      "id": "9c65eb8d-5b8f-46cb-826c-fe8bf43572b3",
+      "id": "1af0a9ec-70da-47f9-a08b-4b220ed20f63",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Bạn là đội trưởng của đội bóng đá. Bạn cần thay mặt đội bóng hỏi huấn luyện viên của mình một câu hỏi khẩn cấp. Bạn nên đặt URGENT ở đâu để đảm bảo rằng huấn luyện viên của bạn nhận được thông báo và mở Email một cách nhanh chóng?",
@@ -3896,7 +3896,7 @@
       "images": []
     },
     {
-      "id": "574418fe-e733-418f-be99-0b1e6fdca404",
+      "id": "ef85d865-5efd-40ee-9aa5-d1ea421db224",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Lài chào nào sau dày sē thich hop nhat khi hoc sinh gùi Email cho giáo vièn/giàng vièn? Chào! Thě nào röi? (Hey! How's it going?)",
@@ -3923,7 +3923,7 @@
       "images": []
     },
     {
-      "id": "6a2ead58-bc0a-4aa4-b761-5a33b02349ce",
+      "id": "9256c723-a2f0-4e17-951f-1161f8bd6d30",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Nhi dang gǎp ban mình sau già hoc dě hoc nhóm. Vào cuǎi giò hoc, giáo vién cúa Nhi yèu cäu ban ày ā lai vài phút dě giúp don dep bàn hoc. Nhi sē đěn muòn de gǎp ban mình. Cách nhanh nhät de Nhi nói vói ban minh ràng ban ây sē děn muòn vài phút là gì?",
@@ -3962,7 +3962,7 @@
       "images": []
     },
     {
-      "id": "6510abd0-cd4b-4369-b491-a1cf793a2768",
+      "id": "aa069eb5-dcfc-4e6d-9d68-eccffbad0854",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Rian dang gúi cho cò mot Email. Ban äy biět có nǎm phan quan trong can dua Email. Em hāy cho biět lài chào là vi trí nào?",
@@ -4007,7 +4007,7 @@
       "images": []
     },
     {
-      "id": "32a741d7-b1b7-4f07-a07c-815bf4b192c9",
+      "id": "3faea2fb-2fd2-4a5f-b168-adba327c7f33",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Hǎy ghép nōi vói tùng phuong pháp giao tiēp ki thuàt sǒ vói tinh huōng thích hop nhat.",
@@ -4052,7 +4052,7 @@
       "images": []
     },
     {
-      "id": "704697f4-92df-42c8-bb1b-9a137298043c",
+      "id": "b26be285-4edc-452c-8fc1-f83f7cb231d7",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Ban hāy cho biět, diěu gì sau dày là mòt loi thě cùa vièc sù dung Email thay vi tin nhǎn túc thòi?",
@@ -4091,7 +4091,7 @@
       "images": []
     },
     {
-      "id": "ea52d96b-949a-41fe-9ccb-c01f51990730",
+      "id": "9d219d22-d2e9-48f5-9696-97e1689fb04e",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "Ban cǎn gùi mòt Email cho giáo vièn cùa ban. Ban nèn dǎt dia chi Email cúa giáo vièn ö dàu?",
@@ -4128,7 +4128,7 @@
       ]
     },
     {
-      "id": "7baa39fd-06f2-47af-b88a-d9584cd41c95",
+      "id": "6de8d98f-6be9-4bde-9170-cdc3647a191e",
       "topic": "topic-5",
       "testId": "test-1",
       "prompt": "An cǎn gùi Email càm on děn giáo vièn cùa mình nhung ban ǎy khòng biēt nèn sù dung phòng chū nào. Phòng chū nào thich hop nhat cho thòng báo này? DEAR MISS DUNG",
@@ -4167,7 +4167,7 @@
       "images": []
     },
     {
-      "id": "89a6fbfa-162f-49c8-a5da-a7efc83f40be",
+      "id": "13d8e1fb-cb54-4ded-8bbc-232a9eac9f96",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Ban nhàn duoc mòt Email tù ci'a hàng yèu thich cúa mình nói ràng ban da giành dugc 1000 Dò-la. Ban có thě nhàp thòng tin cua minh vào bieu mǎu truc tuyěn dě nhàn tiěn. Diěu gi sě khiěn ban quan tàm vě Email này?",
@@ -4206,7 +4206,7 @@
       "images": []
     },
     {
-      "id": "6085e5ca-8260-4469-9891-f801f7de6975",
+      "id": "1fb7bbe3-bc7b-44e1-be0a-90cd06a6b733",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Ban nèn làm gì něu ban bi nguài la có hành vi truc tuyěn khòng phù hop?",
@@ -4245,7 +4245,7 @@
       "images": []
     },
     {
-      "id": "eec53c71-14ab-4844-9a89-32554e132847",
+      "id": "6374e1a4-c5ae-4e46-9a63-ff012f5e937f",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Ban dang truy càp Internet và cùa so hiěn thi bèn duoi bàt lèn. Ban cǎn quyět dinh nhung gì ban có the làm mòt cách an toàn. Dǎi vói mōi hành dòng, hay chon có něu ban nèn làm diěu dó hoǎc Khòng něu ban khòng nèn làm diěu dó.",
@@ -4267,7 +4267,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "0e7cb52e-906b-42c7-9296-686a0c88e120",
+      "id": "bc92c20c-7752-4624-b82c-8976bd6c1a08",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Đối với mỗi mật khẩu, hãy chọn Mạnh nếu mật khẩu mạnh hoặc Yếu nếu mật khẩu yếu.",
@@ -4301,7 +4301,7 @@
       "yesNoMode": "manh-yeu"
     },
     {
-      "id": "0d74fb48-f7d2-4ad7-898f-590fca515417",
+      "id": "d19044cc-4dc0-4c4e-9216-7191829c496a",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Hoc sinh mói can tao mòt trang Web vói mat khau là orange mà truòng hoc cúa ban sù dung đe quàn ly bài tàp vě nhà. Ho yèu cäu ban cung càp' các meo màt khàu. Ban nèn' nói gì vói ho?",
@@ -4340,7 +4340,7 @@
       "images": []
     },
     {
-      "id": "2c62b4af-66a4-4fd2-a96b-47b3be3a9a2d",
+      "id": "52fb9260-c087-47a8-9cf7-a845736b10f6",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Thuàt ngǔ cho thòi gian ban dành dě làm nhǔng vièc nhu:   \nXem mòt chuong trinh truyěn hinh vói gia dinh cua ban. Chdi trò chdi diēn tú trèn bang diěu khiēn. Güi tin nhán vǎn ban tù dièn thoai thòng minh.   \nNghièn cúu mòt cái gì dó trèn máy tính.",
@@ -4379,7 +4379,7 @@
       "images": []
     },
     {
-      "id": "91ee7a5d-155f-4fe5-bfd3-eaa11970fadd",
+      "id": "665d266f-a398-4a23-a860-84e493dbdc27",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Thòng tin cá nhan nào ban KHònG nèn chia sé tru'c tuyěn?",
@@ -4418,7 +4418,7 @@
       "images": []
     },
     {
-      "id": "56e4bec9-9948-48a2-b289-2f16b2993928",
+      "id": "368a06ff-ffb3-40f2-b625-22e0e5c57ad6",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Ban có màt máy tính, mòt màn hinh và mot bàn phím trong phòng cùa ban. Tai sao ban nèn che bàn phim khi ban khòng sú dung nó?",
@@ -4457,7 +4457,7 @@
       "images": []
     },
     {
-      "id": "bf59e041-5c75-4859-bdbf-e8d1355d43f6",
+      "id": "bc3de828-6a34-40b4-a3cd-e3ef0e42b341",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Nhóm nào thích hop cho ban bè truc tuyěn?",
@@ -4490,7 +4490,7 @@
       "images": []
     },
     {
-      "id": "ec121cb7-c9fd-4bc9-b9a9-fbc0098a2080",
+      "id": "c4661d1d-e773-4bb2-966c-6904ed6566be",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Lung me ban dau khi bà ngǒi vào bàn làm vièc dē sù dung máy tính. Me yèu cǎu ban cho lài khuyèn vě cách có tu thě tot. Ban nèn nói gì vái me?",
@@ -4529,7 +4529,7 @@
       "images": []
     },
     {
-      "id": "7ccde801-47be-4ea6-83b4-aa193c065fec",
+      "id": "80acbb34-e807-4827-b5ec-0c869948db6f",
       "topic": "topic-6",
       "testId": "test-1",
       "prompt": "Ai dó ban gǎp truc tuyěn, yèu cäu ban cung càp tèn và dia chi cua ban dē ho güi cho ban lài mài du tièc sinh nhàt. Ban nēn làm gì?",
@@ -4568,7 +4568,7 @@
       "images": []
     },
     {
-      "id": "ae2148d2-5c48-4d3f-93da-340b05da8f53",
+      "id": "818aab50-e9d2-4b03-8f22-0f97c3b82d5a",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Tùy chon nào sau dày là phù hop yói còng thái hoc? Chon có něu dáp án dúng và khòng něu dáp án sai.",
@@ -4590,7 +4590,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "42dbbc1c-cf3f-45cd-b279-24304885258f",
+      "id": "a1c3b2c3-633f-4744-ad12-7a36d5d90b75",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Tùy chon nào sau dày là phù hop giúp bào màt ki thuàt sǒ? chon có nēu dáp án dúng và khōng nēu dáp án sai.",
@@ -4612,7 +4612,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "4a571463-ced1-4308-82e9-90cafa87be21",
+      "id": "269c5c6e-c519-4e8d-ba68-7cb5457ffa03",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Vi trí nào sau dày là ndi tot nhat dē sac Pin dièn thoai thòng minh?",
@@ -4645,7 +4645,7 @@
       "images": []
     },
     {
-      "id": "748f6f2e-c9bf-4e00-bf76-8e689c800a3d",
+      "id": "7998b872-9379-4b8d-8646-b7e03e9af608",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Ban nhàn duoc Email tù mòt nguòi gùi khòng xác dinh nói ràng ban dā giành duoc giài thuòng và yèu cǎu ban trà lài kèm theo tèn, dia chi và sö diēn thoai cua ban. Diěu an toàn nhat de làm tiěp theo là gi?",
@@ -4678,7 +4678,7 @@
       "images": []
     },
     {
-      "id": "04be8ea4-7677-4e8f-a726-ee349a43c993",
+      "id": "cbcd410f-9d48-4781-9413-a30a90f40b0a",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Ghép mǒi thuàt ngü vài dinh nghia dúng.",
@@ -4741,7 +4741,7 @@
       "images": []
     },
     {
-      "id": "3ff980cd-fcb3-447f-8716-645ac1f7adec",
+      "id": "58afc020-d9bd-4555-8885-20ef5a91afe9",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Mat khau an toàn là gì?",
@@ -4774,7 +4774,7 @@
       "images": []
     },
     {
-      "id": "f1c29f25-9bb1-4e89-af0f-65d335f1a993",
+      "id": "546e8986-bc35-49b2-a892-811546280d95",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Ban gǎp mot ngudi trong phòng trò chuyèn chdi Game tryc tuyěn. Ho yèu cǎu ban cung càp dia chi nhà cua ban. Ban nèn kět luàn diěu gì tù yèu cäu cua ho?",
@@ -4813,7 +4813,7 @@
       "images": []
     },
     {
-      "id": "58f2cf68-265e-418c-82a0-c98c0957ad15",
+      "id": "56f978fc-25cb-4c77-89c7-b2139723935c",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Bat nat truc tuyěn (Cyberbullying) là gì?",
@@ -4846,7 +4846,7 @@
       "images": []
     },
     {
-      "id": "d7b3397e-d1fd-4798-92fa-56863f7b6b1a",
+      "id": "f340b0d0-f3b0-497b-918f-17ca99d2b1f1",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Tùy chon nào sau dày là phù hop đě trò thành mòt nguòi ban tru'c tuyěn?",
@@ -4879,7 +4879,7 @@
       "images": []
     },
     {
-      "id": "14acb26f-3b52-4b57-9e78-28c9e93611d8",
+      "id": "49a77956-1ffd-469a-932c-eef27dd2de45",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "ví du vě mòt nguài ban truc tuyěn thích hop là gì?",
@@ -4912,7 +4912,7 @@
       "images": []
     },
     {
-      "id": "dd83f5f2-acd4-47b5-80a5-f5053324d30a",
+      "id": "9563cf8e-2581-4351-b42f-43f154e8d4f9",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Thòng tin nào KHONG nèn dudc chia sé truc tuyěn? (Chon 3)",
@@ -4951,7 +4951,7 @@
       "images": []
     },
     {
-      "id": "0d935588-89c2-43de-88d0-5fab46bae7c3",
+      "id": "ba7fe5b9-7b5d-44c8-a76c-a13c385a3fe5",
       "topic": "topic-6",
       "testId": "test-2",
       "prompt": "Nhǔng yěu tō nào sau dày làm cho thiět bi có thě bi hòng? (Chon 3)",
@@ -4990,7 +4990,7 @@
       "images": []
     },
     {
-      "id": "04bca49a-e427-4b04-b780-8c1a50c5467e",
+      "id": "57cc5345-c944-4a3d-883a-a3444c02de72",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Muc tièu là gì?",
@@ -5029,7 +5029,7 @@
       "images": []
     },
     {
-      "id": "18254384-7a2e-41df-aee5-4e14acfd2890",
+      "id": "93037c7b-80cf-491e-a14f-7798af10d9a6",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Nhǔng ví du nào duói dày là các y kiěn? Chon có hoǎc Khòng cho mòi vi du.",
@@ -5051,7 +5051,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "7e02cea8-22aa-4e58-ab74-c93175817b3e",
+      "id": "022145ca-67a3-4932-a07d-9398425f6064",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Muc dich cua su còng tác (Collaboration) là gìi?",
@@ -5090,7 +5090,7 @@
       "images": []
     },
     {
-      "id": "c87fd8f4-dd97-4a16-a1db-6db97976647f",
+      "id": "bce5192d-03ca-4aa1-a187-1a40477e54d6",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Hoat dòng nào là mòt ví dy vě su hop tác? Tùy chon nào sau day là mot thành phǎn quan trong cúa còng tác kǐ thuat so (Digital Collaboration)?",
@@ -5147,7 +5147,7 @@
       "images": []
     },
     {
-      "id": "717bd167-a143-4734-9389-0e019ce12987",
+      "id": "53b1f2fa-9a26-4dfa-b54e-57fdde270b6c",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Tùy chon nào duói dày khòng phài là muc tièu cua su còng tác? (Chon 2)",
@@ -5186,7 +5186,7 @@
       "images": []
     },
     {
-      "id": "96e7870a-7573-432e-a771-793bc4e7a920",
+      "id": "247c5e69-bd5c-4804-afab-70b0d3263015",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Muc tiéu cúa su còng tác (Collaboration) là gì? Chon có hoǎc Khòng.",
@@ -5208,7 +5208,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "d5dfcf90-0845-48d4-8475-240041c37722",
+      "id": "97a8899b-6097-40eb-8f6c-6fceef7924fd",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Trong các ví du sau, ví du nào là nhǔǐng ví du vě su thàt (Facts)? Chon có hoǎc Khòng cho mōi ví du da cho bèn duái.",
@@ -5230,7 +5230,7 @@
       "yesNoMode": "co-khong"
     },
     {
-      "id": "c90d314e-1de1-499f-a08f-d22fb4840782",
+      "id": "cff499d3-5dc1-4650-b314-d7e1b4f3cefc",
       "topic": "topic-extended",
       "testId": "test-1",
       "prompt": "Ban và hai nguài ban cùng lóp dang làm vièc cùng nhau trong màt du án. Nhiēm vu cúa ban là tao ra màt áp phích vǎi thòng tin vě cá mâp. Ban sě in ra nhüng búc ânh cua cá màp. Mòt nguài ban sě mua bang áp phích và diēm dánh dàu và nguài kia sě iãp ráp áp phích.",

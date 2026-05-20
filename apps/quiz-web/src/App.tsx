@@ -60,11 +60,8 @@ function questionKey(q: QuizQuestion): string {
 async function loadAllBanks(): Promise<QuizQuestion[]> {
   const merged = new Map<string, QuizQuestion>();
 
-  const urls = [
-    "/questions.json",
-    "/questions-merged.json",
-    "/quiz-visual/questions.json",
-  ];
+  /** merged = rebuild + curated; visual ghi đè cùng khóa nếu mới hơn. */
+  const urls = ["/questions-merged.json", "/quiz-visual/questions.json"];
 
   for (const url of urls) {
     try {
@@ -163,9 +160,16 @@ export default function App() {
 
   );
 
-  /** Đề thi thử: luôn dùng toàn ngân hàng, không lọc "chỉ câu có hình". */
+  /** Đề thi thử: câu chấm được (có đáp án đúng), không lọc hình. */
   const examPool = useMemo(() => getPlayableQuestions(bank), [bank]);
   const examSize = Math.min(PRACTICE_EXAM_SIZE, examPool.length);
+  const examTopicCounts = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const q of examPool) {
+      m.set(q.topic, (m.get(q.topic) ?? 0) + 1);
+    }
+    return m;
+  }, [examPool]);
 
 
 
@@ -189,7 +193,7 @@ export default function App() {
   }, []);
 
   const startQuiz = useCallback(() => {
-    const qs = filterQuestions(filteredBank, {
+    const qs = filterQuestions(getPlayableQuestions(filteredBank), {
       topic: topic || undefined,
       testId: testId || undefined,
       limit,
@@ -207,12 +211,20 @@ export default function App() {
       balanceTopics: true,
       shuffle: true,
     });
+    if (qs.length === 0) return;
     setExamMode("mixed45");
     setQuestions(qs);
     resetQuizState();
     setPhase("quiz");
     setAppTab("quiz");
   }, [examPool, resetQuizState]);
+
+  const backToSetup = useCallback(() => {
+    setPhase("setup");
+    setExamMode("custom");
+    setQuestions([]);
+    resetQuizState();
+  }, [resetQuizState]);
 
 
 
@@ -433,15 +445,26 @@ export default function App() {
         <section className="setup card">
 
           <div className="practice-exam-hero">
-            <h2>Thi thử {PRACTICE_EXAM_SIZE} câu</h2>
+            <h2>Thi thử IC3 — {PRACTICE_EXAM_SIZE} câu</h2>
             <p>
-              Trộn ngẫu nhiên tối đa {PRACTICE_EXAM_SIZE} câu từ toàn bộ ngân hàng (
-              {examPool.length} câu làm được), đều 7 chủ đề — không áp dụng lọc
-              &quot;chỉ câu có hình&quot;.
+              Ngân hàng <strong>{bank.length}</strong> câu ·{" "}
+              <strong>{examPool.length}</strong> câu đủ điều kiện thi (có đáp án
+              đúng). Đề trộn ngẫu nhiên, cân đều 7 chủ đề — single/multiple theo
+              tick xanh PDF.
             </p>
+            <ul className="exam-topic-list">
+              {[...examTopicCounts.entries()]
+                .sort(([a], [b]) => a.localeCompare(b))
+                .map(([t, n]) => (
+                  <li key={t}>
+                    {TOPIC_LABELS[t] ?? t}: {n} câu
+                  </li>
+                ))}
+            </ul>
             {examPool.length < PRACTICE_EXAM_SIZE && (
               <p className="exam-pool-warn">
-                Hiện chỉ có {examPool.length} câu đủ điều kiện; đề thi sẽ gồm {examSize} câu.
+                Hiện chỉ có {examPool.length} câu chấm được; đề thi sẽ gồm{" "}
+                {examSize} câu.
               </p>
             )}
             <button
@@ -784,7 +807,7 @@ export default function App() {
 
               className="btn btn-primary"
 
-              onClick={() => setPhase("setup")}
+              onClick={backToSetup}
 
             >
 

@@ -648,6 +648,24 @@ def classify_type(prompt: str) -> str:
     return "single"
 
 
+def cap_correct_by_prompt(prompt: str, options: list[dict]) -> None:
+    """Đề ghi Chọn 2/3: giới hạn số tick nếu detector đọc thừa."""
+    correct_idx = [i for i, o in enumerate(options) if o.get("isCorrect")]
+    if not correct_idx:
+        return
+    p = normalize_vn(prompt)
+    if CHON2_RE.search(p) and len(correct_idx) > 2:
+        keep = correct_idx[:2]
+    elif CHON3_RE.search(p) and len(correct_idx) > 3:
+        keep = correct_idx[:3]
+    else:
+        return
+    for o in options:
+        o["isCorrect"] = False
+    for i in keep:
+        options[i]["isCorrect"] = True
+
+
 def infer_mc_type(qtype: str, prompt: str, options: list[dict]) -> str:
     """
     Loại câu sau khi đã gắn tick xanh / curated:
@@ -977,6 +995,7 @@ def build_question(
                 options[i]["isCorrect"] = True
 
     if qtype not in ("yesno", "matching") and options:
+        cap_correct_by_prompt(prompt, options)
         qtype = infer_mc_type(qtype, prompt, options)
 
     if qtype == "single" and len(options) < 2:

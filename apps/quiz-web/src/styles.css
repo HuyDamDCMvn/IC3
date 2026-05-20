@@ -131,6 +131,19 @@ body {
   line-height: 1.45;
 }
 
+.exam-topic-list {
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.25rem;
+  font-size: 0.82rem;
+  color: var(--pdf-muted);
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+.exam-topic-list li {
+  margin-bottom: 0.2rem;
+}
+
 .exam-pool-warn {
   margin: -0.5rem 0 1rem;
   font-size: 0.88rem;

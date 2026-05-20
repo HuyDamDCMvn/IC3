@@ -1,5 +1,6 @@
 import { gradeAnswer, getCorrectOptionIds } from "./answerKey.js";
-import { isYesNoQuestion } from "./yesno.js";
+import { getMatchingData, isMatchingQuestion } from "./matching.js";
+import { getYesNoStatements, isYesNoQuestion } from "./yesno.js";
 import type {
   QuestionBank,
   QuizQuestion,
@@ -69,16 +70,32 @@ export function loadQuestionBank(data: QuestionBank): QuizQuestion[] {
     );
 }
 
-/** Câu đủ điều kiện làm bài (có đáp án hoặc loại đặc biệt). */
+/** Câu đủ điều kiện chấm điểm (có đáp án đúng hoặc dữ liệu ghép/Có-Không hợp lệ). */
+export function isGradableQuestion(q: QuizQuestion): boolean {
+  const prompt = q.prompt?.trim();
+  if (!prompt) return false;
+
+  if (isMatchingQuestion(q)) {
+    const m = getMatchingData(q);
+    return Boolean(
+      m &&
+        m.definitions.length > 0 &&
+        m.terms.length > 0 &&
+        Object.keys(m.correctMap).length > 0
+    );
+  }
+
+  if (isYesNoQuestion(q)) {
+    return getYesNoStatements(q).length > 0;
+  }
+
+  if (q.options.length < 2) return false;
+  return q.options.some((o) => o.isCorrect);
+}
+
+/** Câu đủ điều kiện làm bài / đưa vào đề thi thử. */
 export function getPlayableQuestions(questions: QuizQuestion[]): QuizQuestion[] {
-  return questions.filter(
-    (q) =>
-      q.prompt?.trim() &&
-      (q.type === "matching" ||
-        q.matching ||
-        isYesNoQuestion(q) ||
-        q.options.length >= 1)
-  );
+  return questions.filter(isGradableQuestion);
 }
 
 export interface MixedExamOptions {

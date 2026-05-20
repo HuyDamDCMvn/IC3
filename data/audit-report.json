@@ -1,7 +1,7 @@
 [
   {
     "key": "topic-1|test-1|3",
-    "id": "1e807d95-254b-4f31-b989-d82c358d388c",
+    "id": "f4a128e0-55fe-471f-a297-f39bb666d06f",
     "type": "multiple",
     "yesNoMode": null,
     "prompt": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi? (Chon 2)",
@@ -13,7 +13,7 @@
   },
   {
     "key": "topic-1|test-1|11",
-    "id": "21fb61fd-3e94-4d3c-962c-6f0e52ba1421",
+    "id": "aead5e76-ddb7-4053-89c9-6797b7325747",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Di chuyěn tùng dinh nghia tù danh sách bèn trái sang thuàt ngü mà nó xác dinh o bèn phai.",
@@ -25,7 +25,7 @@
   },
   {
     "key": "topic-1|test-1|13",
-    "id": "b39f5341-efdd-400e-b296-95a1c71b1375",
+    "id": "56c607c4-a4f7-427e-b172-6f591618959a",
     "type": "single",
     "yesNoMode": null,
     "prompt": "Ban muōn tìm mòt trò choi dudc cài dǎt trèn máy tính cùa minh. Trèn thanh tác vu dudc hiēn thi, ban nèn nhap vào dàu dē ",
@@ -37,7 +37,7 @@
   },
   {
     "key": "topic-1|test-2|7",
-    "id": "0076e5c2-59b7-49e9-83da-4b826f4bf7f3",
+    "id": "6eacda32-e045-4333-80d8-578a60b34d50",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Kéo tùng thuàt ngü vào dinh nghia phù hgp. Dě trà lài, häy chuyěn tǔng thuàt ngü tù danh sách bèn phái sang dinh nghia c",
@@ -49,7 +49,7 @@
   },
   {
     "key": "topic-1|test-2|14",
-    "id": "7a703e77-ebc4-4a81-ab42-67c8a6f7b4b4",
+    "id": "65ddc5b3-d4fc-4db3-8407-cb9c1446cea0",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng. Dě trà lài, hāy kéo thuat ngǔ' tù danh sách bèn phài sang dinh nghia cua nó ó bè",
@@ -61,19 +61,19 @@
   },
   {
     "key": "topic-2|test-1|6",
-    "id": "1c0b4e44-f678-4cd5-959c-84f337782556",
-    "type": "multiple",
+    "id": "114f1b07-5957-4c59-afff-7d682d80e22d",
+    "type": "single",
     "yesNoMode": null,
     "prompt": "Diěu nào sau dày là mòt phän cúa dàu ân ky thuàt sö (Digital Footprint) cua ban? (Chon 2)",
     "options": 4,
     "correct": 1,
     "issues": [
-      "chon2_wrong_count_1"
+      "chon2_not_multiple"
     ]
   },
   {
     "key": "topic-2|test-1|10",
-    "id": "1d69139b-a8f0-4c58-b4e1-e06a1dd916d1",
+    "id": "919fe6b5-6f90-4f84-b01f-d15b6036a48e",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
@@ -85,7 +85,7 @@
   },
   {
     "key": "topic-3|test-1|2",
-    "id": "e440b90a-9dd0-4aa5-bd8f-cc629f677e07",
+    "id": "1eb68356-a62a-4e02-a1ef-bd828118e40a",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Di chuyen tùng thuàt ngü tù danh sách bèn trái sang dinh nghia cùa nó ø bèn phài.\"",
@@ -97,7 +97,7 @@
   },
   {
     "key": "topic-3|test-1|7",
-    "id": "cd4afbf1-58b1-4b6b-8860-5b9cd082e8bc",
+    "id": "60c9955c-e668-4fce-9e18-569beae8ff5b",
     "type": "multiple",
     "yesNoMode": null,
     "prompt": "",
@@ -109,7 +109,7 @@
   },
   {
     "key": "topic-3|test-1|10",
-    "id": "a88f2b2b-ac73-40f7-b353-a5ec642e32fc",
+    "id": "886887c1-14ca-44c0-bcd5-3276cf8d3475",
     "type": "multiple",
     "yesNoMode": null,
     "prompt": "Nhǔng thành phǎn nào sau dày thuòc giao dièn cùa trình duyèt Web? (Chon 3)",
@@ -121,19 +121,19 @@
   },
   {
     "key": "topic-3|test-1|16",
-    "id": "c89e8f59-24cb-43a9-ab0b-b6d714c7c088",
-    "type": "multiple",
+    "id": "3fcfff0f-f0ce-42eb-88e2-6e22aa962c8d",
+    "type": "single",
     "yesNoMode": null,
     "prompt": "Ban có thē sù dung thòng tin nào dē kiēm tra dà tin cày cùa mòt trang Web? (Chon 3)",
     "options": 4,
     "correct": 1,
     "issues": [
-      "chon3_wrong_count_1"
+      "chon3_not_multiple"
     ]
   },
   {
     "key": "topic-3|test-1|20",
-    "id": "901939c8-7eaa-4fc0-9a03-7e09c5477b99",
+    "id": "f47d3e8e-f9fd-4528-b606-24a98192c94e",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
@@ -145,7 +145,7 @@
   },
   {
     "key": "topic-3|test-1|22",
-    "id": "aac802db-1320-469b-bccd-bcce7d073171",
+    "id": "01441c98-d0ad-4b17-a295-b36aef00b771",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
@@ -157,7 +157,7 @@
   },
   {
     "key": "topic-4|test-1|11",
-    "id": "1639c7a2-2d20-4929-85fe-f7ed374f75ba",
+    "id": "3aeaba4a-99ae-4210-8b31-9691eb242cb2",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Hay ghép tùng thuàt ngǔ vói cách sù' dung thích hop.",
@@ -169,19 +169,19 @@
   },
   {
     "key": "topic-4|test-1|14",
-    "id": "8a7be13b-acac-428b-a03d-dcc317edbe73",
-    "type": "multiple",
+    "id": "7a1ec6ff-d34c-434e-98f4-28aacecff0d6",
+    "type": "single",
     "yesNoMode": null,
     "prompt": "Nhǔng thao tác nào sau dày, ban có thē thyc hièn vói tài lièu vǎn ban (Text Document)? (Chon 2)",
     "options": 3,
     "correct": 1,
     "issues": [
-      "chon2_wrong_count_1"
+      "chon2_not_multiple"
     ]
   },
   {
     "key": "topic-4|test-1|16",
-    "id": "5211e629-2d1a-403a-8ba7-a6ad29b42238",
+    "id": "fdd73e99-9430-4346-ad13-fe6d72d96d55",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Ghép mǒi thuàt ngü vái dinh nghia tuòng úíng.",
@@ -193,7 +193,7 @@
   },
   {
     "key": "topic-5|test-1|4",
-    "id": "5ba6e106-7218-4bb1-b9fd-3d8a07f51682",
+    "id": "6d568cdc-414a-4fc3-bc3e-38a8c37cd80b",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
@@ -205,19 +205,19 @@
   },
   {
     "key": "topic-5|test-1|12",
-    "id": "52970e3f-9ad2-44e4-ad3d-90468242cf81",
-    "type": "multiple",
+    "id": "cc599acb-2f59-4202-bce2-6ecdb64020cb",
+    "type": "single",
     "yesNoMode": null,
     "prompt": "Mòt sǒ ví du vě truyěn thòng ky thuàt sō (Digital Communication) là gi? (Chon 2)",
     "options": 3,
     "correct": 1,
     "issues": [
-      "chon2_wrong_count_1"
+      "chon2_not_multiple"
     ]
   },
   {
     "key": "topic-5|test-1|17",
-    "id": "f02f9f21-40a4-42b2-890d-e9e34d1734a3",
+    "id": "faba37b2-903c-4ec8-bfd2-d5731c73187e",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Hǎy ghép nōi vói tùng phuong pháp giao tiēp ki thuàt sǒ vói tinh huōng thích hop nhat.",
@@ -229,7 +229,7 @@
   },
   {
     "key": "topic-5|test-1|18",
-    "id": "d9c5450d-72be-416f-b6b8-0a29370b4e71",
+    "id": "9a47e7b5-da1b-4d54-bcf0-919eb07e6cc1",
     "type": "single",
     "yesNoMode": null,
     "prompt": "Ban hāy cho biět, diěu gì sau dày là mòt loi thě cùa vièc sù dung Email thay vi tin nhǎn túc thòi?",
@@ -241,7 +241,7 @@
   },
   {
     "key": "topic-6|test-2|8",
-    "id": "226522e6-973b-4b09-9684-b12f67a4d20d",
+    "id": "0778ff7f-8e2f-48b1-ba62-20c686bd262f",
     "type": "matching",
     "yesNoMode": null,
     "prompt": "Ghép mǒi thuàt ngü vài dinh nghia dúng.",
@@ -253,19 +253,19 @@
   },
   {
     "key": "topic-6|test-2|14",
-    "id": "94178613-346f-4588-a01c-464421cc0e49",
-    "type": "multiple",
+    "id": "878e6a5e-8d71-4f6c-8187-c82520a98823",
+    "type": "single",
     "yesNoMode": null,
     "prompt": "Thòng tin nào KHONG nèn dudc chia sé truc tuyěn? (Chon 3)",
     "options": 4,
     "correct": 1,
     "issues": [
-      "chon3_wrong_count_1"
+      "chon3_not_multiple"
     ]
   },
   {
     "key": "topic-6|test-2|15",
-    "id": "79964878-4405-4944-87e4-91a90759e170",
+    "id": "6dce6ad5-fb2b-44f2-8cd8-2722f46ef0c1",
     "type": "multiple",
     "yesNoMode": null,
     "prompt": "Nhǔng yěu tō nào sau dày làm cho thiět bi có thě bi hòng? (Chon 3)",
@@ -277,14 +277,14 @@
   },
   {
     "key": "topic-extended|test-1|9",
-    "id": "14db6fb5-b4a2-47a2-b28a-db95fb296be0",
-    "type": "multiple",
+    "id": "f5049a54-d952-4ed5-a531-b152a7a925fa",
+    "type": "single",
     "yesNoMode": null,
     "prompt": "Tùy chon nào duói dày khòng phài là muc tièu cua su còng tác? (Chon 2)",
     "options": 4,
     "correct": 1,
     "issues": [
-      "chon2_wrong_count_1"
+      "chon2_not_multiple"
     ]
   }
 ]
