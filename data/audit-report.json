@@ -1,22 +1,22 @@
 [
   {
-    "key": "topic-1|test-1|3",
-    "id": "f4a128e0-55fe-471f-a297-f39bb666d06f",
-    "type": "multiple",
+    "key": "topic-3|test-1|2",
+    "id": "0b45839e-7cb7-4d50-9e15-e6019b370656",
+    "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi? (Chon 2)",
-    "options": 5,
-    "correct": 4,
+    "prompt": "Di chuyen từng thuật ngữ từ danh sách bên trái sang định nghĩa của nó ø bên phải.\"",
+    "options": 6,
+    "correct": 0,
     "issues": [
-      "chon2_wrong_count_4"
+      "matching_no_data"
     ]
   },
   {
     "key": "topic-1|test-1|11",
-    "id": "aead5e76-ddb7-4053-89c9-6797b7325747",
+    "id": "99d04cc8-12d3-4f2a-a921-25b31c17f334",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Di chuyěn tùng dinh nghia tù danh sách bèn trái sang thuàt ngü mà nó xác dinh o bèn phai.",
+    "prompt": "Di chuyển từng định nghĩa từ danh sách bên trái sang thuật ngữ mà nó xác định o bên phải.",
     "options": 8,
     "correct": 2,
     "issues": [
@@ -25,10 +25,10 @@
   },
   {
     "key": "topic-1|test-1|13",
-    "id": "56c607c4-a4f7-427e-b172-6f591618959a",
+    "id": "5524503c-cce9-4394-afd5-b3a3cf6287ae",
     "type": "single",
     "yesNoMode": null,
-    "prompt": "Ban muōn tìm mòt trò choi dudc cài dǎt trèn máy tính cùa minh. Trèn thanh tác vu dudc hiēn thi, ban nèn nhap vào dàu dē ",
+    "prompt": "Bạn muốn tìm một trò choi được cài đặt trên máy tính của mình. Trèn thanh tác vu được hiện thị, bạn nên nhap vào dấu để ",
     "options": 0,
     "correct": 0,
     "issues": [
@@ -37,10 +37,10 @@
   },
   {
     "key": "topic-1|test-2|7",
-    "id": "6eacda32-e045-4333-80d8-578a60b34d50",
+    "id": "affa8727-86bb-4157-aba8-40ff565accc1",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Kéo tùng thuàt ngü vào dinh nghia phù hgp. Dě trà lài, häy chuyěn tǔng thuàt ngü tù danh sách bèn phái sang dinh nghia c",
+    "prompt": "Kéo từng thuật ngữ vào định nghĩa phù hợp. Để trà lại, hãy chuyển từng thuật ngữ từ danh sách bên phái sang định nghĩa c",
     "options": 5,
     "correct": 2,
     "issues": [
@@ -49,10 +49,10 @@
   },
   {
     "key": "topic-1|test-2|14",
-    "id": "65ddc5b3-d4fc-4db3-8407-cb9c1446cea0",
+    "id": "ea5bc805-d307-4581-b27d-52c2ca766c5e",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng. Dě trà lài, hāy kéo thuat ngǔ' tù danh sách bèn phài sang dinh nghia cua nó ó bè",
+    "prompt": "Ghép mỗi thuật ngữ với định nghĩa đúng. Để trà lại, hãy kéo thuật ngữ từ danh sách bên phải sang định nghĩa của nó ó bên",
     "options": 5,
     "correct": 3,
     "issues": [
@@ -60,83 +60,35 @@
     ]
   },
   {
-    "key": "topic-2|test-1|6",
-    "id": "114f1b07-5957-4c59-afff-7d682d80e22d",
-    "type": "single",
-    "yesNoMode": null,
-    "prompt": "Diěu nào sau dày là mòt phän cúa dàu ân ky thuàt sö (Digital Footprint) cua ban? (Chon 2)",
-    "options": 4,
-    "correct": 1,
-    "issues": [
-      "chon2_not_multiple"
-    ]
-  },
-  {
     "key": "topic-2|test-1|10",
-    "id": "919fe6b5-6f90-4f84-b01f-d15b6036a48e",
+    "id": "d3579e99-d491-4ab4-b9e1-eabf51373243",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
+    "prompt": "Ghép mỗi thuật ngữ với định nghĩa đúng.",
     "options": 4,
     "correct": 2,
-    "issues": [
-      "matching_no_data"
-    ]
-  },
-  {
-    "key": "topic-3|test-1|2",
-    "id": "1eb68356-a62a-4e02-a1ef-bd828118e40a",
-    "type": "matching",
-    "yesNoMode": null,
-    "prompt": "Di chuyen tùng thuàt ngü tù danh sách bèn trái sang dinh nghia cùa nó ø bèn phài.\"",
-    "options": 6,
-    "correct": 0,
     "issues": [
       "matching_no_data"
     ]
   },
   {
     "key": "topic-3|test-1|7",
-    "id": "60c9955c-e668-4fce-9e18-569beae8ff5b",
+    "id": "d8b0291a-7f8c-425f-a05e-e162af724f52",
     "type": "multiple",
     "yesNoMode": null,
-    "prompt": "",
+    "prompt": "[Câu hỏi bằng hình ảnh - chưa trích xuất được]",
     "options": 3,
-    "correct": 2,
+    "correct": 0,
     "issues": [
-      "missing_prompt"
-    ]
-  },
-  {
-    "key": "topic-3|test-1|10",
-    "id": "886887c1-14ca-44c0-bcd5-3276cf8d3475",
-    "type": "multiple",
-    "yesNoMode": null,
-    "prompt": "Nhǔng thành phǎn nào sau dày thuòc giao dièn cùa trình duyèt Web? (Chon 3)",
-    "options": 6,
-    "correct": 2,
-    "issues": [
-      "chon3_wrong_count_2"
-    ]
-  },
-  {
-    "key": "topic-3|test-1|16",
-    "id": "3fcfff0f-f0ce-42eb-88e2-6e22aa962c8d",
-    "type": "single",
-    "yesNoMode": null,
-    "prompt": "Ban có thē sù dung thòng tin nào dē kiēm tra dà tin cày cùa mòt trang Web? (Chon 3)",
-    "options": 4,
-    "correct": 1,
-    "issues": [
-      "chon3_not_multiple"
+      "no_correct_answer"
     ]
   },
   {
     "key": "topic-3|test-1|20",
-    "id": "f47d3e8e-f9fd-4528-b606-24a98192c94e",
+    "id": "6832d864-deed-4306-83cd-1a2ef36d77fd",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
+    "prompt": "Ghép mỗi thuật ngữ với định nghĩa đúng.",
     "options": 4,
     "correct": 1,
     "issues": [
@@ -145,10 +97,10 @@
   },
   {
     "key": "topic-3|test-1|22",
-    "id": "01441c98-d0ad-4b17-a295-b36aef00b771",
+    "id": "a459c4e9-bd6e-4e80-8e78-3d091ac7f3ff",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
+    "prompt": "Ghép mỗi thuật ngữ vái định nghĩa đúng.",
     "options": 6,
     "correct": 0,
     "issues": [
@@ -157,10 +109,10 @@
   },
   {
     "key": "topic-4|test-1|11",
-    "id": "3aeaba4a-99ae-4210-8b31-9691eb242cb2",
+    "id": "528d96fb-6e1f-414d-a8f6-508ca537a73a",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Hay ghép tùng thuàt ngǔ vói cách sù' dung thích hop.",
+    "prompt": "Hay ghép từng thuật ngữ với cách sử dụng thích hợp.",
     "options": 8,
     "correct": 0,
     "issues": [
@@ -168,23 +120,11 @@
     ]
   },
   {
-    "key": "topic-4|test-1|14",
-    "id": "7a1ec6ff-d34c-434e-98f4-28aacecff0d6",
-    "type": "single",
-    "yesNoMode": null,
-    "prompt": "Nhǔng thao tác nào sau dày, ban có thē thyc hièn vói tài lièu vǎn ban (Text Document)? (Chon 2)",
-    "options": 3,
-    "correct": 1,
-    "issues": [
-      "chon2_not_multiple"
-    ]
-  },
-  {
     "key": "topic-4|test-1|16",
-    "id": "fdd73e99-9430-4346-ad13-fe6d72d96d55",
+    "id": "0f9d42d3-3027-44c3-9ab0-0074794de5d5",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ghép mǒi thuàt ngü vái dinh nghia tuòng úíng.",
+    "prompt": "Ghép mỗi thuật ngữ vái định nghĩa tuòng úíng.",
     "options": 9,
     "correct": 1,
     "issues": [
@@ -193,10 +133,10 @@
   },
   {
     "key": "topic-5|test-1|4",
-    "id": "6d568cdc-414a-4fc3-bc3e-38a8c37cd80b",
+    "id": "332e9cb5-2ffc-494f-b527-f205a3c469db",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
+    "prompt": "Ghép mỗi thuật ngữ vái định nghĩa đúng.",
     "options": 8,
     "correct": 1,
     "issues": [
@@ -204,23 +144,11 @@
     ]
   },
   {
-    "key": "topic-5|test-1|12",
-    "id": "cc599acb-2f59-4202-bce2-6ecdb64020cb",
-    "type": "single",
-    "yesNoMode": null,
-    "prompt": "Mòt sǒ ví du vě truyěn thòng ky thuàt sō (Digital Communication) là gi? (Chon 2)",
-    "options": 3,
-    "correct": 1,
-    "issues": [
-      "chon2_not_multiple"
-    ]
-  },
-  {
     "key": "topic-5|test-1|17",
-    "id": "faba37b2-903c-4ec8-bfd2-d5731c73187e",
+    "id": "3faea2fb-2fd2-4a5f-b168-adba327c7f33",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Hǎy ghép nōi vói tùng phuong pháp giao tiēp ki thuàt sǒ vói tinh huōng thích hop nhat.",
+    "prompt": "Hãy ghép nối với từng phương pháp giao tiếp ki thuật số với tinh hưởng thích hợp nhat.",
     "options": 5,
     "correct": 0,
     "issues": [
@@ -228,63 +156,15 @@
     ]
   },
   {
-    "key": "topic-5|test-1|18",
-    "id": "9a47e7b5-da1b-4d54-bcf0-919eb07e6cc1",
-    "type": "single",
-    "yesNoMode": null,
-    "prompt": "Ban hāy cho biět, diěu gì sau dày là mòt loi thě cùa vièc sù dung Email thay vi tin nhǎn túc thòi?",
-    "options": 4,
-    "correct": 0,
-    "issues": [
-      "no_correct_answer"
-    ]
-  },
-  {
     "key": "topic-6|test-2|8",
-    "id": "0778ff7f-8e2f-48b1-ba62-20c686bd262f",
+    "id": "cbcd410f-9d48-4781-9413-a30a90f40b0a",
     "type": "matching",
     "yesNoMode": null,
-    "prompt": "Ghép mǒi thuàt ngü vài dinh nghia dúng.",
+    "prompt": "Ghép mỗi thuật ngữ vài định nghĩa đúng.",
     "options": 8,
     "correct": 5,
     "issues": [
       "matching_no_data"
-    ]
-  },
-  {
-    "key": "topic-6|test-2|14",
-    "id": "878e6a5e-8d71-4f6c-8187-c82520a98823",
-    "type": "single",
-    "yesNoMode": null,
-    "prompt": "Thòng tin nào KHONG nèn dudc chia sé truc tuyěn? (Chon 3)",
-    "options": 4,
-    "correct": 1,
-    "issues": [
-      "chon3_not_multiple"
-    ]
-  },
-  {
-    "key": "topic-6|test-2|15",
-    "id": "6dce6ad5-fb2b-44f2-8cd8-2722f46ef0c1",
-    "type": "multiple",
-    "yesNoMode": null,
-    "prompt": "Nhǔng yěu tō nào sau dày làm cho thiět bi có thě bi hòng? (Chon 3)",
-    "options": 4,
-    "correct": 2,
-    "issues": [
-      "chon3_wrong_count_2"
-    ]
-  },
-  {
-    "key": "topic-extended|test-1|9",
-    "id": "f5049a54-d952-4ed5-a531-b152a7a925fa",
-    "type": "single",
-    "yesNoMode": null,
-    "prompt": "Tùy chon nào duói dày khòng phài là muc tièu cua su còng tác? (Chon 2)",
-    "options": 4,
-    "correct": 1,
-    "issues": [
-      "chon2_not_multiple"
     ]
   }
 ]

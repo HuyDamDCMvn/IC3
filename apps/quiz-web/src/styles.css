@@ -1121,6 +1121,30 @@ select {
   background: var(--correct);
 }
 
+.option-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #7a8694;
+  border-radius: 3px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.option.selected .option-checkbox {
+  border-color: var(--pdf-header);
+  background: var(--pdf-header);
+}
+
+.option.correct .option-checkbox {
+  border-color: var(--correct);
+  background: var(--correct);
+}
+
+.option.wrong .option-checkbox {
+  border-color: var(--wrong);
+  background: var(--wrong);
+}
+
 .option-image {
   max-width: 100%;
   max-height: 140px;

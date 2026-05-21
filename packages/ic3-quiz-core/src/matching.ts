@@ -6,7 +6,7 @@ const MATCH_HINT =
   /gh[eé]p|n[oố]i\s+m[oỗ]i|kéo.*sang|di chuy[eể]n.*sang|match each/i;
 
 export function isMatchingQuestion(q: QuizQuestion): boolean {
-  if (q.type === "matching" && q.matching) return true;
+  if (q.type === "matching") return true;
   return MATCH_HINT.test(q.prompt) || Boolean(q.matching);
 }
 

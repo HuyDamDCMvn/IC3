@@ -7,7 +7,7 @@
       "id": "aabefd03-4640-4d4c-9d8d-fd053328eb5f",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Ban hāy cho biět, hai thiět bi nào sau dày là thiēt bi ngoai vi? (Chon 2)",
+      "prompt": "Bạn hãy cho biết, hai thiết bị nào sau đây là thiết bị ngoại vi? (Chọn 2)",
       "type": "multiple",
       "imageKind": "B_options_are_images",
       "snapshotUrl": null,
@@ -136,7 +136,7 @@
       "id": "c1e0b988-fec5-4aba-9463-b70abf2dfc27",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Ban thay nhüng bình luàn ác y trong mòt cuòc trò chuyèn trong nhóm truc tuyěn. Mot cong dān tot cùa thǎi dai ky nguyèn sō, ban nēn nói gì?",
+      "prompt": "Bạn thay nhưng bình luận ác y trong một cuộc trò chuyện trong nhóm trực tuyến. Một công dân tốt của thải dai ky nguyèn số, bạn nên nói gì?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -146,25 +146,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Chúng ta chi nèn dǎng nhǔng bình luàn ác y trong mòt cuòc trò chuyèn rièng tu.",
+          "text": "Chúng ta chi nên đăng những bình luận ác y trong một cuộc trò chuyện rièng tu.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Ban có thě dǎng nhǔng bình luàn ác y něu nguài khác khòng nhìn thay chúng.",
+          "text": "Bạn có thể đăng những bình luận ác y nếu người khác không nhìn thay chúng.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Bình luān ác y là khòng gày hai něu chúng bi xóa sau khi nhóm doc chúng.",
+          "text": "Bình luận ác y là không gày hai nếu chúng bị xóa sau khi nhóm doc chúng.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "D",
-          "text": "Nhüng binh luàn này sě truc tuyěn mai mai.",
+          "text": "Nhưng binh luận này sẽ trực tuyến mai mai.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -214,8 +214,8 @@
       "id": "64ab6fc7-f3f9-442c-8dff-55245f3c7128",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Bàng cách sù' dung tiính nǎng Bookmarks/Favorites cúa trinh duyet Web, ban co thě luu gì?",
-      "type": "multiple",
+      "prompt": "Bàng cách sử dụng tính năng Bookmarks/Favorites của trình duyệt Web, bạn có thể lưu gì?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 22,
@@ -236,13 +236,13 @@
         },
         {
           "id": "C",
-          "text": "Cài dät trang Web (Webpage Settings)",
+          "text": "Cài đặt trang Web (Webpage Settings)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Lièn kět trang Web (Webpage Links)",
+          "text": "Lièn kết trang Web (Webpage Links)",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -295,7 +295,7 @@
       "id": "0b45839e-7cb7-4d50-9e15-e6019b370656",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Di chuyen tùng thuàt ngü tù danh sách bèn trái sang dinh nghia cùa nó ø bèn phài.\"",
+      "prompt": "Di chuyen từng thuật ngữ từ danh sách bên trái sang định nghĩa của nó ø bên phải.\"",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -311,31 +311,31 @@
         },
         {
           "id": "B",
-          "text": "2Conc tim kiem (earch",
+          "text": "2Conc tim kiểm (earch",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "3.Trang Web (Web Page)",
+          "text": "3.trang Web (Web Page)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Phän měm ban sù dung dě 2tim moi thu trèn Internet.",
+          "text": "Phän mềm bạn sù dụng để 2tim moi thu trên Internet.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "Phan měm ban sù dung dě 'xem moi thú' tren Internet.",
+          "text": "Phan mềm bạn sù dụng để 'xem moi thú' tren Internet.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "F",
-          "text": "Mot tài liéu vói vǎn bàn và 3hình ành'mà ban nhìn thǎy và doc trén Internet",
+          "text": "Một tài liéu với văn bàn và 3hình ành'mà bạn nhìn thấy và doc trén Internet",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -346,7 +346,7 @@
       "id": "be3b70ae-9c72-49b8-ab45-7e17cb0f6a0a",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Ban nèn sù' dung dinh dang nào dě hiēn thi, anh, bàn do và Video tù ky nghi hè cúa ban cho các ban trong lóp cua ban xem?",
+      "prompt": "Bạn nên sử dụng định dạng nào để hiện thị, anh, bản đồ và Video từ kỳ nghỉ hè của bạn cho các bạn trong lóp của bạn xem?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -356,25 +356,25 @@
       "options": [
         {
           "id": "A",
-          "text": "M∂t áp phích (Poster)",
+          "text": "Một áp phích (Poster)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Mot tài lièu (Document)",
+          "text": "Một tài liệu (Document)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Mot bài trinh chieu (Slide Presentation)",
+          "text": "Một bài trình chiếu (Slide Presentation)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "M∂t trang tính (Spreadsheet)",
+          "text": "Một trang tính (Spreadsheet)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -385,7 +385,7 @@
       "id": "0435be42-47e4-4854-be20-79e5c32d4da5",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Doi vói mǎi hành dòng, hāy chon có něu dó là ví du vě dinh dang vǎn bàn hoǎc khòng nēu khòng phài.",
+      "prompt": "Đối với mãi hành động, hãy chọn có nếu đó là ví du về định dạng văn bàn hoặc không nếu không phải.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -395,7 +395,7 @@
       "options": [
         {
           "id": "A",
-          "text": "In dàm vǎn bàn. có xóa mòt phǎn cúa doan vǎn bàn. Thay doi kích co và màu sǎc cùa vǎn bàn.",
+          "text": "In dàm văn bàn. có xóa một phần của đoạn văn bàn. Thay đối kích có và màu sắc của văn bàn.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -485,7 +485,7 @@
       "id": "8864fdb7-0ed0-4bfe-9c46-6c7f1f69a6fb",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Noi mǒi tù vái dinh nghia thich hop.",
+      "prompt": "Noi mỗi từ vái định nghĩa thích hợp.",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -495,37 +495,37 @@
       "options": [
         {
           "id": "A",
-          "text": "Mot tin nhǎn dièn tù duoc gui qua 1Internet có the chua vǎn ban, tap tin, hình anh và tàp tin dinh kèm.",
+          "text": "Một tin nhắn điện từ được gui qua 1Internet có the chua văn bạn, tap tin, hình anh và tàp tin định kèm.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Tin nhǎn duoc gùi děn moi nguài khi 2ho dang truc tiēp hoat dong trong mòt ung dung.",
+          "text": "Tin nhắn được gửi đến moi người khi 2ho đang truc tiếp hoạt dong trong một ung dụng.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Giao tiep truc dien, truc quan vi 3nhüng nguòi dùng Internet khác bàng Webcam.",
+          "text": "Giao tiep truc dien, truc quan vi 3nhưng nguòi dùng Internet khác bàng Webcam.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Tin nhán trong úng 2.dung (In-app Message)",
+          "text": "tin nhắn trong úng 2.dụng (In-app Message)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "1.Thu diēn tùr (Email)",
+          "text": "1.thư điện tửr (Email)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "F",
-          "text": "3 Trò chuyèn Video (Video Chat)",
+          "text": "3 Trò chuyện Video (Video Chat)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -597,7 +597,7 @@
         },
         {
           "id": "C",
-          "text": "Ban ngày",
+          "text": "Bạn ngày",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -614,7 +614,7 @@
       "id": "84eec8dc-4428-40a1-a91c-71534eaa6990",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Dǎi vái mǒi phát biēu vě vièc vàn chuyěn máy tính xách tay, hāy chon Dúng hoǎc Sai.",
+      "prompt": "Dải vái mỗi phát biểu về việc vàn chuyển máy tính xách tay, hãy chọn Đúng hoặc Sai.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -624,19 +624,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Máy tính xách tay có the duoc giü trong xe mòt cách an toàn.",
+          "text": "Máy tính xách tay có the được giữ trong xe một cách an toàn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Máy tính xách tay duoc vàn chuyěn an toàn trong túi dung máy tính xách tay.",
+          "text": "Máy tính xách tay được vàn chuyển an toàn trong túi dụng máy tính xách tay.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Máy tính xách tay có thē bi hòng něu tiěp xúc vái nhièt dò khác nghièt.",
+          "text": "Máy tính xách tay có thể bị hòng nếu tiếp xúc vái nhièt dò khác nghièt.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -648,7 +648,7 @@
       "id": "a1af0e14-e666-4f65-8eae-ac082e777ff5",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Càn bàng phuong tién (Media Balance) là gi?",
+      "prompt": "Càn bàng phương tién (Media Balance) là gi?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -658,19 +658,19 @@
       "options": [
         {
           "id": "A",
-          "text": "sù' dung phuòng tièn de càm thay khòe manh và càn bang voi các hoat dòng sōng khác.",
+          "text": "sử dụng phuòng tiền de càm thay khòe manh và càn bang voi các hoạt động sống khác.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Bàn trinh chiěu sù dung kēt hop hình ành, vǎn bàn và âm thanh.",
+          "text": "Bàn trình chiếu sù dụng kết hợp hình ành, văn bàn và âm thanh.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Dành tat cà thòi gian rành trén dién thoai thòng minh cùa ban.",
+          "text": "Dành tat cà thời gian rành trén dién thoại thòng mình của bạn.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -681,7 +681,7 @@
       "id": "247fd3c1-cc1f-49cc-9cc3-705a07e2548d",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Cách nào sau dày là an toàn nhat dě sac thiět bi di dòng?",
+      "prompt": "Cách nào sau đây là an toàn nhat để sac thiết bị di động?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -691,19 +691,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Dǎt ò noi an toàn gǎn o cǎm và cǎm cáp sac di kèm vói thiet bi.",
+          "text": "Đặt ò noi an toàn gần o cảm và cảm cáp sac di kèm với thiết bị.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Dǎt thiět bi di dòng bèn ngoài trong ngày và sac nó duái ánh nǎng truc tiēp.",
+          "text": "Đặt thiết bị di động bên ngoài trong ngày và sac nó duái ánh năng truc tiếp.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Dǎt thiet bi trèn sàn và cǎm cáp sac cùa mòt thiet bi khác.",
+          "text": "Đặt thiết bị trên sàn và cảm cáp sac của một thiết bị khác.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -753,7 +753,7 @@
       "id": "e51b927b-2fbd-4cc6-95a6-2df23c0be87f",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Ban dang nghièn cúu tryc tuyěn cho mòt bài tàp vě dai duong. Giáo vièn cúa ban da huóng dǎn ban bao gǒm it nhàt ba sy kiēn và khòng có y kiēn. Tùy chon nào sau day là mòt y kiěn?",
+      "prompt": "Bạn đang nghiên cúu trực tuyến cho một bài tàp về dai đường. giáo viên của bạn da huóng đẫn bạn bao gồm it nhàt ba sy kiến và không có y kiến. Tùy chọn nào sau day là một y kiến?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -763,25 +763,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Cá sōng trong dai duong.",
+          "text": "Cá sống trong dai đường.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Dai duong toi tǎm và dáng so.",
+          "text": "Dai đường toi tắm và dáng so.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Dai duong luòn chuyěn dòng.",
+          "text": "Dai đường luòn chuyển động.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Nhieu loai dōng vàt song trong dai duong.",
+          "text": "Nhieu loai đồng vàt song trong dai đường.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -825,7 +825,7 @@
       "id": "008c24a6-e822-42e9-a1c9-c4e22edb6b62",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Doi vói mǒi phát biēu vě muc tièu còng tác, ban hāy chon Dúng hoǎc Sai.",
+      "prompt": "Đối với mỗi phát biểu về mục tiêu công tác, bạn hãy chọn Đúng hoặc Sai.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -835,19 +835,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Hoc sinh hoc hòi tù y tuàng cúa nguài khác.",
+          "text": "học sinh học hội từ y tuàng của người khác.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Hoc sinh hoc cách giao tiěp vái nguài khác.",
+          "text": "học sinh học cách giao tiếp vái người khác.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Hoc sinh hoc dudc rang cách tot nhat de làm vièc là làm viéc mòt minh.",
+          "text": "học sinh học được rang cách tốt nhat de làm việc là làm viéc một mình.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -859,7 +859,7 @@
       "id": "fd054922-27fd-44ba-a8a2-d77b450b8111",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "bàn có thě sù dung loai thiět bi nào dě kět nǎi Internet?",
+      "prompt": "bàn có thể sù dụng loai thiết bị nào để kết nại Internet?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -869,25 +869,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Thiet bi Wifi",
+          "text": "thiết bị Wifi",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "MOt thiět bi hien thi",
+          "text": "MOt thiết bị hien thị",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Mòt thiět bi da phuong tièn",
+          "text": "Mòt thiết bị da phương tiền",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "MOt thiet bi luu tru",
+          "text": "MOt thiết bị lưu tru",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -898,7 +898,7 @@
       "id": "0ef12e93-d542-4be7-9aab-d41aa04ee46d",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Ban hāy cho biēt, hình ành nào sau dày là hình ành cùa mòt chiec Laptop?",
+      "prompt": "Bạn hãy cho biệt, hình ành nào sau đây là hình ành của một chiec Laptop?",
       "type": "multiple",
       "imageKind": "B_options_are_images",
       "snapshotUrl": null,
@@ -942,7 +942,7 @@
       "id": "f4a7f0f0-ba5d-4e3b-b305-16114c24d68f",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Ban hǎy cho biět, phǎn měm nào duái dày là phǎn měm úíng dung?",
+      "prompt": "Bạn hãy cho biết, phần mềm nào duái đây là phần mềm úíng dụng?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -981,8 +981,8 @@
       "id": "96e1a410-74a4-4adb-8a73-65c786a22850",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Ban hāy cho biět phǎn měm nào sau dày là hè diěu hành? Microsoft Windows",
-      "type": "multiple",
+      "prompt": "Bạn hãy cho biết phần mềm nào sau đây là hè điều hành? Microsoft Windows",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 6,
@@ -993,19 +993,19 @@
           "id": "A",
           "text": "Apple iPad",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "B",
           "text": "Microsoft Word",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
           "text": "Google",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "images": []
@@ -1036,7 +1036,7 @@
         },
         {
           "id": "C",
-          "text": "Sử dụng dây nối dài kéo dài khắp thư viện để bạn không phải thay đổi chỗ ngồi.",
+          "text": "Sử dụng dây nối đại kéo đại khắp thư viện để bạn không phải thay đổi chỗ ngồi.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -1053,7 +1053,7 @@
       "id": "784ca0b4-5008-40c2-9464-b7464b239861",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "An cần sạc điện thoại vào ban đêm để có thể sử dụng nó vào sáng hôm sau. Đâu là nơi an toàn để An giữ điện thoại của mình trong khi đang sạc?",
+      "prompt": "An cần sạc điện thoại vào bạn đêm để có thể sử dụng nó vào sáng hôm sau. Đâu là nơi an toàn để An giữ điện thoại của mình trong khi đang sạc?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1092,8 +1092,8 @@
       "id": "50c2e3ae-d732-4e10-8059-4ae3191432be",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Thuàt ngǔ cho phan měm chay trèn dièn thoai hoǎc máy tính bàng là gì?",
-      "type": "multiple",
+      "prompt": "Thuàt ngữ cho phan mềm chay trên điện thoại hoặc máy tính bàng là gì?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 7,
@@ -1104,7 +1104,7 @@
           "id": "A",
           "text": "Widget",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
@@ -1131,8 +1131,8 @@
       "id": "91818257-7d1d-4ed4-a35d-b36b18c71092",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Ban hāy cho biět, loai phan cúng (Hardware) nào gùi dü lièu dēn máy tính?",
-      "type": "multiple",
+      "prompt": "Bạn hãy cho biết, loai phan cúng (Hardware) nào gửi dữ liệu đến máy tính?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 7,
@@ -1143,17 +1143,17 @@
           "id": "A",
           "text": "Xuat (Output)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
           "text": "Màn hình (Monitor)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Luu trǔ (Storage)",
+          "text": "Luu trữ (Storage)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -1161,7 +1161,7 @@
           "id": "D",
           "text": "Nhap (Input)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "images": []
@@ -1170,7 +1170,7 @@
       "id": "99d04cc8-12d3-4f2a-a921-25b31c17f334",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Di chuyěn tùng dinh nghia tù danh sách bèn trái sang thuàt ngü mà nó xác dinh o bèn phai.",
+      "prompt": "Di chuyển từng định nghĩa từ danh sách bên trái sang thuật ngữ mà nó xác định o bên phải.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1186,25 +1186,25 @@
         },
         {
           "id": "B",
-          "text": "Thiet bi duoc phát minh cho mot muc dich cu the",
+          "text": "thiết bị được phát mình cho mot mục đích cu the",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "3.Còng nghè di děn noi nguài dùng děn",
+          "text": "3.Còng nghệ di đến noi người dùng đến",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "D",
-          "text": "4.Huóng dǎn mà máy tính làm theo",
+          "text": "4.Huóng đẫn mà máy tính làm theo",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "2.Thiet bi (Device)",
+          "text": "2.thiết bị (Device)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -1216,13 +1216,13 @@
         },
         {
           "id": "G",
-          "text": "Còng nghè di dòng 3 (Mobile)",
+          "text": "Còng nghệ di động 3 (Mobile)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "H",
-          "text": "4 (Program) Chuong trinh",
+          "text": "4 (Program) Chuong trình",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -1233,7 +1233,7 @@
       "id": "e742d0df-9091-4805-a113-4bb34308679a",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Ban hāy xác dinh mǒi muc hoǎc là phǎn cúíng hoǎc phàn měm. Chon cáu trà lòi o hòp bèn trái cho phù hgp vói tùng muc.",
+      "prompt": "Bạn hãy xác định mỗi mục hoặc là phần cúíng hoặc phàn mềm. Chọn cáu trà lòi o hòp bên trái cho phù hợp với từng mục.",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1243,31 +1243,31 @@
       "options": [
         {
           "id": "A",
-          "text": "Phän měm (S... 目 Máy in (Printer)",
+          "text": "Phän mềm (S... 目 Máy in (Printer)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Phan měm (.Co sa dü liu (Database)",
+          "text": "Phan mềm (.Co sa dữ liu (Database)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Phän měm (S..  Chuot (Mouse)",
+          "text": "Phän mềm (S..  Chuot (Mouse)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Phän měm (S. 目 Ban phím (Keyboard)",
+          "text": "Phän mềm (S. 目 Bạn phím (Keyboard)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "E",
-          "text": "Phan měm (S.Thu dièn tù (Email)",
+          "text": "Phan mềm (S.thư điện tử (Email)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -1278,7 +1278,7 @@
       "id": "5524503c-cce9-4394-afd5-b3a3cf6287ae",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Ban muōn tìm mòt trò choi dudc cài dǎt trèn máy tính cùa minh. Trèn thanh tác vu dudc hiēn thi, ban nèn nhap vào dàu dē tìm trò choi?",
+      "prompt": "Bạn muốn tìm một trò choi được cài đặt trên máy tính của mình. Trèn thanh tác vu được hiện thị, bạn nên nhap vào dấu để tìm trò choi?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1308,7 +1308,7 @@
         },
         {
           "id": "B",
-          "text": "Điện thoại thông minh (Smartphone)",
+          "text": "Điện thoại thông mình (Smartphone)",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -1331,8 +1331,8 @@
       "id": "36853423-fda6-4c59-9615-afe553bae130",
       "topic": "topic-1",
       "testId": "test-1",
-      "prompt": "Thiet bi nào có bàn di chuòt tích hop dě trò và nhap?",
-      "type": "multiple",
+      "prompt": "thiết bị nào có bàn di chuột tích hợp để trò và nhap?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 9,
@@ -1343,7 +1343,7 @@
           "id": "A",
           "text": "Desktop",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
@@ -1355,13 +1355,13 @@
           "id": "C",
           "text": "Laptop",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "D",
           "text": "Tablet",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "images": []
@@ -1370,7 +1370,7 @@
       "id": "6c3d743a-da81-4b2f-8dc7-9d56b6c43812",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Phát biēu nào sau dày là dúng vě mòt phǎn měm úng dung trèn máy tính đě bàn?",
+      "prompt": "Phát biểu nào sau đây là đúng về một phần mềm úng dụng trên máy tính để bàn?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1380,25 +1380,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Máy tính cùa ban phai dudc kět noi vái Internet de chay nó.",
+          "text": "Máy tính của bạn phải được kết noi vái Internet de chay nó.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Phän měm khòng yèu cäu bàt ky dung luòng luu trǔ nào trèn máy tính cùa ban.",
+          "text": "Phän mềm không yêu cäu bàt ky dụng luòng lưu trữ nào trên máy tính của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Ban có thě dǎng nhàp vào nó tù bät ky thiět bi nào.",
+          "text": "Bạn có thể đăng nhập vào nó từ bät ky thiết bị nào.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Phan měm phài duoc cài dǎt trèn máy tính cúa ban truóc khi ban có thě khài chay no.",
+          "text": "Phan mềm phải được cài đặt trên máy tính của bạn truóc khi bạn có thể khài chay no.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -1459,7 +1459,7 @@
         },
         {
           "id": "B",
-          "text": "Điện thoại thông minh, máy tính bảng và máy tính xách tay có thể di động được.",
+          "text": "Điện thoại thông mình, máy tính bảng và máy tính xách tay có thể di động được.",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -1477,7 +1477,7 @@
       "id": "fe972614-c2bf-4fc1-9b59-8c6d7128c00e",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Dièn thoai thòng minh có thě kět noi vói Internet bàng nhǔng cách nào? (Chon 2)",
+      "prompt": "Dièn thoại thòng mình có thể kết noi với Internet bàng những cách nào? (Chọn 2)",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1505,7 +1505,7 @@
         },
         {
           "id": "D",
-          "text": "Gói dü lièu tù nhà cung cap dich vu di dng",
+          "text": "Gói dữ liệu từ nhà cung cap đích vu di dng",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -1516,7 +1516,7 @@
       "id": "8b633418-e5c7-48f9-91a6-8f0380f9328b",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Mòt sō cách dē thoát khòi úíng dung trèn máy tính dě bàn dā dudc cài dǎt là gì? chon có něu dáp án dúng và Khōng něu dáp án sai.",
+      "prompt": "Mòt số cách để thoát khòi úíng dụng trên máy tính để bàn đã được cài đặt là gì? chọn có nếu dáp án đúng và Không nếu dáp án sai.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1526,7 +1526,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Có Nhap vào nút có dàu \"x\" ò góc phài trèn cùng cùa cúa sō. Có 国Rút phích cǎm màn hình. Có Nhap chuòt phài vào bieu tuong cùa chuong trinh trèn thanh tác vu (Taskbar) và chon Close, Exit hoǎc Disable.",
+          "text": "Có Nhap vào nút có dấu \"x\" ò góc phải trên cùng của của số. Có 国Rút phích cảm màn hình. Có Nhap chuòt phải vào biểu tương của chương trình trên thanh tác vu (Taskbar) và chọn Close, Exit hoặc Disable.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -1538,8 +1538,8 @@
       "id": "8d400af1-0301-4695-a25d-8c137bd7a408",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Thiět bi dau vào (Input Device) nào sau dày dudc tích hop vào dièn thoai thòng minh?",
-      "type": "multiple",
+      "prompt": "Thiết bị đầu vào (Input Device) nào sau đây được tích hợp vào điện thoại thòng mình?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 12,
@@ -1556,11 +1556,11 @@
           "id": "B",
           "text": "Bò sac pin (Charger)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Bàn di chuòt (Touchpad)",
+          "text": "bàn di chuột (Touchpad)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -1577,7 +1577,7 @@
       "id": "affa8727-86bb-4157-aba8-40ff565accc1",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Kéo tùng thuàt ngü vào dinh nghia phù hgp. Dě trà lài, häy chuyěn tǔng thuàt ngü tù danh sách bèn phái sang dinh nghia cúa nó o bèn trái.",
+      "prompt": "Kéo từng thuật ngữ vào định nghĩa phù hợp. Để trà lại, hãy chuyển từng thuật ngữ từ danh sách bên phái sang định nghĩa của nó o bên trái.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1587,19 +1587,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Ma có thě doc duoc bàng máy. Ma này bao gǒm các ò yuòng den và tráng, thuòng dùng dě luu trü các URL hoǎc các thòng tin khác.",
+          "text": "Ma có thể doc được bàng máy. Ma này bao gồm các ò yuòng den và tráng, thuòng dùng để lưu trữ các URL hoặc các thòng tin khác.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "vitrí ào de luu trǔ và sp xp các úng 'dung, tài lièu, dü lièu.",
+          "text": "vitrí ào de lưu trữ và sp xp các úng 'dụng, tài liệu, dữ liệu.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "2.Thu muc (Folder)",
+          "text": "2.Thu mục (Folder)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -1622,7 +1622,7 @@
       "id": "aecbd483-e026-4a77-a8ed-ccb047a96ac3",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Tùy chon nào sau dày là ví du vě thièt bi dàu vào dugc tích hop sān trèn máy tinh?",
+      "prompt": "Tùy chọn nào sau đây là ví du về thièt bị dấu vào được tích hợp sản trên máy tính?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1655,7 +1655,7 @@
       "id": "a521526e-6a24-43ed-9928-9bb2d4fd9bc3",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Ban cǎn sù' dung máy tính bang (Tablet) cúa mình trong giò hoc dè tham gia vào các bài hoc. Ban nhàn thày ràng thài luāng Pin cua máy tính bang dang tra nèn yěu. Bô sac cúa ban khòng hoat dòng. Ban nèn làm gì de tiëp' tuc tham gia trèn 'máy tính bàng cua mình?",
+      "prompt": "Bạn cần sử dụng máy tính bảng (Tablet) của mình trong giờ học để tham gia vào các bài học. Bạn nhận thày rằng thài luận Pin của máy tính bảng đang tra nên yếu. Bô sac của bạn không hoạt động. Bạn nên làm gì de tiëp' tuc tham gia trên 'máy tính bàng của mình?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1665,25 +1665,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Bí mat chuyen döi bo sac vái ban bè trong già giài lao.",
+          "text": "Bí mat chuyen đổi bo sac vái bạn bè trong già giài lao.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Hãy cho giáo viēn cúa ban biět ràng bò sac cúa ban khòng hoat dòng.",
+          "text": "Hãy cho giáo viện của bạn biết rằng bò sac của bạn không hoạt động.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Hãy đē máy tính bàng cúa ban tǎt nguön và khòng tham gia vào bài hoc.",
+          "text": "Hãy để máy tính bàng của bạn tắt nguồn và không tham gia vào bài học.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Buòc bò sac dièn thoai vào máy tiính bàng cùa ban ngay cà khi chúng khòng tuong thích. HG VIET NAM",
+          "text": "Buòc bò sac điện thoại vào máy tính bàng của bạn ngay cà khi chúng không tương thích. HG VIET NAM",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -1727,7 +1727,7 @@
       "id": "4dca0c4b-0197-4870-b57c-690b5a3c3b94",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Tùy chon nào sau dày là mòt tàp tin (File)?",
+      "prompt": "Tùy chọn nào sau đây là một tàp tin (File)?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1737,25 +1737,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Mòt thu' muc ành tù mòt chuyěn di thuc dia.",
+          "text": "Mòt thu' mục ành từ một chuyển di thuc dia.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Tài lièu chúa danh sách bài tàp cǎn làm cùa ban.",
+          "text": "Tài liệu chúa danh sách bài tàp cần làm của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Mot liēn kět dēn trang Web tru'òng hoc cúa ban.",
+          "text": "Một liên kết đến trang Web tru'òng học của bạn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "D",
-          "text": "Buoi phát truc tiēp su kiēn the thao.",
+          "text": "Buoi phát truc tiếp su kiến the thao.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -1766,8 +1766,8 @@
       "id": "953e602c-9d2d-4997-8b53-88df51acf727",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Máy tính dē bàn có thě sù dung loai thiět bi nào dē kět nǎi Internet?",
-      "type": "multiple",
+      "prompt": "Máy tính để bàn có thể sù dụng loai thiết bị nào để kết nại Internet?",
+      "type": "single",
       "imageKind": "C_ui_screenshot_context",
       "snapshotUrl": "/quiz-visual/assets/q_topic-1_test-2_13.jpg",
       "page": 14,
@@ -1776,25 +1776,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Mot thiet bi luu trü (Storage Device)",
+          "text": "Một thiết bị lưu trữ (Storage Device)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
-          "text": "MOt thiet bi Wifi (Wifi Device)",
+          "text": "MOt thiết bị Wifi (Wifi Device)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Mot thiet bi hien thi (Display Device)",
+          "text": "Một thiết bị hien thị (Display Device)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Mòt thiet bi da phuong tièn (Media Device)",
+          "text": "Mòt thiết bị da phương tiền (Media Device)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -1805,7 +1805,7 @@
       "id": "ea5bc805-d307-4581-b27d-52c2ca766c5e",
       "topic": "topic-1",
       "testId": "test-2",
-      "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng. Dě trà lài, hāy kéo thuat ngǔ' tù danh sách bèn phài sang dinh nghia cua nó ó bèn trái.",
+      "prompt": "Ghép mỗi thuật ngữ với định nghĩa đúng. Để trà lại, hãy kéo thuật ngữ từ danh sách bên phải sang định nghĩa của nó ó bên trái.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1815,7 +1815,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Phài duoc cài dǎt trèn máy tính truóc khi nó 'có thě chay.",
+          "text": "Phài được cài đặt trên máy tính truóc khi nó 'có thể chay.",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -1833,7 +1833,7 @@
         },
         {
           "id": "D",
-          "text": "Phièn bàn nhe cúa úng dung phän měm thng uc hit e chy tren nhi so cǔng chay trèn máy tính xách tay.",
+          "text": "Phièn bàn nhe của úng dụng phần mềm thng uc hit e chy tren nhi so cũng chay trên máy tính xách tay.",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -1850,8 +1850,8 @@
       "id": "b26b4678-25c8-46e4-bc17-9467c9f9c73c",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Tùy chon nào dai dièn cho mòt dǎc diēm cùa còng dàn ky thuàt sō tot?",
-      "type": "multiple",
+      "prompt": "Tùy chọn nào đại diện cho một đặc điểm của công dân kỹ thuật số tốt?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 17,
@@ -1860,25 +1860,25 @@
       "options": [
         {
           "id": "A",
-          "text": "sù' dung chü \"Password\" làm mat khau cho tat cà các tài khoàn cúa ban.",
+          "text": "Sử dụng chữ \"Password\" làm mật khẩu cho tất cả các tài khoản của bạn.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Già sù' moi thú ban dǎng sē dudc nguài khác nhìn thãy và chia sé.",
+          "text": "Giả sử mọi thứ bạn đăng sẽ được người khác nhìn thấy và chia sẻ.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Lan truyěn tin dön trèn mang xã hoi.",
+          "text": "Lan truyền tin đồn trên mạng xã hội.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Chia sé vi trí cua ban trèn phuong tiēn truyěn thòng xā hài.",
+          "text": "Chia sẻ vị trí của bạn trên phương tiện truyền thông xã hội.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -1889,7 +1889,7 @@
       "id": "449a1746-f6bb-4d73-9ca3-ad34953a1cdb",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Ai dó dā đǎng mòt bình luàn xǎu tính trèn mang xā hòi vě ban An. Ban ây dā xóa bình luān, nhung cǔng chính nguài dó da viět nhüng binh luàn ác y hon. Mòt tèn goi cho nguài đā viět các binh luàn ác y là gì?",
+      "prompt": "Ai đó đã đăng một bình luận xấu tính trên mạng xã hội về bạn An. Bạn ây đã xóa bình luận, nhưng cũng chính người đó da viết nhưng binh luận ác y hon. Mòt tên goi cho người đã viết các binh luận ác y là gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -1899,25 +1899,25 @@
       "options": [
         {
           "id": "A",
-          "text": "M∂t Hacker (Hacker)",
+          "text": "Một Hacker (Hacker)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Bát nat trèn mang (Cyberbully)",
+          "text": "Bát nat trên mang (Cyberbully)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Màt ngudi mao danh - lüa dao (Catfish)",
+          "text": "Màt người mao danh - lừa dao (Catfish)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Mot ké lüa dao (Scammer)",
+          "text": "Một ké lừa dao (Scammer)",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -1928,8 +1928,8 @@
       "id": "05cd06e0-cd5f-46c3-8e78-7f7e549ce54e",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Diěu nào sau dày là mòt phän cúa dàu ân ky thuàt sö (Digital Footprint) cua ban? (Chon 2)",
-      "type": "single",
+      "prompt": "Điều nào sau đây là một phần của dấu ân kỹ thuật số (Digital Footprint) của bạn? (Chọn 2)",
+      "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 17,
@@ -1938,25 +1938,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Nhàn xét cùa ban vě bài dǎng trēn mang xā hòi cùa mòt nguài ban.",
+          "text": "Nhàn xét của bạn về bài đăng trên mạng xã hội của một người bạn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Email ban da gui.",
+          "text": "Email bạn da gui.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Anh ban dā dǎng lèn mang xǎ hài.",
+          "text": "Anh bạn đã đăng lèn mang xã hài.",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "D",
-          "text": "Ho và tèn cùa ban.",
+          "text": "Ho và tên của bạn.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2007,7 +2007,7 @@
       "id": "effb9a88-36bc-4043-b132-930563119319",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Ban nhàp tèn cua minh vào mòt còng cu tìm kiěm. Kět quà tim kiěm bao gǒm các ành mà ban dā xóa khòi trang Web ndi ban dā dǎng chúng. Diěu này có nghia là gì?",
+      "prompt": "Bạn nhập tên của mình vào một công cu tìm kiểm. Kết quả tim kiểm bao gồm các ành mà bạn đã xóa khòi trang Web ndi bạn đã đăng chúng. Điều này có nghĩa là gì?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2017,25 +2017,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Dü lièu còng cu tìm kiěm da khòng dudc càp nhàt gǎn day.",
+          "text": "Dữ liệu công cu tìm kiểm da không được càp nhàt gần day.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Ban can làm mói trang kět quà tim kiem.",
+          "text": "Bạn can làm mói trang kết quả tim kiểm.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Thòng tin dugc dǎng truc tuyěn có the dudc sao chép hoǎc chia sé bài nhǔng nguòi khác.",
+          "text": "Thòng tin được đăng trực tuyến có the được sao chép hoặc chia sé bài những nguòi khác.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Chù sò hüu trang Web vǎn chua xóa xong ành.",
+          "text": "Chù sò hữu trang Web văn chua xóa xong ành.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2046,7 +2046,7 @@
       "id": "d3579e99-d491-4ab4-b9e1-eabf51373243",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
+      "prompt": "Ghép mỗi thuật ngữ với định nghĩa đúng.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2056,25 +2056,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Cǒ y quày rǒi nguài khác bàng cách 1.dǎng truc tuyen binh luan xúc pham, khòng lién quan hoǎc có hai.",
+          "text": "Cổ y quày rồi người khác bàng cách 1.đăng truc tuyen binh luan xúc pham, không lién quan hoặc có hai.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Múc do bào vě mà nguòi dùng có khi 2sù dung Internet, dǎc bièt là vě du lièu rièng tu hoǎc nhay cam.",
+          "text": "Múc do bào về mà nguòi dùng có khi 2sù dụng Internet, đặc bièt là về du liệu rièng tu hoặc nhay cam.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "2 Quyěn rièng tu (Privacy)",
+          "text": "2 Quyền rièng tu (Privacy)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Mot nhóm nguòi giao tiěp bàng cách 3 su' dung Internet, thuòng là voi muc dich hoǎc mǒi quan tam chung.",
+          "text": "Một nhóm nguòi giao tiếp bàng cách 3 su' dụng Internet, thuòng là voi mục đích hoặc mỗi quan tam chung.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -2085,7 +2085,7 @@
       "id": "a419bd30-78bf-4768-8778-71a74f3d7dff",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Hành dòng nào là mòt ví dy vě bǎt nat trèn mang?",
+      "prompt": "Hành động nào là một ví dy về bắt nat trên mang?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2101,31 +2101,31 @@
         },
         {
           "id": "B",
-          "text": "Cōng dòng ky thuàt 3sö (Digital Community)",
+          "text": "Công động ky thuật 3số (Digital Community)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Dǎng tin nhǎn ác y vě ai dó trèn phuong tièn truyěn thòng xā hòi.",
+          "text": "Đăng tin nhắn ác y về ai đó trên phương tiền truyền thòng xã hội.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Tao niěm vui cho mòt nguài ban cùng lóp vào giò ra choi.",
+          "text": "Tao niệm vui cho một người bạn cùng lóp vào giờ ra choi.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "E",
-          "text": "Thích mòt bài dǎng trén phuong tièn truyěn thòng xā hòi cúa mòt' nguài ban cùng láp mà ban khòng biět.",
+          "text": "Thích một bài đăng trén phương tiền truyền thòng xã hội của một' người bạn cùng láp mà bạn không biết.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "F",
-          "text": "Bi bò roi khòi cuòc trò chuyèn vào büa trua.",
+          "text": "Bi bò roi khòi cuộc trò chuyện vào bữa trua.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2136,7 +2136,7 @@
       "id": "27a9e749-3975-4c80-9629-7a5d92c5ff83",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Mòt còng dàn kī thuàt sō tích cuc có thě làm gì?",
+      "prompt": "Mòt công dân kī thuật số tích cuc có thể làm gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2146,13 +2146,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Viet binh luàn tiéu cuc truc tuyěn.",
+          "text": "Viet binh luận tiéu cuc trực tuyến.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Chia sé tèn, dia chi cùa moi nguài hoǎc dü lièu cá nhàn khác.",
+          "text": "Chia sé tên, địa chỉ của moi người hoặc dữ liệu cá nhận khác.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2169,7 +2169,7 @@
       "id": "00446389-4b2a-4cce-b5aa-4e3e0c52df35",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Dǎi vái mǒi phát biēu vě tuàng tác ky thuàt sō, hāy chon Dúng hoǎc Sai.",
+      "prompt": "Dải vái mỗi phát biểu về tuàng tác kỹ thuật số, hãy chọn Đúng hoặc Sai.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2179,19 +2179,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Thàt an toàn khi chia sé tèn day dù và vi trí cùa ban vói ban bè truc tuyěn cùa ban.",
+          "text": "Thàt an toàn khi chia sé tên day dù và vi trí của bạn với bạn bè trực tuyến của bạn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Mòt cong dàn ky thuat so tot sě xin phép truóc khi chia sé ành cùa nguài khác.",
+          "text": "Mòt công dân kỹ thuật số tốt sẽ xin phép truóc khi chia sé ành của người khác.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Ban có thě dua ra nhǔng bình luàn ác y truc tuyěn miěn là ban khòng nói chúng truc tiēp.",
+          "text": "Bạn có thể dua ra những bình luận ác y trực tuyến miễn là bạn không nói chúng truc tiếp.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -2203,8 +2203,8 @@
       "id": "789d575a-4088-4254-b9f0-8ba507fc746a",
       "topic": "topic-2",
       "testId": "test-1",
-      "prompt": "Khi ai dó sù dung còng nghè dě gày ác y vái nguài khác, vièc ho dang làm dudc goi là gi?",
-      "type": "multiple",
+      "prompt": "Khi ai đó sù dụng công nghệ để gày ác y vái người khác, việc ho đang làm được goi là gi?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 21,
@@ -2213,21 +2213,21 @@
       "options": [
         {
           "id": "A",
-          "text": "Là mòt nguài hành dòng",
+          "text": "Là một người hành động",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
           "text": "Trolling",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Là mòt nguài ngoài cuòc",
+          "text": "Là một người ngoài cuộc",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "D",
@@ -2242,7 +2242,7 @@
       "id": "be5d2607-b21f-4170-8ab1-ddb619165e37",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Vi du vě mòt úíng dung Web (Web Application) là gi?",
+      "prompt": "Vi du về một úíng dụng Web (Web Application) là gi?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2252,19 +2252,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Mòt trò choi dudc tài xuōng trēn máy tính de bàn.",
+          "text": "Mòt trò choi được tài xuống trên máy tính de bàn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Trang Web cua mòt truòng hoc.",
+          "text": "trang Web của một truòng học.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "MOt chuong trinh Email nhu Gmail, Yahoo, Hotmail.",
+          "text": "MOt chương trình Email nhu Gmail, Yahoo, Hotmail.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2275,7 +2275,7 @@
       "id": "d8b0291a-7f8c-425f-a05e-e162af724f52",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "",
+      "prompt": "[Câu hỏi bằng hình ảnh - chưa trích xuất được]",
       "type": "multiple",
       "imageKind": "C_ui_screenshot_context",
       "snapshotUrl": "/quiz-visual/assets/q_topic-3_test-1_7.jpg",
@@ -2287,13 +2287,13 @@
           "id": "A",
           "text": "Lựa chọn A",
           "imageUrl": "/quiz-visual/assets/e6e2ae3f22bf228cd58ef1178172a44f5d8f8e3e4be0831e43ad7e8fd654a894.jpg",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
           "text": "Lựa chọn B",
           "imageUrl": "/quiz-visual/assets/f6fafa4c130f8623dd76a06169ec34aaf220bbdd78c96afc1b422d2c83b715cf.jpg",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
@@ -2312,7 +2312,7 @@
       "id": "abbc78a2-72a8-4f7e-a3aa-0eba5adbbcdd",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Mòt giáo vièn bào hoc sinh cua mình nghièn cúu mòt chù dě trèn máy tính bang cua ho trong 30 phút tiěp theo. Khi giáo viēn hòi mòt hoc sinh xem ban ǎy có thyc hiēn nghièn cúu hay khòng, ban ây nói có. Làm thě nào giáo viēn có the tìm ra lièu hoc sinh có nói su thàt hay khòng?",
+      "prompt": "Mòt giáo viên bào học sinh của mình nghiên cúu một chù để trên máy tính bảng của ho trong 30 phút tiếp theo. Khi giáo viện hội một học sinh xem bạn ấy có thực hiện nghiên cúu hay không, bạn ây nói có. Làm thể nào giáo viện có the tìm ra liệu học sinh có nói su thàt hay không?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2322,25 +2322,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Bàng cách kiem tra thoi luong Pin còn lai cùa máy tính bàng.",
+          "text": "Bàng cách kiểm tra thoi lượng Pin còn lai của máy tính bàng.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Bàng cách kiēm tra xem có bat ky thé trinh duyèt nào duoc mò trèn máy tính bàng hay khòng.",
+          "text": "Bàng cách kiểm tra xem có bat ky thé trình duyệt nào được mò trên máy tính bàng hay không.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Bàng cách hòi nhung hoc sinh khác ngǒi gän trong thòi gian nghièn cúu.",
+          "text": "Bàng cách hội nhưng học sinh khác ngồi gän trong thời gian nghiên cúu.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "D",
-          "text": "Bäng cách kiem tra lich su' trinh duyèt cúa hoc sinh.",
+          "text": "Bäng cách kiểm tra lịch sử trình duyệt của học sinh.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2351,7 +2351,7 @@
       "id": "e0223997-92e4-47c2-b1cd-844e5d30fca5",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Nhǔng thành phǎn nào sau dày thuòc giao dièn cùa trình duyèt Web? (Chon 3)",
+      "prompt": "Những thành phần nào sau đây thuòc giao điện của trình duyệt Web? (Chọn 3)",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2361,7 +2361,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Cong cu tìm kiem (Search Engine)",
+          "text": "Cong cu tìm kiểm (Search Engine)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2369,23 +2369,23 @@
           "id": "B",
           "text": "Thé(Tab)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Các úng dung (Applications)",
+          "text": "Các úng dụng (Applications)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Cüa sδ (Window)",
+          "text": "Của số (Window)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "E",
-          "text": "Thanh dia chi (Address Bar)",
+          "text": "Thanh địa chỉ (Address Bar)",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -2412,25 +2412,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Mot trang Web hoǎc Email già dudc thiet kě tròng có vě dáng tin cày.",
+          "text": "Một trang Web hoặc Email già được thiet kể tròng có về dáng tin cày.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Tap hop các trang Web dudc lièn kět vái nhau sú'",
+          "text": "Tap hợp các trang Web được lièn kết vái nhau sú'",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "dung chung mòt tèn miěn, mà moi nguòi có thě truy càp duoc.",
+          "text": "dụng chung một tên miễn, mà moi nguòi có thể truy càp được.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "D",
-          "text": "Mòt hình thúc nhǎn tin giüa nguòi này vói nguài khác qua Internet.",
+          "text": "Mòt hình thúc nhắn tin giữa nguòi này với người khác qua Internet.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2441,8 +2441,8 @@
       "id": "f940730e-1def-4a07-b8a0-fbb64d368bdb",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Tùy chon nào sau dày là ví dy vě mòt trang Web (Webpage)?",
-      "type": "multiple",
+      "prompt": "Tùy chọn nào sau đây là ví dy về một trang Web (Webpage)?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 28,
@@ -2451,19 +2451,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Mòt Email giüa các hoc sinh a các truòng khác nhau.",
+          "text": "Mòt Email giữa các học sinh a các truòng khác nhau.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Mòt úng dung dudc tài xuōng trèn diēn thoai thòng minh.",
+          "text": "Mòt úng dụng được tài xuống trên điện thoại thòng mình.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Trang chù trèn trang Web cúa truòng hoc.",
+          "text": "Trang chù trên trang Web của truòng học.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -2474,7 +2474,7 @@
       "id": "e61f7526-8487-4e86-95bc-0dba5fbd46f4",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Ban có thě tìm thay URL cúa mòt trang Web o dàu dě có thě sao chép và dán?",
+      "prompt": "Bạn có thể tìm thay URL của một trang Web o dấu để có thể sao chép và dán?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2484,13 +2484,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Mòt cùa sō mói",
+          "text": "Mòt của số mói",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Trong thanh dia chi.",
+          "text": "Trong thanh địa chỉ.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2507,7 +2507,7 @@
       "id": "548b10a5-79c1-4b0e-a12f-0b51cda5ebe8",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Ban thuòng tìm thǎy diěu gì trong uíng dung máy tính dě bàn và trén các trang Web?",
+      "prompt": "Bạn thuòng tìm thấy điều gì trong uíng dụng máy tính để bàn và trén các trang Web?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2517,7 +2517,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Doan vǎn bàn",
+          "text": "Doan văn bàn",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2529,7 +2529,7 @@
         },
         {
           "id": "C",
-          "text": "Nút dǎt hàng",
+          "text": "Nút đặt hàng",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -2546,8 +2546,8 @@
       "id": "ef8079a1-e861-4ceb-97c4-b1755d740ff2",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Ban hāy cho biět, tùy chon nào duói day cho phép truy cap và duyèt thong tin trèn Internet?",
-      "type": "multiple",
+      "prompt": "Bạn hãy cho biết, tùy chọn nào duói day cho phép truy cap và duyệt thong tin trên Internet?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 28,
@@ -2556,7 +2556,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Cloud Storage (Luu trü dám may)",
+          "text": "Cloud Storage (Luu trữ dám may)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2564,19 +2564,19 @@
           "id": "B",
           "text": "Client (Máy khách)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
           "text": "Server (Máy chù)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "D",
           "text": "Internet Explorer",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "images": []
@@ -2585,8 +2585,8 @@
       "id": "b26135bd-a283-48c5-a8b1-8760dd1aa022",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Ban có thē sù dung thòng tin nào dē kiēm tra dà tin cày cùa mòt trang Web? (Chon 3)",
-      "type": "single",
+      "prompt": "Bạn có thể sử dụng thông tin nào để kiểm tra độ tin cậy của một trang Web? (Chọn 3)",
+      "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 29,
@@ -2595,19 +2595,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Tác già (Author)",
+          "text": "Tác giả (Author)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Tièu dě (Title)",
+          "text": "Tiêu đề (Title)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "□Cách trinh bày (Layout)",
+          "text": "Cách trình bày (Layout)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2615,7 +2615,7 @@
           "id": "D",
           "text": "Ngày (Date)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "images": []
@@ -2624,7 +2624,7 @@
       "id": "97dc19d4-06be-46bc-90df-af9bd8aa4683",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Nhi thich doc các bài báo truc tuyěn. Co äy chi muōn doc các bài báo dua trèn su that, khòng phài y kiěn. Càu hòi nào có thě giúp Nhi xác dinh các bài báo dua trèn thuc tě?",
+      "prompt": "Nhi thích doc các bài báo trực tuyến. Co äy chi muốn doc các bài báo dua trên su that, không phải y kiến. Càu hội nào có thể giúp Nhi xác định các bài báo dua trên thuc tế?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2634,25 +2634,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Ai da viět bài báo?",
+          "text": "Ai da viết bài báo?",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Kiēu phòng chǔ nào dā dudc sù' dung?",
+          "text": "Kiểu phông chữ nào đã được sử dụng?",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Bài viět có hình anh khòng?",
+          "text": "Bài viết có hình anh không?",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Bài viet dài bao nhièu?",
+          "text": "Bài viet đại bao nhièu?",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -2663,7 +2663,7 @@
       "id": "2cb0194f-56f4-4e78-84cd-9983b2dac065",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Trong cia so trinh duyèt duoc hiēn thi, ban nèn nhâp hoǎc nhàn vào dàu de truy càp các trang khác cua 'trang Web Net Pc?'",
+      "prompt": "Trong cia so trình duyệt được hiện thị, bạn nên nhâp hoặc nhận vào dấu de truy càp các trang khác của 'trang Web Net Pc?'",
       "type": "multiple",
       "imageKind": "C_ui_screenshot_context",
       "snapshotUrl": "/quiz-visual/assets/q_topic-3_test-1_18.jpg",
@@ -2693,8 +2693,8 @@
       "id": "10249fa4-081b-454a-8004-3b11fd46e733",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Cách nhanh nhǎt dě luu mòt trang Web dě ban có thě quay lai trang dó sau này là gì?",
-      "type": "multiple",
+      "prompt": "Cách nhanh nhất để lưu một trang Web để bạn có thể quay lai trang đó sau này là gì?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 30,
@@ -2703,19 +2703,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Chup ành màn hình cùa trang Web",
+          "text": "Chup ành màn hình của trang Web",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Viet URL vào mòt cuön so",
+          "text": "Viet URL vào một cuốn so",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Tao dau trang (Bookmark)",
+          "text": "Tao đầu trang (Bookmark)",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -2726,7 +2726,7 @@
       "id": "6832d864-deed-4306-83cd-1a2ef36d77fd",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Ghép mǒi thuàt ngü vói dinh nghia dúng.",
+      "prompt": "Ghép mỗi thuật ngữ với định nghĩa đúng.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2736,25 +2736,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Tài lièu sièu vǎn bàn có thě dugc hien thi bang trinh duyèt Web.",
+          "text": "Tài liệu sièu văn bàn có thể được hien thị bang trình duyệt Web.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Cong cu tìm kiěm '(Search Engine)",
+          "text": "Cong cu tìm kiểm '(Search Engine)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "2.Thu thàp thòng tin vě mot chù dě.",
+          "text": "2.Thu thàp thòng tin về mot chù để.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Mot chuong trinh hoǎc phǎn měm Web",
+          "text": "Một chương trình hoặc phần mềm Web",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2765,7 +2765,7 @@
       "id": "7d7a5798-8d97-4558-974c-dd1b5452750b",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Cách nhanh nhät dě luu trang Web ban dang xem dě ban có thě quay lai sau là gì?",
+      "prompt": "Cách nhanh nhät để lưu trang Web bạn đang xem để bạn có thể quay lai sau là gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2775,7 +2775,7 @@
       "options": [
         {
           "id": "A",
-          "text": "1.Trang Web (Web Page)",
+          "text": "1.trang Web (Web Page)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2793,19 +2793,19 @@
         },
         {
           "id": "D",
-          "text": "Luu dia chi trang Web trong mot tàp tin.",
+          "text": "Luu địa chỉ trang Web trong mot tàp tin.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "Luu trang Web vào màn hinh máy tính cùa ban.",
+          "text": "Luu trang Web vào màn hinh máy tính của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "F",
-          "text": "Viet dia chi trang Web trèn mot tò giãy.",
+          "text": "Viet địa chỉ trang Web trên mot tò giãy.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -2816,7 +2816,7 @@
       "id": "a459c4e9-bd6e-4e80-8e78-3d091ac7f3ff",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
+      "prompt": "Ghép mỗi thuật ngữ vái định nghĩa đúng.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2826,25 +2826,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Mot chuong trinh phän měm duoc sù 1 dung de diěu huóng trèn World Wide Web.",
+          "text": "Một chương trình phần mềm được sù 1 dụng de điều huóng trên World Wide Web.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "1 Trinh duyèt (Web Browser)",
+          "text": "1 trình duyệt (Web Browser)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Mot chuong trinh hoǎc phän měm 2duoc sù dung dě tim kiěm thòng tin, thuòng là trèn World Wide Web.",
+          "text": "Một chương trình hoặc phần mềm 2được sù dụng để tim kiểm thòng tin, thuòng là trên World Wide Web.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Tàp hop các trang Web có thě truy 3 càp còng khai và chia sé vói mòt tèn miën duy nhat.",
+          "text": "Tàp hợp các trang Web có thể truy 3 càp công khai và chia sé với một tên miën duy nhat.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -2856,7 +2856,7 @@
         },
         {
           "id": "F",
-          "text": "2 Cong cu tim kiěm (Search Engine)",
+          "text": "2 Cong cu tim kiểm (Search Engine)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -2867,7 +2867,7 @@
       "id": "342abd4b-eb26-441d-aa72-ff33d58742f8",
       "topic": "topic-3",
       "testId": "test-1",
-      "prompt": "Ban hāy cho biět, còng cu nào cúa trinh duyèt cho phép truy càp vào các trang Web yēu thich?",
+      "prompt": "Bạn hãy cho biết, công cu nào của trình duyệt cho phép truy càp vào các trang Web yêu thích?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2906,7 +2906,7 @@
       "id": "84c6d9cc-6099-4d8b-99dd-f0bc700e7772",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Em hāy cho biět, tài lièu dièn tù có dǎc diēm gì?",
+      "prompt": "Em hãy cho biết, tài liệu điện từ có đặc điểm gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2916,25 +2916,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Là nhǔng tài lièu da duàc in và phàn phoi.",
+          "text": "Là những tài liệu da duàc in và phàn phoi.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Khòng có diěu nào ò trèn",
+          "text": "Khòng có điều nào ò trên",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Giúp bào vé mòi truòng bàng cách giàm lāng phí giãy.",
+          "text": "Giúp bào vé mòi truòng bàng cách giàm lãng phí giãy.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Phài luòn luòn dudc in.",
+          "text": "Phài luòn luòn được in.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -2945,8 +2945,8 @@
       "id": "2321c3bd-e634-400a-b1b3-2c61d1a2ca75",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Trong tình huōng nào thì mòt tài lièu (Document) sě hǔu ich hon mot ban trinh chieu (Presentation)?",
-      "type": "multiple",
+      "prompt": "Trong tình hưởng nào thì một tài liệu (Document) sẽ hữu ich hon mot bạn trình chiếu (Presentation)?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 34,
@@ -2961,15 +2961,15 @@
         },
         {
           "id": "B",
-          "text": "viět mòt bài luàn cho truòng hoc.",
+          "text": "viết một bài luận cho truòng học.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Gùi tin nhǎn vǎn bàn cho mòt nhóm nguài.",
+          "text": "Gùi tin nhắn văn bàn cho một nhóm người.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "images": []
@@ -2978,7 +2978,7 @@
       "id": "920de86c-b068-4384-848c-6ef2238b48fa",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Ban dang tao mot áp phich trèn máy tính. Ban muon thay doi giao diēn cua cac chǔ cái và sō trong tièu dě áp phich. Ban nèn thay doi diěu gì?",
+      "prompt": "Bạn đang tao mot áp phích trên máy tính. Bạn muốn thay đối giao điện của cac chữ cái và số trong tiêu để áp phích. Bạn nên thay đối điều gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -2988,25 +2988,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Phòng chü (Font)",
+          "text": "phông chữ (Font)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Kich thuöc trang (Page Size)",
+          "text": "Kich thuộc trang (Page Size)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Dãn cách doan vǎn (Paragraph Spacing)",
+          "text": "Dãn cách đoạn văn (Paragraph Spacing)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Lě (Margin)",
+          "text": "Lệ (Margin)",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -3017,7 +3017,7 @@
       "id": "3d933d8d-a6fa-4bbc-b106-f64424cf74e2",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Trong tình huōng nào sau dày là phù hop nhat dě sù dung bài trinh chieu ki thuat so (Digital Presentation)?",
+      "prompt": "Trong tình hưởng nào sau đây là phù hợp nhat để sù dụng bài trình chiếu ki thuật so (Digital Presentation)?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3027,19 +3027,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Gùi tin nhǎn vǎn bàn cho mòt nhóm nguài.",
+          "text": "Gùi tin nhắn văn bàn cho một nhóm người.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Viet mot bài luàn cho truòng hoc.",
+          "text": "Viet mot bài luận cho truòng học.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Phát biěu truóc khán già.",
+          "text": "Phát biểu truóc khán già.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3050,8 +3050,8 @@
       "id": "59d86cf0-422c-4c4e-9e81-030cfcd3fd45",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Ban nèn nhǎn phím dǎc bièt nào trèn bàn phím tièu chuàn dě bat dau mòt doan moi trong tài lièu vǎn ban?",
-      "type": "multiple",
+      "prompt": "Bạn nên nhắn phím đặc bièt nào trên bàn phím tiêu chuàn để bat đầu một đoạn moi trong tài liệu văn bạn?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 35,
@@ -3074,7 +3074,7 @@
           "id": "C",
           "text": "Caps Lock",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "D",
@@ -3134,7 +3134,7 @@
       "id": "68d06505-71e2-4e68-a0ce-27c3e503afe7",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Ban nèn sù dung úng dung nào dě hiēn thi ành, bàn do và Video tù ky nghi hè cùa minh cho các ban trong lóp hoc cúa ban xem?",
+      "prompt": "Bạn nên sù dụng úng dụng nào để hiện thị ành, bản đồ và Video từ kỳ nghỉ hè của mình cho các bạn trong lóp học của bạn xem?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3150,7 +3150,7 @@
         },
         {
           "id": "B",
-          "text": "Ap phich (Poster)",
+          "text": "Ap phích (Poster)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3162,7 +3162,7 @@
         },
         {
           "id": "D",
-          "text": "Bài trinh chieu (Slide Presentation)",
+          "text": "Bài trình chiếu (Slide Presentation)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3187,7 +3187,7 @@
       "id": "528d96fb-6e1f-414d-a8f6-508ca537a73a",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Hay ghép tùng thuàt ngǔ vói cách sù' dung thích hop.",
+      "prompt": "Hay ghép từng thuật ngữ với cách sử dụng thích hợp.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3197,31 +3197,31 @@
       "options": [
         {
           "id": "A",
-          "text": "M t phím trèn bàn phím dùng dě dua con 1 tr n u dngt heng hoat dòng.",
+          "text": "M t phím trên bàn phím dùng để dua con 1 tr n u dngt heng hoạt động.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Mt phím trèn bàn phím dùng dě di chuyěn 2.giüa các muc hoǎc di chuyen vě phía truóc 5 ky tu (tùy thuòc vào nhièm vu).",
+          "text": "Mt phím trên bàn phím dùng để di chuyển 2.giữa các mục hoặc di chuyen về phía truóc 5 ky tu (tùy thuòc vào nhièm vu).",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Mot phím trèn bàn phím dùng dě máy tính 'có thě nhàp các chǔ cái viět hoa lièn tuc.",
+          "text": "Một phím trên bàn phím dùng để máy tính 'có thể nhập các chữ cái viết hoa lièn tuc.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Màt phím trèn bàn phím dùng dě xóa bat ky 4.ky tu nào truóc / sau vi trí hién tai cúa con tró.",
+          "text": "Màt phím trên bàn phím dùng để xóa bat ky 4.ky tu nào truóc / sau vi trí hién tai của con tró.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "M t phím ò trèn cùng bèn trái cua bàn phím 5.máy tính; cho phép nguài dùng hùy bò hoǎc dóng mòt hoat dòng.",
+          "text": "M t phím ò trên cùng bên trái của bàn phím 5.máy tính; cho phép người dùng hùy bò hoặc dóng một hoạt động.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3250,7 +3250,7 @@
       "id": "c79e2489-0781-43b6-b9ac-189c86ac4309",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Em hāy cho biět, cǎn sù dung phǎn měm úíng dung nào dě tao ra các chǔ cái tièu chuān thay vi sù dung máy dánh chū?",
+      "prompt": "Em hãy cho biết, cần sù dụng phần mềm úíng dụng nào để tao ra các chữ cái tiêu chuẩn thay vi sù dụng máy dánh chū?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3272,25 +3272,25 @@
         },
         {
           "id": "C",
-          "text": "Màt úng dung bàng tính.",
+          "text": "Màt úng dụng bàng tính.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Mòt úng dung xù ly vǎn bàn.",
+          "text": "Mòt úng dụng xù ly văn bàn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "Màt úng dung CAD.",
+          "text": "Màt úng dụng CAD.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "F",
-          "text": "Mòt úng dung trinh chieu.",
+          "text": "Mòt úng dụng trình chiếu.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -3301,7 +3301,7 @@
       "id": "06384ee2-09be-476e-a25a-1a7564898e13",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Nhi muön tham gia mòt trang mang xǎ hòi mói noi tiěng. Dě dǎng ky, cò ay phài diēn vào mòt biēu māu truc tuyěn. Nhi nēn giü phím nào trong khi gō đe chi viět hoa chǔ cái däu tièn trong tèn cúa co äy?",
+      "prompt": "Nhi muốn tham gia một trang mạng xã hội mói noi tiếng. Để đăng ky, cò ay phải điện vào một biểu mẫu trực tuyến. Nhi nên giữ phím nào trong khi gõ đe chi viết hoa chữ cái däu tiền trong tên của có äy?",
       "type": "single",
       "imageKind": "C_ui_screenshot_context",
       "snapshotUrl": "/quiz-visual/assets/q_topic-4_test-1_13.jpg",
@@ -3331,8 +3331,8 @@
       "id": "bb212f9e-b184-4ee1-8eb8-0fecdfe1c366",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Nhǔng thao tác nào sau dày, ban có thē thyc hièn vói tài lièu vǎn ban (Text Document)? (Chon 2)",
-      "type": "single",
+      "prompt": "Những thao tác nào sau đây, bạn có thể thực hièn với tài liệu văn bạn (Text Document)? (Chọn 2)",
+      "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 38,
@@ -3341,21 +3341,21 @@
       "options": [
         {
           "id": "A",
-          "text": "Làm noi bàt (Highlight) vǎn bàn.",
+          "text": "Làm noi bàt (Highlight) văn bàn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Thay doi mat khau (Password) Email cua ban.",
+          "text": "Thay đối mật khẩu (Password) Email của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Tǎng kích thuóc phòng chǔ (Font Size).",
+          "text": "Tăng kích thuóc phông chữ (Font Size).",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "images": []
@@ -3364,7 +3364,7 @@
       "id": "7abaa53b-5f7e-483e-93df-19bdc1489939",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Nhi dang viět mòt báo cáo trèn máy tính cua minh. Ban ãy dudc yèu cǎu thit lě dòng däu tiēn cúa mǎi doan mòt nuá Inch. Nhi nèn nhàn phím nào (mòt län) de thyt iě chính xác dòng däu tièn?",
+      "prompt": "Nhi đang viết một báo cáo trên máy tính của mình. Bạn ãy được yêu câu thit lệ động däu tiến của mãi đoạn một nuá Inch. Nhi nên nhận phím nào (một län) de thyt iệ chính xác động däu tiền?",
       "type": "multiple",
       "imageKind": "C_ui_screenshot_context",
       "snapshotUrl": "/quiz-visual/assets/q_topic-4_test-1_15.jpg",
@@ -3394,7 +3394,7 @@
       "id": "0f9d42d3-3027-44c3-9ab0-0074794de5d5",
       "topic": "topic-4",
       "testId": "test-1",
-      "prompt": "Ghép mǒi thuàt ngü vái dinh nghia tuòng úíng.",
+      "prompt": "Ghép mỗi thuật ngữ vái định nghĩa tuòng úíng.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3404,19 +3404,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Cách thòng tin sě dudc trong nhu thě nào trèn bàn 'in hoǎc hiēn thi trèn màn hình.",
+          "text": "Cách thòng tin sẽ được trong nhu thể nào trên bàn 'in hoặc hiện thị trên màn hình.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "4 (Font) Phòng chǔ",
+          "text": "4 (Font) phông chữ",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Mot loai tàp tin dugc tao bài mot phan mem úng 'dung, có thě dugc thao tác bài úíng dung dó.",
+          "text": "Một loai tàp tin được tao bài mot phần mềm úng 'dụng, có thể được thao tác bài úíng dụng đó.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3428,31 +3428,31 @@
         },
         {
           "id": "E",
-          "text": "Trinh chiěu 3.(Presentation)",
+          "text": "Trinh chiếu 3.(Presentation)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "F",
-          "text": "Mot tàp hop các ky tu kiēu chǔ hoǎc vǎn bàn có thě in 4.hoǎc hiēn thi dugc, xác dinh hinh dang, kích thuác và sy xuàt hièn cúa các chǔ' cái, sǒ và các ky ty dǎc biet.",
+          "text": "Một tàp hợp các ky tu kiểu chữ hoặc văn bàn có thể in 4.hoặc hiện thị được, xác định hinh đang, kích thuác và sy xuàt hièn của các chữ' cái, số và các ky ty đặc biet.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "G",
-          "text": "Mot hinh anh hoǎc do hoa dugc luu trǔ duái dang diēn tù.",
+          "text": "Một hinh anh hoặc do hoa được lưu trữ duái đang điện từ.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "H",
-          "text": "Dinh dang (Formatting)",
+          "text": "định dạng (Formatting)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "I",
-          "text": "Tài lièu 2(Document)",
+          "text": "Tài liệu 2(Document)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3463,7 +3463,7 @@
       "id": "2204619d-aa87-490c-b7f3-76e65dd0c1a2",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Häu hět các thu và Email děu có ldi chào và lài kět thúc. Ban hāy lua chon cym tù trong danh sách phù hop vái các câu sau.",
+      "prompt": "Häu hết các thu và Email đều có ldi chào và lại kết thúc. Bạn hãy lua chọn cym từ trong danh sách phù hợp vái các câu sau.",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3473,31 +3473,31 @@
       "options": [
         {
           "id": "A",
-          "text": "Cau kět thúc (….",
+          "text": "Cau kết thúc (….",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Cau kět thúc (.…..",
+          "text": "Cau kết thúc (.…..",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Nhüng löi chúc tot dep nhat (Best wishes),",
+          "text": "Nhưng lỗi chúc tốt dep nhat (Best wishes),",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Càu chào hòi (…",
+          "text": "Càu chào hội (…",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "Càu chào hòi (…..",
+          "text": "Càu chào hội (…..",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3509,7 +3509,7 @@
         },
         {
           "id": "G",
-          "text": "Co An than měn (Dear miss An),",
+          "text": "Co An than mến (Dear miss An),",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3526,7 +3526,7 @@
       "id": "332e9cb5-2ffc-494f-b527-f205a3c469db",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Ghép mǒi thuàt ngü vái dinh nghia dúng.",
+      "prompt": "Ghép mỗi thuật ngữ vái định nghĩa đúng.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3536,13 +3536,13 @@
       "options": [
         {
           "id": "A",
-          "text": "Nguài nhan thu (dia chi Email 'ban nhap vào truòng To).",
+          "text": "Nguài nhan thu (địa chỉ Email 'bạn nhap vào truòng To).",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Dieu dau tièn dugc dgc trong mot cuòc giao tiěp, có thě khòng chinh huc oc trang trong ty thuòc vào doi tuong.",
+          "text": "Dieu đầu tiền được dgc trong mot cuộc giao tiếp, có thể không chinh huc oc trang trong ty thuòc vào đối tương.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3560,13 +3560,13 @@
         },
         {
           "id": "E",
-          "text": "1.Nguöi nhan (Recipient)",
+          "text": "1.Người nhan (Recipient)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "F",
-          "text": "2.Löi chào (Greeting)",
+          "text": "2.Lỗi chào (Greeting)",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -3578,7 +3578,7 @@
         },
         {
           "id": "H",
-          "text": "4.N∂i dung thu (Message Body)",
+          "text": "4.Nội dụng thu (Message Body)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3589,8 +3589,8 @@
       "id": "30f3aff5-4084-414f-be0c-ca40f03389a2",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Giáo vièn cúa ban gùi mòt Email dě nhǎc nhò phu huynh ràng sě có mòt bài kiēm tra vào ngày mai. Ban muōn 'såp xěp màt budi hoc nhóm truóc khi đěn Iáp. Ban nhán tin cho mòt nguài ban, goi cho ngudi khác và trò chuyèn Video vói nguài ban thú ba dě sáp xěp thdi gian và dia diém hgc nhóm. Quy trinh nào dang dugc sú' dung dě gùi và nhàn thòng tin?",
-      "type": "multiple",
+      "prompt": "giáo viên của bạn gửi một Email để nhắc nhở phụ huynh rằng sẽ có một bài kiểm tra vào ngày mai. Bạn muốn 'såp xếp màt buổi học nhóm truóc khi đến Iáp. Bạn nhán tin cho một người bạn, goi cho người khác và trò chuyện Video với người bạn thú ba để sáp xếp thời gian và dia diém hgc nhóm. Quy trình nào đang được sú' dụng để gửi và nhận thòng tin?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 43,
@@ -3599,19 +3599,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Thdi gian sù' dung thiet bi (Screen Time)",
+          "text": "Thdi gian sử dụng thiết bị (Screen Time)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
           "text": "Cong tác (Collaboration)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Truyěn thong ky thuat sö (Digital Communication)",
+          "text": "Truyền thong kỹ thuật số (Digital Communication)",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -3628,8 +3628,8 @@
       "id": "1000bf99-0e2c-4f34-883c-5b174fcf07ed",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Ban cua ban dā gùi mòt tin nhán dièn tù ngǎn tù dièn thoai cùa ban ây dēn dièn thoai cua ban. Tin nhán chúa các chǔ cái, sö và bieu tuong cám xúc. Ban cúa ban dā sú dung hinh thúc giao tiěp ky thuāt sǒ nào?",
-      "type": "multiple",
+      "prompt": "Bạn của bạn đã gửi một tin nhắn điện từ ngắn từ điện thoại của bạn ây đến điện thoại của bạn. tin nhắn chúa các chữ cái, số và biểu tương cám xúc. Bạn của bạn đã sú dụng hinh thúc giao tiếp kỹ thuật số nào?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 43,
@@ -3638,25 +3638,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Goi dièn thoai",
-          "imageUrl": null,
-          "isCorrect": true
-        },
-        {
-          "id": "B",
-          "text": "Tin nhǎn vǎn bàn",
+          "text": "Goi điện thoại",
           "imageUrl": null,
           "isCorrect": false
         },
         {
-          "id": "C",
-          "text": "Trò chuyèn Video",
+          "id": "B",
+          "text": "Tin nhắn văn bàn",
           "imageUrl": null,
           "isCorrect": true
         },
         {
+          "id": "C",
+          "text": "Trò chuyện Video",
+          "imageUrl": null,
+          "isCorrect": false
+        },
+        {
           "id": "D",
-          "text": "Thōng báo càp nhat",
+          "text": "Thông báo càp nhat",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3667,7 +3667,7 @@
       "id": "638da630-f0bb-4279-bc88-8c04a6b6424f",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Nhi da xày dyng mòt mò hình lóp hoc cúa minh nhu mòt bài tàp vě nhà. Ban ày muǒn dua nó cho anh cúa ban ǎy, nguài söng ó xa. Ban ây muōn chì cho anh ây ndi ban ây ngǎi và nói vói anh ây vě giáo vièn cúa ban ây và ban bè cùa minh. Nhi nèn thě hièn và nói vái anh mình nhung diěu này nhu thě nào?",
+      "prompt": "Nhi da xày dựng một mò hình lóp học của mình nhu một bài tàp về nhà. Bạn ày muốn dua nó cho anh của bạn ấy, người sống ó xa. Bạn ây muốn chì cho anh ây ndi bạn ây ngại và nói với anh ây về giáo viên của bạn ây và bạn bè của mình. Nhi nên thể hièn và nói vái anh mình nhưng điều này nhu thể nào?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3677,19 +3677,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Trong tin nhǎn vǎn bàn.",
+          "text": "Trong tin nhắn văn bàn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Trong cuòc trò chuyèn Video.",
+          "text": "Trong cuộc trò chuyện Video.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Trong mòt bài dǎng trèn mang xā hài.",
+          "text": "Trong một bài đăng trên mang xã hài.",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -3706,7 +3706,7 @@
       "id": "3c820946-3cf7-4879-be26-a34435b99d32",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Lòi chào nào duói dày sě thích hop nhat khi hoc sinh gùi Email cho nguài ban thàn nhat cùa ho? Chào! Thě nào roi? (Hey! How's it going?)",
+      "prompt": "Lòi chào nào duói đây sẽ thích hợp nhat khi học sinh gửi Email cho người bạn thàn nhat của ho? Chào! Thể nào roi? (Hey! How's it going?)",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3722,7 +3722,7 @@
         },
         {
           "id": "B",
-          "text": "Có phài là Xuàn khòng? (Is this Xuan?)",
+          "text": "Có phải là Xuàn không? (Is this Xuan?)",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -3733,8 +3733,8 @@
       "id": "f2ddd8cb-811c-453d-985c-359441708f72",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Hinh thúc giao tiēp ky thuàt sō hièu quà nhǎt dē lièn hè vǎi bò phàn hō tro khách hàng và dět càu hòi là gì?",
-      "type": "multiple",
+      "prompt": "Hinh thúc giao tiếp kỹ thuật số hièu quả nhất để lièn hè với bò phàn hỗ tro khách hàng và đặt càu hội là gì?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 44,
@@ -3743,21 +3743,21 @@
       "options": [
         {
           "id": "A",
-          "text": "Hòi nghi truyěn hinh (Video Conferencing)",
+          "text": "Hòi nghi truyền hinh (Video Conferencing)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
           "text": "Viet mot búc thu (Write A Letter)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Trò chuyèn truc tiěp (Live Chat)",
+          "text": "Trò chuyện truc tiếp (Live Chat)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "images": []
@@ -3766,7 +3766,7 @@
       "id": "e3a18259-eeb5-47e0-957c-0e543ef2469b",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Tùy chon nào sau dày là nhüng thành phän cd ban cúa thu dièn tú? Chon Có něu là thành phan có trong thu dièn túù và Khòng něu khòng phài.",
+      "prompt": "Tùy chọn nào sau đây là nhưng thành phần cd bạn của thu điện tú? Chọn Có nếu là thành phan có trong thu điện túù và Khòng nếu không phải.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3776,7 +3776,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Chù đě (Subject) Khòng Nài dung thu (Message Body) Khòng Chü ky (Signature) Khòng Mat khäu (Passwords) Khòng Ma QR (QR Codes)",
+          "text": "Chù để (Subject) Khòng Nài dụng thu (Message Body) Khòng Chữ ky (Signature) Khòng Mat khäu (Passwords) Khòng Ma QR (QR Codes)",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -3788,7 +3788,7 @@
       "id": "ad035f9a-8917-4fda-bf5a-c2963b15c65a",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Ban dang nói chuyèn vái ban bè trèn thiět bi ky thuàt so cùa minh. Vói sy trd giúp cua 'Camera tích hop, ban có the chú dòng nhìn thay ban bè cúa mình và ban bè cúa ban có thě nhìn thày ban. Ban và ban bè cúa ban dang sú' dung hình thúc giao tiěp ky thuàt sö nào?",
+      "prompt": "Bạn đang nói chuyện vái bạn bè trên thiết bị ky thuật so của mình. Vói sy trd giúp của 'Camera tích hợp, bạn có the chú động nhìn thay bạn bè của mình và bạn bè của bạn có thể nhìn thày bạn. Bạn và bạn bè của bạn đang sú' dụng hình thúc giao tiếp kỹ thuật số nào?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3798,25 +3798,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Goi diēn thoai (Phone Call)",
+          "text": "Goi điện thoại (Phone Call)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Trò chuyèn Video (Video Chat)",
+          "text": "Trò chuyện Video (Video Chat)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Tin nhǎn vǎn ban (Text Message)",
+          "text": "Tin nhắn văn bạn (Text Message)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Güi thu dièn tù (Email)",
+          "text": "Gửi thư điện tử (Email)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3827,8 +3827,8 @@
       "id": "67dd24b4-47d9-473b-8864-0a5d1502ae76",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Mòt sǒ ví du vě truyěn thòng ky thuàt sō (Digital Communication) là gi? (Chon 2)",
-      "type": "single",
+      "prompt": "Mòt số ví du về truyền thòng kỹ thuật số (Digital Communication) là gi? (Chọn 2)",
+      "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 45,
@@ -3837,19 +3837,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Trò chuyèn video (Video Chat)",
+          "text": "Trò chuyện video (Video Chat)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Thu dièn tù (Email)",
+          "text": "thư điện tử (Email)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Thu viět tay dudc gùi qua duòng buu dièn",
+          "text": "Thu viết tay được gửi qua duòng bưu điện",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3888,7 +3888,7 @@
         },
         {
           "id": "D",
-          "text": "D — Nội dung thư (Message body)",
+          "text": "D — Nội dụng thư (Message body)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3899,8 +3899,8 @@
       "id": "ef85d865-5efd-40ee-9aa5-d1ea421db224",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Lài chào nào sau dày sē thich hop nhat khi hoc sinh gùi Email cho giáo vièn/giàng vièn? Chào! Thě nào röi? (Hey! How's it going?)",
-      "type": "multiple",
+      "prompt": "Lài chào nào sau đây sẽ thích hợp nhat khi học sinh gửi Email cho giáo viên/giàng vièn? Chào! Thể nào rồi? (Hey! How's it going?)",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 46,
@@ -3909,9 +3909,9 @@
       "options": [
         {
           "id": "A",
-          "text": "Khi nào nhièm vu děn han?",
+          "text": "Khi nào nhièm vu đến han?",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
@@ -3926,7 +3926,7 @@
       "id": "9256c723-a2f0-4e17-951f-1161f8bd6d30",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Nhi dang gǎp ban mình sau già hoc dě hoc nhóm. Vào cuǎi giò hoc, giáo vién cúa Nhi yèu cäu ban ày ā lai vài phút dě giúp don dep bàn hoc. Nhi sē đěn muòn de gǎp ban mình. Cách nhanh nhät de Nhi nói vói ban minh ràng ban ây sē děn muòn vài phút là gì?",
+      "prompt": "Nhi đang gặp bạn mình sau già học để học nhóm. Vào cuối giờ học, giáo vién của Nhi yêu cäu bạn ày ā lai vài phút để giúp don dep bàn học. Nhi sẽ đến muòn de gặp bạn mình. Cách nhanh nhät de Nhi nói với bạn mình rằng bạn ây sẽ đến muòn vài phút là gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -3936,25 +3936,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Trò chuyèn Video (Video Chat)",
+          "text": "Trò chuyện Video (Video Chat)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Güi tin nhǎn vǎn ban (Text Message)",
+          "text": "Gửi tin nhắn văn bạn (Text Message)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Güi Email",
+          "text": "Gửi Email",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Dǎng trèn phuong tièn truyěn thōng xã hòi (Post On Social Media)",
+          "text": "Đăng trên phương tiền truyền thông xã hội (Post On Social Media)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -3965,7 +3965,7 @@
       "id": "aa069eb5-dcfc-4e6d-9d68-eccffbad0854",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Rian dang gúi cho cò mot Email. Ban äy biět có nǎm phan quan trong can dua Email. Em hāy cho biět lài chào là vi trí nào?",
+      "prompt": "Rian đang gúi cho cò mot Email. Bạn äy biết có năm phan quan trong can dua Email. Em hãy cho biết lại chào là vi trí nào?",
       "type": "multiple",
       "imageKind": "C_ui_screenshot_context",
       "snapshotUrl": "/quiz-visual/assets/q_topic-5_test-1_16.jpg",
@@ -4010,7 +4010,7 @@
       "id": "3faea2fb-2fd2-4a5f-b168-adba327c7f33",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Hǎy ghép nōi vói tùng phuong pháp giao tiēp ki thuàt sǒ vói tinh huōng thích hop nhat.",
+      "prompt": "Hãy ghép nối với từng phương pháp giao tiếp ki thuật số với tinh hưởng thích hợp nhat.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4020,7 +4020,7 @@
       "options": [
         {
           "id": "A",
-          "text": "1Gui lich da sua doi cho tat cà moi 'nguòi trong dòi diěn kinh.",
+          "text": "1Gui lich da sua đối cho tat cà moi 'nguòi trong dòi điền kinh.",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -4032,7 +4032,7 @@
         },
         {
           "id": "C",
-          "text": "Thngbáo cho anbè rng ban",
+          "text": "Thngbáo cho anbè rng bạn",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -4044,7 +4044,7 @@
         },
         {
           "id": "E",
-          "text": "1.Thu dien tuù (Email)",
+          "text": "1.thư điện tửù (Email)",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4055,7 +4055,7 @@
       "id": "b26be285-4edc-452c-8fc1-f83f7cb231d7",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Ban hāy cho biět, diěu gì sau dày là mòt loi thě cùa vièc sù dung Email thay vi tin nhǎn túc thòi?",
+      "prompt": "Bạn hãy cho biết, điều gì sau đây là một loi thể của việc sù dụng Email thay vi tin nhắn túc thời?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4065,7 +4065,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Hǒ tro bieu tuong cam xúc (Emoticons).",
+          "text": "Hỗ tro biểu tương cam xúc (Emoticons).",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -4077,13 +4077,13 @@
         },
         {
           "id": "C",
-          "text": "Nguài nhàn khòng can phài Online ngay lúc Email duoc gùi.",
+          "text": "Nguài nhận không can phải Online ngay lúc Email được gửi.",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "D",
-          "text": "Có thě dính kèm hinh ành.",
+          "text": "Có thể dính kèm hinh ành.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4094,7 +4094,7 @@
       "id": "9d219d22-d2e9-48f5-9696-97e1689fb04e",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "Ban cǎn gùi mòt Email cho giáo vièn cùa ban. Ban nèn dǎt dia chi Email cúa giáo vièn ö dàu?",
+      "prompt": "Bạn cần gửi một Email cho giáo viên của bạn. Bạn nên đặt địa chỉ Email của giáo viên ö dấu?",
       "type": "single",
       "imageKind": "C_ui_screenshot_context",
       "snapshotUrl": "/quiz-visual/assets/q_topic-5_test-1_19.jpg",
@@ -4131,7 +4131,7 @@
       "id": "6de8d98f-6be9-4bde-9170-cdc3647a191e",
       "topic": "topic-5",
       "testId": "test-1",
-      "prompt": "An cǎn gùi Email càm on děn giáo vièn cùa mình nhung ban ǎy khòng biēt nèn sù dung phòng chū nào. Phòng chū nào thich hop nhat cho thòng báo này? DEAR MISS DUNG",
+      "prompt": "An cần gửi Email càm on đến giáo viên của mình nhưng bạn ấy không biệt nên sù dụng phòng chū nào. Phòng chū nào thích hợp nhat cho thòng báo này? DEAR MISS DUNG",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4170,8 +4170,8 @@
       "id": "13d8e1fb-cb54-4ded-8bbc-232a9eac9f96",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Ban nhàn duoc mòt Email tù ci'a hàng yèu thich cúa mình nói ràng ban da giành dugc 1000 Dò-la. Ban có thě nhàp thòng tin cua minh vào bieu mǎu truc tuyěn dě nhàn tiěn. Diěu gi sě khiěn ban quan tàm vě Email này?",
-      "type": "multiple",
+      "prompt": "Bạn nhận được một Email từ ci'a hàng yêu thích của mình nói rằng bạn da giành được 1000 Dò-la. Bạn có thể nhập thòng tin của mình vào biểu mẫu trực tuyến để nhận tiện. Điều gi sẽ khiến bạn quan tàm về Email này?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 53,
@@ -4180,25 +4180,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Cua hàng có thě da nhǎm lǎn vì ban khòng nhó đa tham gia cuòc thi.",
+          "text": "Cua hàng có thể da nhằm lần vì bạn không nhó đa tham gia cuộc thị.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Tiěn ò dang thé quà tǎng chì có thě dugc sù dung tai mòt dia diēm.",
+          "text": "Tiền ò đang thé quả tăng chì có thể được sù dụng tai một dia điểm.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Cua hàng có thě muön ban tham gia vào mòt chiěn dich quàng cáo.",
+          "text": "Cua hàng có thể muốn bạn tham gia vào một chiến đích quàng cáo.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Email có thě là tù mòt ké lùa dào dang cǒ gǎng thu thàp thòng tin cá nhàn cùa ban.",
+          "text": "Email có thể là từ một ké lùa dào đang cổ gắng thu thàp thòng tin cá nhận của bạn.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4209,7 +4209,7 @@
       "id": "1fb7bbe3-bc7b-44e1-be0a-90cd06a6b733",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Ban nèn làm gì něu ban bi nguài la có hành vi truc tuyěn khòng phù hop?",
+      "prompt": "Bạn nên làm gì nếu bạn bị người la có hành vi trực tuyến không phù hợp?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4219,25 +4219,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Yèu cǎu nguài la dùng hành vi.",
+          "text": "Yèu câu người la dùng hành vi.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Nói vái cha me hoǎc giáo vièn cùa ban.",
+          "text": "Nói vái cha me hoặc giáo viên của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Trò chuyèn vói nguài la dě giü ho truc tuyěn.",
+          "text": "Trò chuyện với người la để giữ ho trực tuyến.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Nói vói nguài la ràng ban khòng thích hành vi cúa ho.",
+          "text": "Nói với người la rằng bạn không thích hành vi của ho.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4248,7 +4248,7 @@
       "id": "6374e1a4-c5ae-4e46-9a63-ff012f5e937f",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Ban dang truy càp Internet và cùa so hiěn thi bèn duoi bàt lèn. Ban cǎn quyět dinh nhung gì ban có the làm mòt cách an toàn. Dǎi vói mōi hành dòng, hay chon có něu ban nèn làm diěu dó hoǎc Khòng něu ban khòng nèn làm diěu dó.",
+      "prompt": "Bạn đang truy càp Internet và của so hiển thị bên duoi bàt lèn. Bạn cần quyết định nhưng gì bạn có the làm một cách an toàn. Dải với mới hành động, hay chọn có nếu bạn nên làm điều đó hoặc Khòng nếu bạn không nên làm điều đó.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4258,7 +4258,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Cick here to Get Mora Frae GamesiHI Create Account Khòng Nhàp dia chi Email và màt khau thòng thuòng cùa ban. Khòng Döng y vói các Diěu khoàn và Diěu kièn. Khong  Nhp vào Get More Free Games! de nhan them Game miěn phí.",
+          "text": "Cick here to Get Mora Frae GamesiHI Create Account Khòng Nhàp địa chỉ Email và màt khau thòng thuòng của bạn. Khòng Đồng y với các Điều khoàn và Điều kièn. Khong  Nhp vào Get More Free Games! de nhan them Game miễn phí.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4304,8 +4304,8 @@
       "id": "d19044cc-4dc0-4c4e-9216-7191829c496a",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Hoc sinh mói can tao mòt trang Web vói mat khau là orange mà truòng hoc cúa ban sù dung đe quàn ly bài tàp vě nhà. Ho yèu cäu ban cung càp' các meo màt khàu. Ban nèn' nói gì vói ho?",
-      "type": "multiple",
+      "prompt": "học sinh mói can tao một trang Web với mật khẩu là orange mà truòng học của bạn sù dụng đe quàn ly bài tàp về nhà. Ho yêu cäu bạn cung càp' các meo màt khàu. Bạn nên' nói gì với ho?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 56,
@@ -4314,25 +4314,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Tao māt khäu ngǎn de dě nhó.",
+          "text": "Tao mật khäu ngắn de để nhó.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
-          "text": "sù dung sō và ky hièu trong māt khäu.",
+          "text": "sù dụng số và ky hièu trong mật khäu.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "sù dung tèn thú cung cúa ho làm mat khau.",
+          "text": "sù dụng tên thú cung của ho làm mật khẩu.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Chia sé mât khäu vói ban trong truòng hop ho quèn nó.",
+          "text": "Chia sé mât khäu với bạn trong truòng hợp ho quèn nó.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4343,7 +4343,7 @@
       "id": "52fb9260-c087-47a8-9cf7-a845736b10f6",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Thuàt ngǔ cho thòi gian ban dành dě làm nhǔng vièc nhu:   \nXem mòt chuong trinh truyěn hinh vói gia dinh cua ban. Chdi trò chdi diēn tú trèn bang diěu khiēn. Güi tin nhán vǎn ban tù dièn thoai thòng minh.   \nNghièn cúu mòt cái gì dó trèn máy tính.",
+      "prompt": "Thuàt ngữ cho thời gian bạn dành để làm những việc nhu:   \nXem một chương trình truyền hinh với gia định của bạn. Chdi trò chơi điện tú trên bang điều khiến. Gửi tin nhắn văn bạn từ điện thoại thòng mình.   \nNghièn cúu một cái gì đó trên máy tính.",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4353,7 +4353,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Thài gian sù dung thiet bi (Screen Time).",
+          "text": "Thài gian sù dụng thiết bị (Screen Time).",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -4371,7 +4371,7 @@
         },
         {
           "id": "D",
-          "text": "Can bàng truyěn thòng (Media Balance).",
+          "text": "Can bàng truyền thòng (Media Balance).",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4382,7 +4382,7 @@
       "id": "665d266f-a398-4a23-a860-84e493dbdc27",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Thòng tin cá nhan nào ban KHònG nèn chia sé tru'c tuyěn?",
+      "prompt": "Thòng tin cá nhan nào bạn KHònG nên chia sé tru'c tuyến?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4398,7 +4398,7 @@
         },
         {
           "id": "B",
-          "text": "Dia chi",
+          "text": "địa chỉ",
           "imageUrl": null,
           "isCorrect": false
         },
@@ -4421,7 +4421,7 @@
       "id": "368a06ff-ffb3-40f2-b625-22e0e5c57ad6",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Ban có màt máy tính, mòt màn hinh và mot bàn phím trong phòng cùa ban. Tai sao ban nèn che bàn phim khi ban khòng sú dung nó?",
+      "prompt": "Bạn có màt máy tính, một màn hinh và mot bàn phím trong phòng của bạn. Tai sao bạn nên che bàn phim khi bạn không sú dụng nó?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4431,25 +4431,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Dě bào vè bàn phím khòi nhièt dà lanh.",
+          "text": "Để bào vè bàn phím khòi nhièt dà lanh.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Dě bào vè bàn phím khòi bui.",
+          "text": "Để bào vè bàn phím khòi bui.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Dě bào vè bàn phím khòi ánh sáng mǎt trài.",
+          "text": "Để bào vè bàn phím khòi ánh sáng mặt trài.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Dě bào vè bàn phím khòi nhièt dà àm áp.",
+          "text": "Để bào vè bàn phím khòi nhièt dà àm áp.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4460,7 +4460,7 @@
       "id": "bc3de828-6a34-40b4-a3cd-e3ef0e42b341",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Nhóm nào thích hop cho ban bè truc tuyěn?",
+      "prompt": "Nhóm nào thích hợp cho bạn bè trực tuyến?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4470,19 +4470,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Nhüng ngudi ban biet trong cuòc sōng thuc.",
+          "text": "Nhưng người bạn biet trong cuộc sống thuc.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Nhǔng ngui ban gǎp khi choi trò choi truc tuyěn.",
+          "text": "Những người bạn gặp khi choi trò choi trực tuyến.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Nhǔng nguài thuc hiēn giao hàng děn nhà ban.",
+          "text": "Những người thuc hiện giao hàng đến nhà bạn.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4493,7 +4493,7 @@
       "id": "c4661d1d-e773-4bb2-966c-6904ed6566be",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Lung me ban dau khi bà ngǒi vào bàn làm vièc dē sù dung máy tính. Me yèu cǎu ban cho lài khuyèn vě cách có tu thě tot. Ban nèn nói gì vái me?",
+      "prompt": "Lung me bạn đầu khi bà ngồi vào bàn làm việc để sù dụng máy tính. Me yêu câu bạn cho lại khuyèn về cách có tu thể tốt. Bạn nên nói gì vái me?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4503,25 +4503,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Bǎt chéo chàn và ngà nguòi ra sau.",
+          "text": "Bắt chéo chàn và ngà nguòi ra sau.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Nang màn hình máy tính lèn trén tam mǎt de phài nguóc nhìn lèn nó.",
+          "text": "Nang màn hình máy tính lèn trén tam mặt de phải nguóc nhìn lèn nó.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Ngoi thǎng lung và chàn phǎng trèn sàn nhà.",
+          "text": "Ngoi thẳng lung và chàn phẳng trên sàn nhà.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Nghiēng vě phía màn hình máy tính.",
+          "text": "Nghiêng về phía màn hình máy tính.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4532,7 +4532,7 @@
       "id": "80acbb34-e807-4827-b5ec-0c869948db6f",
       "topic": "topic-6",
       "testId": "test-1",
-      "prompt": "Ai dó ban gǎp truc tuyěn, yèu cäu ban cung càp tèn và dia chi cua ban dē ho güi cho ban lài mài du tièc sinh nhàt. Ban nēn làm gì?",
+      "prompt": "Ai đó bạn gặp trực tuyến, yêu cäu bạn cung càp tên và địa chỉ của bạn để ho gửi cho bạn lại mài du tièc sinh nhàt. Bạn nên làm gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4542,25 +4542,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Cung càp tèn và dia chi cùa ban.",
+          "text": "Cung càp tên và địa chỉ của bạn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Cung cǎp tèn cúa ban nhung khòng cho biět dia ch cùa ban.",
+          "text": "Cung cấp tên của bạn nhưng không cho biết dia ch của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Tù choi cung cap tèn hoǎc dia chì cùa ban.",
+          "text": "Tù choi cung cap tên hoặc dia chì của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Dě nghi gǎp ho tai büa tièc.",
+          "text": "Để nghi gặp ho tai bữa tièc.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4571,7 +4571,7 @@
       "id": "818aab50-e9d2-4b03-8f22-0f97c3b82d5a",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Tùy chon nào sau dày là phù hop yói còng thái hoc? Chon có něu dáp án dúng và khòng něu dáp án sai.",
+      "prompt": "Tùy chọn nào sau đây là phù hợp yói công thái học? Chọn có nếu dáp án đúng và không nếu dáp án sai.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4581,7 +4581,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Khòng Giü chan trèn sàn. Khòng Cúi nguài vě phía truóc dě xem màn hinh. Khòng Bät chéo chan duói bàn làm vièc. Khòng Thu giān vai cùa ban.",
+          "text": "Khòng Giữ chan trên sàn. Khòng Cúi người về phía truóc để xem màn hinh. Khòng Bät chéo chan duói bàn làm việc. Khòng Thu gian vai của bạn.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4593,7 +4593,7 @@
       "id": "a1c3b2c3-633f-4744-ad12-7a36d5d90b75",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Tùy chon nào sau dày là phù hop giúp bào màt ki thuàt sǒ? chon có nēu dáp án dúng và khōng nēu dáp án sai.",
+      "prompt": "Tùy chọn nào sau đây là phù hợp giúp bào màt ki thuật số? chọn có nếu dáp án đúng và không nếu dáp án sai.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4603,7 +4603,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Khòng  Khòng chia sé màt khàu vói nguòi khác. Khòng Luu trü mat khau trèn máy tính. Khòng  sùr dung mòt màt khau khác nhau cho mǒi tài khoàn. Khòng Nói cho ai dó biět màt khàu cùa ban dē ho cǔng có the sù' dung chúng.",
+          "text": "Khòng  Khòng chia sé màt khàu với nguòi khác. Khòng Luu trữ mật khẩu trên máy tính. Khòng  sùr dụng một màt khau khác nhau cho mỗi tài khoàn. Khòng Nói cho ai đó biết màt khàu của bạn để ho cũng có the sử dụng chúng.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4615,7 +4615,7 @@
       "id": "269c5c6e-c519-4e8d-ba68-7cb5457ffa03",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Vi trí nào sau dày là ndi tot nhat dē sac Pin dièn thoai thòng minh?",
+      "prompt": "Vi trí nào sau đây là ndi tốt nhat để sac Pin điện thoại thòng mình?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4625,19 +4625,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Trēn sàn nhà bàng cách sù dung bò sac cùa nguài la.",
+          "text": "Trên sàn nhà bàng cách sù dụng bò sac của người la.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Duói chǎn cùa mòt chiěc giuòng.",
+          "text": "Duói chắn của một chiếc giuòng.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Trèn bě mǎt phǎng, noi khòng có thúc ǎn, chat lòng hoǎc nhièt dò quá cao.",
+          "text": "Trèn bể mặt phẳng, noi không có thúc ăn, chat lòng hoặc nhièt dò quá cao.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4648,8 +4648,8 @@
       "id": "7998b872-9379-4b8d-8646-b7e03e9af608",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Ban nhàn duoc Email tù mòt nguòi gùi khòng xác dinh nói ràng ban dā giành duoc giài thuòng và yèu cǎu ban trà lài kèm theo tèn, dia chi và sö diēn thoai cua ban. Diěu an toàn nhat de làm tiěp theo là gi?",
-      "type": "multiple",
+      "prompt": "Bạn nhận được Email từ một nguòi gửi không xác định nói rằng bạn đã giành được giài thuòng và yêu câu bạn trà lại kèm theo tên, địa chỉ và số điện thoại của bạn. Điều an toàn nhat de làm tiếp theo là gi?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 61,
@@ -4658,19 +4658,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Trà lài nguài gùi vài thòng tin dudc yèu cǎu.",
+          "text": "Trà lại người gửi vài thòng tin được yêu câu.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Trà lài nguài gùi bàng mòt tin nhǎn yèu cǎu thēm thòng tin.",
+          "text": "Trà lại người gửi bàng một tin nhắn yêu câu thêm thòng tin.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Nói vái mòt nguài lón ràng ban dā nhàn dudc mòt Email giōng nhu' mòt trò lùa dào.",
+          "text": "Nói vái một người lón rằng bạn đã nhận được một Email giống nhu' một trò lùa dào.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4681,7 +4681,7 @@
       "id": "cbcd410f-9d48-4781-9413-a30a90f40b0a",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Ghép mǒi thuàt ngü vài dinh nghia dúng.",
+      "prompt": "Ghép mỗi thuật ngữ vài định nghĩa đúng.",
       "type": "matching",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4691,43 +4691,43 @@
       "options": [
         {
           "id": "A",
-          "text": "Vi trí và cách chúng ta giü dau, cǒ, 1.lung và còt sōng khi dung, ngǒi hoǎc nàm.",
+          "text": "Vi trí và cách chúng ta giữ đầu, cổ, 1.lung và còt sống khi dụng, ngồi hoặc nàm.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Thòng tin có thě duàc sù dung dě 2.xác dinh mòt nguài, chǎng han nhu dia chì duòng pho và sǒ dièn'thoai.",
+          "text": "Thòng tin có thể duàc sù dụng để 2.xác định một người, chẳng han nhu dia chì duòng pho và số điện'thoại.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Mot chuǒi ky tu duoc sù dung dě 3.xác minh danh tính cúa nguòi dùng trong quá trinh xác thyc.",
+          "text": "Một chuỗi ky tu được sù dụng để 3.xác mình danh tính của nguòi dùng trong quá trình xác thực.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "D",
-          "text": "1.Tu thě (Posture)",
+          "text": "1.Tu thể (Posture)",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "E",
-          "text": "Các hoat dàng dugc thuc hièn truóc 'màn hinh, nhu Tv' hoǎc máy tính.",
+          "text": "Các hoạt dàng được thuc hièn truóc 'màn hinh, nhu Tv' hoặc máy tính.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "F",
-          "text": "Dü liéu cá nhân (Personal 2 Data)",
+          "text": "Dữ liéu cá nhân (Personal 2 Data)",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "G",
-          "text": "3.Mat khau (Password)",
+          "text": "3.mật khẩu (Password)",
           "imageUrl": null,
           "isCorrect": true
         },
@@ -4744,7 +4744,7 @@
       "id": "58afc020-d9bd-4555-8885-20ef5a91afe9",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Mat khau an toàn là gì?",
+      "prompt": "mật khẩu an toàn là gì?",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4754,19 +4754,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Mat khau mà mòt nguài ban dā cung cap cho ban.",
+          "text": "mật khẩu mà một người bạn đã cung cap cho bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Màt khàu bao gǒm tat cà các so và chǔ cái.",
+          "text": "Màt khàu bao gồm tat cà các so và chữ cái.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Màt khàu khó doán bài con nguài hoǎc máy tính.",
+          "text": "Màt khàu khó doán bài con người hoặc máy tính.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4777,7 +4777,7 @@
       "id": "546e8986-bc35-49b2-a892-811546280d95",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Ban gǎp mot ngudi trong phòng trò chuyèn chdi Game tryc tuyěn. Ho yèu cǎu ban cung càp dia chi nhà cua ban. Ban nèn kět luàn diěu gì tù yèu cäu cua ho?",
+      "prompt": "Bạn gặp mot người trong phòng trò chuyện chơi Game trực tuyến. Ho yêu câu bạn cung càp địa chỉ nhà của bạn. Bạn nên kết luận điều gì từ yêu cäu của ho?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4787,25 +4787,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Ho muön děn thǎm ban.",
+          "text": "Ho muốn đến thắm bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Ho muōn gui cho ban mòt cái gì aó.",
+          "text": "Ho muốn gui cho bạn một cái gì aó.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Ho tò mò vě ndi ban sōng.",
+          "text": "Ho tò mò về ndi bạn sống.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Ho khòng phai là mot nguài ban truc tuyěn thích hop.",
+          "text": "Ho không phải là mot người bạn trực tuyến thích hợp.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4816,8 +4816,8 @@
       "id": "56f978fc-25cb-4c77-89c7-b2139723935c",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Bat nat truc tuyěn (Cyberbullying) là gì?",
-      "type": "multiple",
+      "prompt": "Bat nat trực tuyến (Cyberbullying) là gì?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 62,
@@ -4826,19 +4826,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Gui tin nhǎn cho nhǔng nguài ban vùa gǎp.",
+          "text": "Gui tin nhắn cho những người bạn vùa gặp.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Cung cap thòng tin cá nhàn cúa ban cho mòt nguài la truc tuyěn.",
+          "text": "Cung cap thòng tin cá nhận của bạn cho một người la trực tuyến.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "sù dung còng nghè dē quày roi, de doa hoǎc khiēn nguài khác xǎu hō.",
+          "text": "sù dụng công nghệ để quày roi, de doa hoặc khiến người khác xấu hỗ.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4849,7 +4849,7 @@
       "id": "f340b0d0-f3b0-497b-918f-17ca99d2b1f1",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Tùy chon nào sau dày là phù hop đě trò thành mòt nguòi ban tru'c tuyěn?",
+      "prompt": "Tùy chọn nào sau đây là phù hợp để trò thành một nguòi bạn tru'c tuyến?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4859,19 +4859,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Mòt nguài mà ban di hoc vói nguài dó và choi trò chdi truc tuyěn vào cuöi tuän.",
+          "text": "Mòt người mà bạn di học với người đó và choi trò chơi trực tuyến vào cuối tuän.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Ai dó güi Email cho ban nói ràng ban dǎ giành dudc giài thuàng và cǎn gui lai thòng tin cá nhàn.",
+          "text": "Ai đó gửi Email cho bạn nói rằng bạn đã giành được giài thuàng và cần gui lai thòng tin cá nhận.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Mot nguài la gui tin nhǎn tryc tiěp trèn mang xǎ hòi yèu cǎu sō diēn thoai cùa ban.",
+          "text": "Một người la gui tin nhắn trực tiếp trên mạng xã hội yêu câu số điện thoại của bạn.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -4882,7 +4882,7 @@
       "id": "49a77956-1ffd-469a-932c-eef27dd2de45",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "ví du vě mòt nguài ban truc tuyěn thích hop là gì?",
+      "prompt": "ví du về một người bạn trực tuyến thích hợp là gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4892,19 +4892,19 @@
       "options": [
         {
           "id": "A",
-          "text": "Mot nguòi noi tieng trén Internet, nhu Vlogger hoǎc danh nhàn.",
+          "text": "Một nguòi noi tieng trén Internet, nhu Vlogger hoặc danh nhận.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Mòt nguài ban cùng láp mà ban di hoc cùng vái nguài ban dó và choi trò choi truc tuyěn vào cuòi tuan.",
+          "text": "Mòt người bạn cùng láp mà bạn di học cùng vái người bạn đó và choi trò choi trực tuyến vào cuòi tuan.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Ai dó gùi tin nhǎn trong úng dung yèu cǎu ban chia sé thòng tin cá nhàn vě bàn thàn.",
+          "text": "Ai đó gửi tin nhắn trong úng dụng yêu câu bạn chia sé thòng tin cá nhận về bàn thàn.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -4915,8 +4915,8 @@
       "id": "9563cf8e-2581-4351-b42f-43f154e8d4f9",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Thòng tin nào KHONG nèn dudc chia sé truc tuyěn? (Chon 3)",
-      "type": "single",
+      "prompt": "Thòng tin nào KHONG nên được chia sé trực tuyến? (Chọn 3)",
+      "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 63,
@@ -4925,27 +4925,27 @@
       "options": [
         {
           "id": "A",
-          "text": "Tuδi (Age)",
+          "text": "Tuổi (Age)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "B",
           "text": "Ngày sinh (Birthdate)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "C",
-          "text": "Dia chi nhà (Home Address)",
+          "text": "địa chỉ nhà (Home Address)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "D",
-          "text": "Bài hát em yèu thich (Favourite Song)",
+          "text": "Bài hát em yêu thích (Favourite Song)",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
       "images": []
@@ -4954,7 +4954,7 @@
       "id": "ba7fe5b9-7b5d-44c8-a76c-a13c385a3fe5",
       "topic": "topic-6",
       "testId": "test-2",
-      "prompt": "Nhǔng yěu tō nào sau dày làm cho thiět bi có thě bi hòng? (Chon 3)",
+      "prompt": "Những yếu tổ nào sau đây làm cho thiết bị có thể bị hòng? (Chọn 3)",
       "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
@@ -4978,7 +4978,7 @@
           "id": "C",
           "text": "Mua (Rain)",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "id": "D",
@@ -4993,7 +4993,7 @@
       "id": "57cc5345-c944-4a3d-883a-a3444c02de72",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Muc tièu là gì?",
+      "prompt": "Mục tiêu là gì?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -5003,25 +5003,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Thòng tin an toàn dě chia sé tru'c tuyěn.",
+          "text": "Thòng tin an toàn để chia sé tru'c tuyến.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Mòt thuc tě da dudc chúng minh.",
+          "text": "Mòt thuc tế da được chúng mình.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Thòng tin mà ban cho là dúng su thàt.",
+          "text": "Thòng tin mà bạn cho là đúng su thàt.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Mòt kět quà mà ban muōn dat duoc.",
+          "text": "Mòt kết quả mà bạn muốn dat được.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -5032,7 +5032,7 @@
       "id": "93037c7b-80cf-491e-a14f-7798af10d9a6",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Nhǔng ví du nào duói dày là các y kiěn? Chon có hoǎc Khòng cho mòi vi du.",
+      "prompt": "Những ví du nào duói đây là các y kiến? Chọn có hoặc Khòng cho mòi vi du.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -5042,7 +5042,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Có 24 già trong mòt ngày. Khōng Khòng That là mòt ngày tuyèt vài.",
+          "text": "Có 24 già trong một ngày. Không Khòng That là một ngày tuyèt vài.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -5054,8 +5054,8 @@
       "id": "022145ca-67a3-4932-a07d-9398425f6064",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Muc dich cua su còng tác (Collaboration) là gìi?",
-      "type": "multiple",
+      "prompt": "Mục đích của su công tác (Collaboration) là gìi?",
+      "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 66,
@@ -5064,25 +5064,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Làm viéc vói nhǔng nguài khác dē huóng tói mòt muc tièu chung.",
+          "text": "Làm viéc với những người khác để huóng tói một mục tiêu chung.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Tro thành hoc sinh nhanh nhat trong lóp.",
+          "text": "Tro thành học sinh nhanh nhat trong lóp.",
           "imageUrl": null,
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Làm viēc chǎm chi hon các hoc sinh khác trong láp.",
+          "text": "Làm việc chậm chi hon các học sinh khác trong láp.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Làm vièc mòt minh de hoàn thành nhièm vu.",
+          "text": "Làm việc một mình de hoàn thành nhièm vu.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -5093,7 +5093,7 @@
       "id": "bce5192d-03ca-4aa1-a187-1a40477e54d6",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Hoat dòng nào là mòt ví dy vě su hop tác? Tùy chon nào sau day là mot thành phǎn quan trong cúa còng tác kǐ thuat so (Digital Collaboration)?",
+      "prompt": "Hoat động nào là một ví dy về su hợp tác? Tùy chọn nào sau day là mot thành phần quan trong của công tác kǐ thuật so (Digital Collaboration)?",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -5103,43 +5103,43 @@
       "options": [
         {
           "id": "A",
-          "text": "Än trua trong nhà ǎn.",
+          "text": "Än trua trong nhà ăn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "B",
-          "text": "Làm vièc trong mòt du án nhóm vái các ban cùng lóp.",
+          "text": "Làm việc trong một du án nhóm vái các bạn cùng lóp.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "chay mòt cuòc dua dě dánh bai thoi gian tot nhat cùa ban.",
+          "text": "chay một cuộc dua để dánh bai thoi gian tốt nhat của bạn.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Làm bài kiem tra trong lóp hoc cúa ban.",
+          "text": "Làm bài kiểm tra trong lóp học của bạn.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "E",
-          "text": "có ai dó trong nhóm nói cho moi nguài biět phài làm gì.",
+          "text": "có ai đó trong nhóm nói cho moi người biết phải làm gì.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "F",
-          "text": "Biět nhieu hon bat cú ai khác trong nhóm.",
+          "text": "Biết nhieu hon bat cú ai khác trong nhóm.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "G",
-          "text": "Dǎt muc tièu mà tat cà các thành vièn trong nhóm děu hieu.",
+          "text": "Đặt mục tiêu mà tat cà các thành vièn trong nhóm đều hieu.",
           "imageUrl": null,
           "isCorrect": false
         }
@@ -5150,8 +5150,8 @@
       "id": "53b1f2fa-9a26-4dfa-b54e-57fdde270b6c",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Tùy chon nào duói dày khòng phài là muc tièu cua su còng tác? (Chon 2)",
-      "type": "single",
+      "prompt": "Tùy chọn nào duói đây không phải là mục tiêu của su công tác? (Chọn 2)",
+      "type": "multiple",
       "imageKind": null,
       "snapshotUrl": null,
       "page": 67,
@@ -5160,27 +5160,27 @@
       "options": [
         {
           "id": "A",
-          "text": "Làm vièc cùng nhau de dat du'oc mòt kět quà chung.",
-          "imageUrl": null,
-          "isCorrect": true
-        },
-        {
-          "id": "B",
-          "text": "Giü kín y tuòng và kiěn thúc rièng cùa moi nguài.",
+          "text": "Làm việc cùng nhau de dat du'oc một kết quả chung.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
+          "id": "B",
+          "text": "Giữ kín y tuòng và kiến thúc rièng của moi người.",
+          "imageUrl": null,
+          "isCorrect": true
+        },
+        {
           "id": "C",
-          "text": "chia sé y tuòng và kiěn thúc.",
+          "text": "chia sé y tuòng và kiến thúc.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Thuyět phuc moi nguài dong y vai y kiěn cùa ban.",
+          "text": "Thuyết phuc moi người dong y vai y kiến của bạn.",
           "imageUrl": null,
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "images": []
@@ -5189,7 +5189,7 @@
       "id": "247c5e69-bd5c-4804-afab-70b0d3263015",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Muc tiéu cúa su còng tác (Collaboration) là gì? Chon có hoǎc Khòng.",
+      "prompt": "Mục tiéu của su công tác (Collaboration) là gì? Chọn có hoặc Khòng.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -5199,7 +5199,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Chia sé y tuòng và kiěn thúc. Làm viéc cng nhau de dat duoc mot kět quà chung. có Thuyět phuc moi nguài dong y vói y kiěn cùa ban. Có Giü kín y tuòng và kiěn thúc cùa ban.",
+          "text": "Chia sé y tuòng và kiến thúc. Làm viéc cng nhau de dat được mot kết quả chung. có Thuyết phuc moi người dong y với y kiến của bạn. Có Giữ kín y tuòng và kiến thúc của bạn.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -5211,7 +5211,7 @@
       "id": "97a8899b-6097-40eb-8f6c-6fceef7924fd",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Trong các ví du sau, ví du nào là nhǔǐng ví du vě su thàt (Facts)? Chon có hoǎc Khòng cho mōi ví du da cho bèn duái.",
+      "prompt": "Trong các ví du sau, ví du nào là những ví du về su thàt (Facts)? Chọn có hoặc Khòng cho mới ví du da cho bên duái.",
       "type": "yesno",
       "imageKind": null,
       "snapshotUrl": null,
@@ -5221,7 +5221,7 @@
       "options": [
         {
           "id": "A",
-          "text": "Có 24 giò trong mòt ngày. Nhày dù rat nguy hiem. That là mòt ngày tuyèt vài.",
+          "text": "Có 24 giờ trong một ngày. Nhày dù rat nguy hiem. That là một ngày tuyèt vài.",
           "imageUrl": null,
           "isCorrect": true
         }
@@ -5233,7 +5233,7 @@
       "id": "cff499d3-5dc1-4650-b314-d7e1b4f3cefc",
       "topic": "topic-extended",
       "testId": "test-1",
-      "prompt": "Ban và hai nguài ban cùng lóp dang làm vièc cùng nhau trong màt du án. Nhiēm vu cúa ban là tao ra màt áp phích vǎi thòng tin vě cá mâp. Ban sě in ra nhüng búc ânh cua cá màp. Mòt nguài ban sě mua bang áp phích và diēm dánh dàu và nguài kia sě iãp ráp áp phích.",
+      "prompt": "Bạn và hai người bạn cùng lóp đang làm việc cùng nhau trong màt du án. Nhiễm vu của bạn là tao ra màt áp phích với thòng tin về cá mâp. Bạn sẽ in ra nhưng búc ânh của cá màp. Mòt người bạn sẽ mua bang áp phích và điểm dánh dấu và người kia sẽ iãp ráp áp phích.",
       "type": "single",
       "imageKind": null,
       "snapshotUrl": null,
@@ -5243,25 +5243,25 @@
       "options": [
         {
           "id": "A",
-          "text": "Dě thyc hièn còng vièc nhanh nhat có the.",
+          "text": "Để thực hièn công việc nhanh nhat có the.",
           "imageUrl": null,
           "isCorrect": true
         },
         {
           "id": "B",
-          "text": "Dě in gon gàng trèn bàng áp phích.",
+          "text": "Để in gon gàng trên bàng áp phích.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "C",
-          "text": "Dě hòa hop vái tu cách là màt nhóm.",
+          "text": "Để hòa hợp vái tu cách là màt nhóm.",
           "imageUrl": null,
           "isCorrect": false
         },
         {
           "id": "D",
-          "text": "Dě tao áp phích vái thòng tin vě cá māp.",
+          "text": "Để tao áp phích vái thòng tin về cá mập.",
           "imageUrl": null,
           "isCorrect": false
         }

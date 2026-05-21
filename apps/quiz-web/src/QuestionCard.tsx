@@ -58,6 +58,7 @@ function PdfOptionRow({
   revealed,
   readOnly,
   showLetter,
+  isMultiple,
   onToggle,
 }: {
   opt: QuizQuestion["options"][0];
@@ -65,6 +66,7 @@ function PdfOptionRow({
   revealed: boolean;
   readOnly: boolean;
   showLetter: boolean;
+  isMultiple?: boolean;
   onToggle?: (id: string) => void;
 }) {
   return (
@@ -86,7 +88,7 @@ function PdfOptionRow({
           </span>
         )}
       </span>
-      <span className="option-radio" aria-hidden />
+      <span className={isMultiple ? "option-checkbox" : "option-radio"} aria-hidden />
       <div className="option-body">
         {opt.imageUrl && (
           <img className="option-image" src={opt.imageUrl} alt={opt.text} />
@@ -274,6 +276,7 @@ export function QuestionCard({
             revealed={revealed}
             readOnly={readOnly}
             showLetter={showLetter}
+            isMultiple={question.type === "multiple"}
             onToggle={onToggle}
           />
         );
@@ -317,7 +320,7 @@ export function QuestionCard({
       {pdfMode && <ResourcesLine question={question} />}
       <QuestionBar prompt={question.prompt} />
       <div className="ic3-answers-pane">
-        {pdfMode && question.type === "multiple" && (
+        {question.type === "multiple" && (
           <p className="mc-hint-pdf">Chọn tất cả đáp án đúng (nhiều lựa chọn).</p>
         )}
         {snapshotAbove}
